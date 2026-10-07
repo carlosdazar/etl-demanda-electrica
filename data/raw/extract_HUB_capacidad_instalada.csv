@@ -1,0 +1,3961 @@
+Fuente;País;Año;Valor
+Hidro;Argentina;2000;9602.15
+Térmica no renovable;Argentina;2000;11991.92915280119
+Nuclear;Argentina;2000;1018.0
+Geotermia;Argentina;2000;
+Eólica;Argentina;2000;14.0
+Solar;Argentina;2000;0.0
+Otros;Argentina;2000;
+Térmica renovable;Argentina;2000;
+Total;Argentina;2000;22626.07915280119
+Hidro;Bolivia;2000;356.6423000648022
+Térmica no renovable;Bolivia;2000;890.5650459270478
+Nuclear;Bolivia;2000;
+Geotermia;Bolivia;2000;
+Eólica;Bolivia;2000;0.0
+Solar;Bolivia;2000;0.0
+Otros;Bolivia;2000;
+Térmica renovable;Bolivia;2000;0.0
+Total;Bolivia;2000;1247.20734599185
+Hidro;Brasil;2000;61063.0
+Térmica no renovable;Brasil;2000;8778.248445817933
+Nuclear;Brasil;2000;1966.0
+Geotermia;Brasil;2000;
+Eólica;Brasil;2000;19.025
+Solar;Brasil;2000;0.0
+Otros;Brasil;2000;
+Térmica renovable;Brasil;2000;1844.75155418206
+Total;Brasil;2000;73671.025
+Hidro;Chile;2000;4043.102
+Térmica no renovable;Chile;2000;5633.0
+Nuclear;Chile;2000;0.0
+Geotermia;Chile;2000;0.0
+Eólica;Chile;2000;0.0
+Solar;Chile;2000;0.0
+Otros;Chile;2000;0.0
+Térmica renovable;Chile;2000;17.2
+Total;Chile;2000;9693.302000000001
+Hidro;Colombia;2000;8274.67
+Térmica no renovable;Colombia;2000;4449.0
+Nuclear;Colombia;2000;
+Geotermia;Colombia;2000;
+Eólica;Colombia;2000;
+Solar;Colombia;2000;
+Otros;Colombia;2000;
+Térmica renovable;Colombia;2000;13.0
+Total;Colombia;2000;12736.67
+Hidro;Costa Rica;2000;1267.918
+Térmica no renovable;Costa Rica;2000;274.191
+Nuclear;Costa Rica;2000;0.0
+Geotermia;Costa Rica;2000;144.965
+Eólica;Costa Rica;2000;0.0
+Solar;Costa Rica;2000;0.0
+Otros;Costa Rica;2000;0.0
+Térmica renovable;Costa Rica;2000;12.0
+Total;Costa Rica;2000;1699.074
+Hidro;Cuba;2000;57.4
+Térmica no renovable;Cuba;2000;3379.199999999999
+Nuclear;Cuba;2000;
+Geotermia;Cuba;2000;
+Eólica;Cuba;2000;0.0
+Solar;Cuba;2000;0.0
+Otros;Cuba;2000;
+Térmica renovable;Cuba;2000;849.9
+Total;Cuba;2000;4286.499999999999
+Hidro;Ecuador;2000;1714.621000000001
+Térmica no renovable;Ecuador;2000;1666.4636
+Nuclear;Ecuador;2000;0.0
+Geotermia;Ecuador;2000;0.0
+Eólica;Ecuador;2000;0.0
+Solar;Ecuador;2000;0.0
+Otros;Ecuador;2000;
+Térmica renovable;Ecuador;2000;0.0
+Total;Ecuador;2000;3381.084600000001
+Hidro;El Salvador;2000;395.0
+Térmica no renovable;El Salvador;2000;450.0
+Nuclear;El Salvador;2000;
+Geotermia;El Salvador;2000;161.0
+Eólica;El Salvador;2000;
+Solar;El Salvador;2000;
+Otros;El Salvador;2000;
+Térmica renovable;El Salvador;2000;
+Total;El Salvador;2000;1006.0
+Hidro;Guatemala;2000;520.88
+Térmica no renovable;Guatemala;2000;985.768
+Nuclear;Guatemala;2000;
+Geotermia;Guatemala;2000;24.0
+Eólica;Guatemala;2000;0.0
+Solar;Guatemala;2000;0.0
+Otros;Guatemala;2000;
+Térmica renovable;Guatemala;2000;324.0
+Total;Guatemala;2000;1854.648
+Hidro;Haiti;2000;56.286
+Térmica no renovable;Haiti;2000;145.064
+Nuclear;Haiti;2000;
+Geotermia;Haiti;2000;
+Eólica;Haiti;2000;
+Solar;Haiti;2000;
+Otros;Haiti;2000;
+Térmica renovable;Haiti;2000;
+Total;Haiti;2000;201.35
+Hidro;Honduras;2000;435.2
+Térmica no renovable;Honduras;2000;483.5
+Nuclear;Honduras;2000;
+Geotermia;Honduras;2000;0.0
+Eólica;Honduras;2000;0.0
+Solar;Honduras;2000;0.0
+Otros;Honduras;2000;
+Térmica renovable;Honduras;2000;1.5
+Total;Honduras;2000;920.2
+Hidro;México;2000;9619.157
+Térmica no renovable;México;2000;24855.563
+Nuclear;México;2000;1364.88
+Geotermia;México;2000;854.9
+Eólica;México;2000;2.175
+Solar;México;2000;
+Otros;México;2000;
+Térmica renovable;México;2000;
+Total;México;2000;36696.675
+Hidro;Nicaragua;2000;107.806
+Térmica no renovable;Nicaragua;2000;444.28
+Nuclear;Nicaragua;2000;0.0
+Geotermia;Nicaragua;2000;70.0
+Eólica;Nicaragua;2000;0.0
+Solar;Nicaragua;2000;0.0
+Otros;Nicaragua;2000;
+Térmica renovable;Nicaragua;2000;27.8
+Total;Nicaragua;2000;649.886
+Hidro;Panamá;2000;613.1
+Térmica no renovable;Panamá;2000;638.5
+Nuclear;Panamá;2000;
+Geotermia;Panamá;2000;
+Eólica;Panamá;2000;
+Solar;Panamá;2000;
+Otros;Panamá;2000;
+Térmica renovable;Panamá;2000;
+Total;Panamá;2000;1251.6
+Hidro;Paraguay;2000;7410.0
+Térmica no renovable;Paraguay;2000;6.1
+Nuclear;Paraguay;2000;
+Geotermia;Paraguay;2000;
+Eólica;Paraguay;2000;
+Solar;Paraguay;2000;
+Otros;Paraguay;2000;
+Térmica renovable;Paraguay;2000;
+Total;Paraguay;2000;7416.1
+Hidro;Perú;2000;2856.825
+Térmica no renovable;Perú;2000;3208.664
+Nuclear;Perú;2000;
+Geotermia;Perú;2000;
+Eólica;Perú;2000;0.7
+Solar;Perú;2000;
+Otros;Perú;2000;
+Térmica renovable;Perú;2000;
+Total;Perú;2000;6066.189
+Hidro;República Dominicana;2000;402.0
+Térmica no renovable;República Dominicana;2000;2134.89
+Nuclear;República Dominicana;2000;
+Geotermia;República Dominicana;2000;
+Eólica;República Dominicana;2000;
+Solar;República Dominicana;2000;
+Otros;República Dominicana;2000;
+Térmica renovable;República Dominicana;2000;
+Total;República Dominicana;2000;2536.89
+Hidro;Uruguay;2000;1538.0
+Térmica no renovable;Uruguay;2000;552.839
+Nuclear;Uruguay;2000;
+Geotermia;Uruguay;2000;
+Eólica;Uruguay;2000;
+Solar;Uruguay;2000;
+Otros;Uruguay;2000;
+Térmica renovable;Uruguay;2000;13.73
+Total;Uruguay;2000;2104.569
+Hidro;Venezuela;2000;13215.0
+Térmica no renovable;Venezuela;2000;8018.0
+Nuclear;Venezuela;2000;
+Geotermia;Venezuela;2000;
+Eólica;Venezuela;2000;
+Solar;Venezuela;2000;
+Otros;Venezuela;2000;
+Térmica renovable;Venezuela;2000;
+Total;Venezuela;2000;21233.0
+Hidro;Argentina;2001;9633.01
+Térmica no renovable;Argentina;2001;12883.59284857386
+Nuclear;Argentina;2001;1018.0
+Geotermia;Argentina;2001;
+Eólica;Argentina;2001;25.0
+Solar;Argentina;2001;0.0
+Otros;Argentina;2001;
+Térmica renovable;Argentina;2001;
+Total;Argentina;2001;23559.60284857386
+Hidro;Bolivia;2001;372.2832996100187
+Térmica no renovable;Bolivia;2001;880.2310430735349
+Nuclear;Bolivia;2001;
+Geotermia;Bolivia;2001;
+Eólica;Bolivia;2001;0.0
+Solar;Bolivia;2001;0.0
+Otros;Bolivia;2001;
+Térmica renovable;Bolivia;2001;0.0
+Total;Bolivia;2001;1252.514342683554
+Hidro;Brasil;2001;62409.0
+Térmica no renovable;Brasil;2001;8500.317044257114
+Nuclear;Brasil;2001;1966.0
+Geotermia;Brasil;2001;
+Eólica;Brasil;2001;21.0
+Solar;Brasil;2001;0.0
+Otros;Brasil;2001;
+Térmica renovable;Brasil;2001;1980.682955742887
+Total;Brasil;2001;74877.0
+Hidro;Chile;2001;4043.0
+Térmica no renovable;Chile;2001;5959.6
+Nuclear;Chile;2001;0.0
+Geotermia;Chile;2001;0.0
+Eólica;Chile;2001;0.0
+Solar;Chile;2001;0.0
+Otros;Chile;2001;0.0
+Térmica renovable;Chile;2001;17.2
+Total;Chile;2001;10019.8
+Hidro;Colombia;2001;8682.23
+Térmica no renovable;Colombia;2001;4465.0
+Nuclear;Colombia;2001;
+Geotermia;Colombia;2001;
+Eólica;Colombia;2001;
+Solar;Colombia;2001;
+Otros;Colombia;2001;
+Térmica renovable;Colombia;2001;13.0
+Total;Colombia;2001;13160.23
+Hidro;Costa Rica;2001;1267.918
+Térmica no renovable;Costa Rica;2001;274.191
+Nuclear;Costa Rica;2001;0.0
+Geotermia;Costa Rica;2001;144.71
+Eólica;Costa Rica;2001;19.8
+Solar;Costa Rica;2001;0.0
+Otros;Costa Rica;2001;0.0
+Térmica renovable;Costa Rica;2001;12.0
+Total;Costa Rica;2001;1718.619
+Hidro;Cuba;2001;57.4
+Térmica no renovable;Cuba;2001;3449.1
+Nuclear;Cuba;2001;
+Geotermia;Cuba;2001;
+Eólica;Cuba;2001;0.0
+Solar;Cuba;2001;0.0
+Otros;Cuba;2001;
+Térmica renovable;Cuba;2001;904.4
+Total;Cuba;2001;4410.9
+Hidro;Ecuador;2001;1737.821000000001
+Térmica no renovable;Ecuador;2001;1506.2636
+Nuclear;Ecuador;2001;0.0
+Geotermia;Ecuador;2001;0.0
+Eólica;Ecuador;2001;0.0
+Solar;Ecuador;2001;0.0
+Otros;Ecuador;2001;
+Térmica renovable;Ecuador;2001;0.0
+Total;Ecuador;2001;3244.084600000001
+Hidro;El Salvador;2001;396.0
+Térmica no renovable;El Salvador;2001;561.0
+Nuclear;El Salvador;2001;
+Geotermia;El Salvador;2001;161.0
+Eólica;El Salvador;2001;
+Solar;El Salvador;2001;
+Otros;El Salvador;2001;
+Térmica renovable;El Salvador;2001;
+Total;El Salvador;2001;1118.0
+Hidro;Guatemala;2001;520.88
+Térmica no renovable;Guatemala;2001;985.768
+Nuclear;Guatemala;2001;
+Geotermia;Guatemala;2001;24.0
+Eólica;Guatemala;2001;0.0
+Solar;Guatemala;2001;0.0
+Otros;Guatemala;2001;
+Térmica renovable;Guatemala;2001;355.0
+Total;Guatemala;2001;1885.648
+Hidro;Haiti;2001;56.286
+Térmica no renovable;Haiti;2001;145.064
+Nuclear;Haiti;2001;
+Geotermia;Haiti;2001;
+Eólica;Haiti;2001;
+Solar;Haiti;2001;
+Otros;Haiti;2001;
+Térmica renovable;Haiti;2001;
+Total;Haiti;2001;201.35
+Hidro;Honduras;2001;435.2
+Térmica no renovable;Honduras;2001;486.4
+Nuclear;Honduras;2001;
+Geotermia;Honduras;2001;0.0
+Eólica;Honduras;2001;0.0
+Solar;Honduras;2001;0.0
+Otros;Honduras;2001;
+Térmica renovable;Honduras;2001;1.5
+Total;Honduras;2001;923.0999999999999
+Hidro;México;2001;9619.157
+Térmica no renovable;México;2001;26694.666
+Nuclear;México;2001;1364.88
+Geotermia;México;2001;837.9
+Eólica;México;2001;2.175
+Solar;México;2001;
+Otros;México;2001;
+Térmica renovable;México;2001;
+Total;México;2001;38518.778
+Hidro;Nicaragua;2001;107.806
+Térmica no renovable;Nicaragua;2001;442.33
+Nuclear;Nicaragua;2001;0.0
+Geotermia;Nicaragua;2001;70.0
+Eólica;Nicaragua;2001;0.0
+Solar;Nicaragua;2001;0.0
+Otros;Nicaragua;2001;
+Térmica renovable;Nicaragua;2001;27.8
+Total;Nicaragua;2001;647.9359999999999
+Hidro;Panamá;2001;613.1
+Térmica no renovable;Panamá;2001;649.6
+Nuclear;Panamá;2001;
+Geotermia;Panamá;2001;
+Eólica;Panamá;2001;
+Solar;Panamá;2001;
+Otros;Panamá;2001;
+Térmica renovable;Panamá;2001;
+Total;Panamá;2001;1262.7
+Hidro;Paraguay;2001;7410.0
+Térmica no renovable;Paraguay;2001;6.1
+Nuclear;Paraguay;2001;
+Geotermia;Paraguay;2001;
+Eólica;Paraguay;2001;
+Solar;Paraguay;2001;
+Otros;Paraguay;2001;
+Térmica renovable;Paraguay;2001;
+Total;Paraguay;2001;7416.1
+Hidro;Perú;2001;2966.328
+Térmica no renovable;Perú;2001;2916.665
+Nuclear;Perú;2001;
+Geotermia;Perú;2001;
+Eólica;Perú;2001;0.7
+Solar;Perú;2001;
+Otros;Perú;2001;
+Térmica renovable;Perú;2001;23.0
+Total;Perú;2001;5906.693
+Hidro;República Dominicana;2001;412.0
+Térmica no renovable;República Dominicana;2001;2483.35
+Nuclear;República Dominicana;2001;
+Geotermia;República Dominicana;2001;
+Eólica;República Dominicana;2001;
+Solar;República Dominicana;2001;
+Otros;República Dominicana;2001;
+Térmica renovable;República Dominicana;2001;
+Total;República Dominicana;2001;2895.35
+Hidro;Uruguay;2001;1538.0
+Térmica no renovable;Uruguay;2001;520.356
+Nuclear;Uruguay;2001;
+Geotermia;Uruguay;2001;
+Eólica;Uruguay;2001;
+Solar;Uruguay;2001;
+Otros;Uruguay;2001;
+Térmica renovable;Uruguay;2001;13.73
+Total;Uruguay;2001;2072.086
+Hidro;Venezuela;2001;13207.0
+Térmica no renovable;Venezuela;2001;8111.0
+Nuclear;Venezuela;2001;
+Geotermia;Venezuela;2001;
+Eólica;Venezuela;2001;
+Solar;Venezuela;2001;
+Otros;Venezuela;2001;
+Térmica renovable;Venezuela;2001;
+Total;Venezuela;2001;21318.0
+Hidro;Argentina;2002;9586.0
+Térmica no renovable;Argentina;2002;13055.0
+Nuclear;Argentina;2002;1005.0
+Geotermia;Argentina;2002;
+Eólica;Argentina;2002;0.0
+Solar;Argentina;2002;0.0
+Otros;Argentina;2002;
+Térmica renovable;Argentina;2002;
+Total;Argentina;2002;23646.0
+Hidro;Bolivia;2002;456.6624995803833
+Térmica no renovable;Bolivia;2002;864.0654904811382
+Nuclear;Bolivia;2002;
+Geotermia;Bolivia;2002;
+Eólica;Bolivia;2002;0.0
+Solar;Bolivia;2002;0.0
+Otros;Bolivia;2002;
+Térmica renovable;Bolivia;2002;0.0
+Total;Bolivia;2002;1320.727990061521
+Hidro;Brasil;2002;64473.5
+Térmica no renovable;Brasil;2002;11419.96488566823
+Nuclear;Brasil;2002;2007.0
+Geotermia;Brasil;2002;
+Eólica;Brasil;2002;22.0
+Solar;Brasil;2002;0.0
+Otros;Brasil;2002;
+Térmica renovable;Brasil;2002;2392.635114331772
+Total;Brasil;2002;80315.1
+Hidro;Chile;2002;4068.102
+Térmica no renovable;Chile;2002;6284.9
+Nuclear;Chile;2002;0.0
+Geotermia;Chile;2002;0.0
+Eólica;Chile;2002;0.0
+Solar;Chile;2002;0.0
+Otros;Chile;2002;0.0
+Térmica renovable;Chile;2002;17.2
+Total;Chile;2002;10370.202
+Hidro;Colombia;2002;9042.01
+Térmica no renovable;Colombia;2002;4370.0
+Nuclear;Colombia;2002;
+Geotermia;Colombia;2002;
+Eólica;Colombia;2002;
+Solar;Colombia;2002;
+Otros;Colombia;2002;
+Térmica renovable;Colombia;2002;13.0
+Total;Colombia;2002;13425.01
+Hidro;Costa Rica;2002;1313.434
+Térmica no renovable;Costa Rica;2002;305.569
+Nuclear;Costa Rica;2002;0.0
+Geotermia;Costa Rica;2002;144.71
+Eólica;Costa Rica;2002;19.8
+Solar;Costa Rica;2002;0.0
+Otros;Costa Rica;2002;0.0
+Térmica renovable;Costa Rica;2002;12.0
+Total;Costa Rica;2002;1795.513
+Hidro;Cuba;2002;57.4
+Térmica no renovable;Cuba;2002;3329.8
+Nuclear;Cuba;2002;
+Geotermia;Cuba;2002;
+Eólica;Cuba;2002;0.4999999999995453
+Solar;Cuba;2002;0.0
+Otros;Cuba;2002;
+Térmica renovable;Cuba;2002;571.9
+Total;Cuba;2002;3959.6
+Hidro;Ecuador;2002;1745.808
+Térmica no renovable;Ecuador;2002;1794.780599999999
+Nuclear;Ecuador;2002;0.0
+Geotermia;Ecuador;2002;0.0
+Eólica;Ecuador;2002;0.0
+Solar;Ecuador;2002;0.0
+Otros;Ecuador;2002;
+Térmica renovable;Ecuador;2002;0.0
+Total;Ecuador;2002;3540.5886
+Hidro;El Salvador;2002;411.0
+Térmica no renovable;El Salvador;2002;472.0
+Nuclear;El Salvador;2002;
+Geotermia;El Salvador;2002;161.0
+Eólica;El Salvador;2002;
+Solar;El Salvador;2002;
+Otros;El Salvador;2002;
+Térmica renovable;El Salvador;2002;
+Total;El Salvador;2002;1044.0
+Hidro;Guatemala;2002;581.812
+Térmica no renovable;Guatemala;2002;985.768
+Nuclear;Guatemala;2002;
+Geotermia;Guatemala;2002;24.0
+Eólica;Guatemala;2002;0.0
+Solar;Guatemala;2002;0.0
+Otros;Guatemala;2002;
+Térmica renovable;Guatemala;2002;355.0
+Total;Guatemala;2002;1946.58
+Hidro;Haiti;2002;56.286
+Térmica no renovable;Haiti;2002;160.544
+Nuclear;Haiti;2002;
+Geotermia;Haiti;2002;
+Eólica;Haiti;2002;
+Solar;Haiti;2002;
+Otros;Haiti;2002;
+Térmica renovable;Haiti;2002;
+Total;Haiti;2002;216.83
+Hidro;Honduras;2002;465.7
+Térmica no renovable;Honduras;2002;560.9
+Nuclear;Honduras;2002;
+Geotermia;Honduras;2002;0.0
+Eólica;Honduras;2002;0.0
+Solar;Honduras;2002;0.0
+Otros;Honduras;2002;
+Térmica renovable;Honduras;2002;17.0
+Total;Honduras;2002;1043.6
+Hidro;México;2002;9615.157
+Térmica no renovable;México;2002;29359.164
+Nuclear;México;2002;1364.88
+Geotermia;México;2002;842.9
+Eólica;México;2002;2.175
+Solar;México;2002;
+Otros;México;2002;
+Térmica renovable;México;2002;
+Total;México;2002;41184.276
+Hidro;Nicaragua;2002;104.63
+Térmica no renovable;Nicaragua;2002;445.36
+Nuclear;Nicaragua;2002;0.0
+Geotermia;Nicaragua;2002;77.5
+Eólica;Nicaragua;2002;0.0
+Solar;Nicaragua;2002;0.0
+Otros;Nicaragua;2002;
+Térmica renovable;Nicaragua;2002;40.8
+Total;Nicaragua;2002;668.29
+Hidro;Panamá;2002;701.0
+Térmica no renovable;Panamá;2002;722.2
+Nuclear;Panamá;2002;
+Geotermia;Panamá;2002;
+Eólica;Panamá;2002;
+Solar;Panamá;2002;
+Otros;Panamá;2002;
+Térmica renovable;Panamá;2002;
+Total;Panamá;2002;1423.2
+Hidro;Paraguay;2002;7410.0
+Térmica no renovable;Paraguay;2002;6.1
+Nuclear;Paraguay;2002;
+Geotermia;Paraguay;2002;
+Eólica;Paraguay;2002;
+Solar;Paraguay;2002;
+Otros;Paraguay;2002;
+Térmica renovable;Paraguay;2002;
+Total;Paraguay;2002;7416.1
+Hidro;Perú;2002;2996.471000000001
+Térmica no renovable;Perú;2002;2915.362
+Nuclear;Perú;2002;
+Geotermia;Perú;2002;
+Eólica;Perú;2002;0.7
+Solar;Perú;2002;
+Otros;Perú;2002;
+Térmica renovable;Perú;2002;23.0
+Total;Perú;2002;5935.533
+Hidro;República Dominicana;2002;464.0
+Térmica no renovable;República Dominicana;2002;2460.65
+Nuclear;República Dominicana;2002;
+Geotermia;República Dominicana;2002;
+Eólica;República Dominicana;2002;
+Solar;República Dominicana;2002;
+Otros;República Dominicana;2002;
+Térmica renovable;República Dominicana;2002;
+Total;República Dominicana;2002;2924.65
+Hidro;Uruguay;2002;1538.0
+Térmica no renovable;Uruguay;2002;518.648
+Nuclear;Uruguay;2002;
+Geotermia;Uruguay;2002;
+Eólica;Uruguay;2002;
+Solar;Uruguay;2002;
+Otros;Uruguay;2002;
+Térmica renovable;Uruguay;2002;13.73
+Total;Uruguay;2002;2070.378
+Hidro;Venezuela;2002;12491.0
+Térmica no renovable;Venezuela;2002;8086.0
+Nuclear;Venezuela;2002;
+Geotermia;Venezuela;2002;
+Eólica;Venezuela;2002;
+Solar;Venezuela;2002;
+Otros;Venezuela;2002;
+Térmica renovable;Venezuela;2002;
+Total;Venezuela;2002;20577.0
+Hidro;Argentina;2003;9628.0
+Térmica no renovable;Argentina;2003;13227.0
+Nuclear;Argentina;2003;1005.0
+Geotermia;Argentina;2003;
+Eólica;Argentina;2003;0.0
+Solar;Argentina;2003;0.0
+Otros;Argentina;2003;
+Térmica renovable;Argentina;2003;
+Total;Argentina;2003;23860.0
+Hidro;Bolivia;2003;439.6924995070696
+Térmica no renovable;Bolivia;2003;844.2680515766143
+Nuclear;Bolivia;2003;
+Geotermia;Bolivia;2003;
+Eólica;Bolivia;2003;0.0
+Solar;Bolivia;2003;0.0
+Otros;Bolivia;2003;
+Térmica renovable;Bolivia;2003;0.0
+Total;Bolivia;2003;1283.960551083684
+Hidro;Brasil;2003;67698.0
+Térmica no renovable;Brasil;2003;13230.10128242495
+Nuclear;Brasil;2003;2007.0
+Geotermia;Brasil;2003;
+Eólica;Brasil;2003;22.0
+Solar;Brasil;2003;0.0
+Otros;Brasil;2003;
+Térmica renovable;Brasil;2003;2899.898717575051
+Total;Brasil;2003;85857.0
+Hidro;Chile;2003;4068.102
+Térmica no renovable;Chile;2003;6542.9
+Nuclear;Chile;2003;0.0
+Geotermia;Chile;2003;0.0
+Eólica;Chile;2003;0.0
+Solar;Chile;2003;0.0
+Otros;Chile;2003;0.0
+Térmica renovable;Chile;2003;26.2
+Total;Chile;2003;10637.202
+Hidro;Colombia;2003;8861.59
+Térmica no renovable;Colombia;2003;4348.9
+Nuclear;Colombia;2003;
+Geotermia;Colombia;2003;
+Eólica;Colombia;2003;
+Solar;Colombia;2003;
+Otros;Colombia;2003;
+Térmica renovable;Colombia;2003;18.5
+Total;Colombia;2003;13228.99
+Hidro;Costa Rica;2003;1295.634
+Térmica no renovable;Costa Rica;2003;395.569
+Nuclear;Costa Rica;2003;0.0
+Geotermia;Costa Rica;2003;162.71
+Eólica;Costa Rica;2003;68.55
+Solar;Costa Rica;2003;0.0
+Otros;Costa Rica;2003;0.0
+Térmica renovable;Costa Rica;2003;16.5
+Total;Costa Rica;2003;1938.963
+Hidro;Cuba;2003;57.4
+Térmica no renovable;Cuba;2003;3244.8
+Nuclear;Cuba;2003;
+Geotermia;Cuba;2003;
+Eólica;Cuba;2003;0.5
+Solar;Cuba;2003;0.0
+Otros;Cuba;2003;
+Térmica renovable;Cuba;2003;662.3
+Total;Cuba;2003;3965.0
+Hidro;Ecuador;2003;1745.9293
+Térmica no renovable;Ecuador;2003;1773.150599999999
+Nuclear;Ecuador;2003;0.0
+Geotermia;Ecuador;2003;0.0
+Eólica;Ecuador;2003;0.0
+Solar;Ecuador;2003;0.0
+Otros;Ecuador;2003;
+Térmica renovable;Ecuador;2003;0.0
+Total;Ecuador;2003;3519.0799
+Hidro;El Salvador;2003;430.0
+Térmica no renovable;El Salvador;2003;495.0
+Nuclear;El Salvador;2003;
+Geotermia;El Salvador;2003;161.0
+Eólica;El Salvador;2003;
+Solar;El Salvador;2003;
+Otros;El Salvador;2003;
+Térmica renovable;El Salvador;2003;20.0
+Total;El Salvador;2003;1106.0
+Hidro;Guatemala;2003;629.912
+Térmica no renovable;Guatemala;2003;1161.518
+Nuclear;Guatemala;2003;
+Geotermia;Guatemala;2003;24.0
+Eólica;Guatemala;2003;0.0
+Solar;Guatemala;2003;0.0
+Otros;Guatemala;2003;
+Térmica renovable;Guatemala;2003;355.0
+Total;Guatemala;2003;2170.43
+Hidro;Haiti;2003;56.286
+Térmica no renovable;Haiti;2003;201.044
+Nuclear;Haiti;2003;
+Geotermia;Haiti;2003;
+Eólica;Haiti;2003;
+Solar;Haiti;2003;
+Otros;Haiti;2003;
+Térmica renovable;Haiti;2003;
+Total;Haiti;2003;257.33
+Hidro;Honduras;2003;465.21
+Térmica no renovable;Honduras;2003;443.775
+Nuclear;Honduras;2003;
+Geotermia;Honduras;2003;0.0
+Eólica;Honduras;2003;0.0
+Solar;Honduras;2003;0.0
+Otros;Honduras;2003;
+Térmica renovable;Honduras;2003;17.7
+Total;Honduras;2003;926.6850000000001
+Hidro;México;2003;9615.157
+Térmica no renovable;México;2003;32619.36400000001
+Nuclear;México;2003;1364.88
+Geotermia;México;2003;959.5
+Eólica;México;2003;2.175
+Solar;México;2003;
+Otros;México;2003;
+Térmica renovable;México;2003;
+Total;México;2003;44561.07600000001
+Hidro;Nicaragua;2003;104.63
+Térmica no renovable;Nicaragua;2003;444.18
+Nuclear;Nicaragua;2003;0.0
+Geotermia;Nicaragua;2003;77.5
+Eólica;Nicaragua;2003;0.0
+Solar;Nicaragua;2003;0.0
+Otros;Nicaragua;2003;
+Térmica renovable;Nicaragua;2003;65.3
+Total;Nicaragua;2003;691.61
+Hidro;Panamá;2003;833.0
+Térmica no renovable;Panamá;2003;722.2
+Nuclear;Panamá;2003;
+Geotermia;Panamá;2003;
+Eólica;Panamá;2003;
+Solar;Panamá;2003;
+Otros;Panamá;2003;
+Térmica renovable;Panamá;2003;
+Total;Panamá;2003;1555.2
+Hidro;Paraguay;2003;7410.0
+Térmica no renovable;Paraguay;2003;6.1
+Nuclear;Paraguay;2003;
+Geotermia;Paraguay;2003;
+Eólica;Paraguay;2003;
+Solar;Paraguay;2003;
+Otros;Paraguay;2003;
+Térmica renovable;Paraguay;2003;
+Total;Paraguay;2003;7416.1
+Hidro;Perú;2003;3032.307
+Térmica no renovable;Perú;2003;2914.056
+Nuclear;Perú;2003;
+Geotermia;Perú;2003;
+Eólica;Perú;2003;0.7
+Solar;Perú;2003;
+Otros;Perú;2003;
+Térmica renovable;Perú;2003;23.0
+Total;Perú;2003;5970.063
+Hidro;República Dominicana;2003;464.0
+Térmica no renovable;República Dominicana;2003;2884.93
+Nuclear;República Dominicana;2003;
+Geotermia;República Dominicana;2003;
+Eólica;República Dominicana;2003;
+Solar;República Dominicana;2003;
+Otros;República Dominicana;2003;
+Térmica renovable;República Dominicana;2003;
+Total;República Dominicana;2003;3348.93
+Hidro;Uruguay;2003;1538.0
+Térmica no renovable;Uruguay;2003;517.5688
+Nuclear;Uruguay;2003;
+Geotermia;Uruguay;2003;
+Eólica;Uruguay;2003;
+Solar;Uruguay;2003;
+Otros;Uruguay;2003;
+Térmica renovable;Uruguay;2003;13.45
+Total;Uruguay;2003;2069.0188
+Hidro;Venezuela;2003;12491.0
+Térmica no renovable;Venezuela;2003;8086.0
+Nuclear;Venezuela;2003;
+Geotermia;Venezuela;2003;
+Eólica;Venezuela;2003;
+Solar;Venezuela;2003;
+Otros;Venezuela;2003;
+Térmica renovable;Venezuela;2003;
+Total;Venezuela;2003;20577.0
+Hidro;Argentina;2004;9699.0
+Térmica no renovable;Argentina;2004;13210.0
+Nuclear;Argentina;2004;1005.0
+Geotermia;Argentina;2004;
+Eólica;Argentina;2004;0.0
+Solar;Argentina;2004;0.0
+Otros;Argentina;2004;
+Térmica renovable;Argentina;2004;
+Total;Argentina;2004;23914.0
+Hidro;Bolivia;2004;453.5670000000001
+Térmica no renovable;Bolivia;2004;893.8012498736381
+Nuclear;Bolivia;2004;
+Geotermia;Bolivia;2004;
+Eólica;Bolivia;2004;0.0
+Solar;Bolivia;2004;0.0
+Otros;Bolivia;2004;
+Térmica renovable;Bolivia;2004;0.0
+Total;Bolivia;2004;1347.368249873638
+Hidro;Brasil;2004;69087.5
+Térmica no renovable;Brasil;2004;16332.909130271
+Nuclear;Brasil;2004;2007.0
+Geotermia;Brasil;2004;
+Eólica;Brasil;2004;29.0
+Solar;Brasil;2004;0.0
+Otros;Brasil;2004;
+Térmica renovable;Brasil;2004;3222.690869729
+Total;Brasil;2004;90679.1
+Hidro;Chile;2004;4708.102
+Térmica no renovable;Chile;2004;6737.990000000001
+Nuclear;Chile;2004;0.0
+Geotermia;Chile;2004;0.0
+Eólica;Chile;2004;0.0
+Solar;Chile;2004;0.0
+Otros;Chile;2004;0.0
+Térmica renovable;Chile;2004;17.4
+Total;Chile;2004;11463.492
+Hidro;Colombia;2004;8925.79
+Térmica no renovable;Colombia;2004;4459.8
+Nuclear;Colombia;2004;
+Geotermia;Colombia;2004;
+Eólica;Colombia;2004;20.0
+Solar;Colombia;2004;
+Otros;Colombia;2004;
+Térmica renovable;Colombia;2004;21.5
+Total;Colombia;2004;13427.09
+Hidro;Costa Rica;2004;1303.634
+Térmica no renovable;Costa Rica;2004;395.569
+Nuclear;Costa Rica;2004;0.0
+Geotermia;Costa Rica;2004;165.71
+Eólica;Costa Rica;2004;68.55
+Solar;Costa Rica;2004;0.0
+Otros;Costa Rica;2004;0.0
+Térmica renovable;Costa Rica;2004;27.7
+Total;Costa Rica;2004;1961.163
+Hidro;Cuba;2004;58.5
+Térmica no renovable;Cuba;2004;3244.7
+Nuclear;Cuba;2004;
+Geotermia;Cuba;2004;
+Eólica;Cuba;2004;0.5
+Solar;Cuba;2004;0.0
+Otros;Cuba;2004;
+Térmica renovable;Cuba;2004;459.8
+Total;Cuba;2004;3763.5
+Hidro;Ecuador;2004;1745.836
+Térmica no renovable;Ecuador;2004;1774.2804
+Nuclear;Ecuador;2004;0.0
+Geotermia;Ecuador;2004;0.0
+Eólica;Ecuador;2004;0.0
+Solar;Ecuador;2004;0.0
+Otros;Ecuador;2004;
+Térmica renovable;Ecuador;2004;35.0
+Total;Ecuador;2004;3555.1164
+Hidro;El Salvador;2004;430.0
+Térmica no renovable;El Salvador;2004;495.0
+Nuclear;El Salvador;2004;
+Geotermia;El Salvador;2004;151.0
+Eólica;El Salvador;2004;
+Solar;El Salvador;2004;
+Otros;El Salvador;2004;
+Térmica renovable;El Salvador;2004;20.0
+Total;El Salvador;2004;1096.0
+Hidro;Guatemala;2004;698.012
+Térmica no renovable;Guatemala;2004;1166.518
+Nuclear;Guatemala;2004;
+Geotermia;Guatemala;2004;24.0
+Eólica;Guatemala;2004;0.0
+Solar;Guatemala;2004;0.0
+Otros;Guatemala;2004;
+Térmica renovable;Guatemala;2004;355.0
+Total;Guatemala;2004;2243.53
+Hidro;Haiti;2004;56.286
+Térmica no renovable;Haiti;2004;211.044
+Nuclear;Haiti;2004;
+Geotermia;Haiti;2004;
+Eólica;Haiti;2004;
+Solar;Haiti;2004;
+Otros;Haiti;2004;
+Térmica renovable;Haiti;2004;
+Total;Haiti;2004;267.33
+Hidro;Honduras;2004;474.51
+Térmica no renovable;Honduras;2004;645.85
+Nuclear;Honduras;2004;
+Geotermia;Honduras;2004;0.0
+Eólica;Honduras;2004;0.0
+Solar;Honduras;2004;0.0
+Otros;Honduras;2004;
+Térmica renovable;Honduras;2004;33.5
+Total;Honduras;2004;1153.86
+Hidro;México;2004;10530.155
+Térmica no renovable;México;2004;33694.886
+Nuclear;México;2004;1364.88
+Geotermia;México;2004;959.5
+Eólica;México;2004;2.175
+Solar;México;2004;
+Otros;México;2004;
+Térmica renovable;México;2004;
+Total;México;2004;46551.596
+Hidro;Nicaragua;2004;104.71
+Térmica no renovable;Nicaragua;2004;451.87
+Nuclear;Nicaragua;2004;0.0
+Geotermia;Nicaragua;2004;77.5
+Eólica;Nicaragua;2004;0.0
+Solar;Nicaragua;2004;0.0
+Otros;Nicaragua;2004;
+Térmica renovable;Nicaragua;2004;121.8
+Total;Nicaragua;2004;755.88
+Hidro;Panamá;2004;846.0
+Térmica no renovable;Panamá;2004;662.2
+Nuclear;Panamá;2004;
+Geotermia;Panamá;2004;
+Eólica;Panamá;2004;
+Solar;Panamá;2004;
+Otros;Panamá;2004;
+Térmica renovable;Panamá;2004;
+Total;Panamá;2004;1508.2
+Hidro;Paraguay;2004;7410.0
+Térmica no renovable;Paraguay;2004;6.1
+Nuclear;Paraguay;2004;
+Geotermia;Paraguay;2004;
+Eólica;Paraguay;2004;
+Solar;Paraguay;2004;
+Otros;Paraguay;2004;
+Térmica renovable;Paraguay;2004;
+Total;Paraguay;2004;7416.1
+Hidro;Perú;2004;3055.867600000002
+Térmica no renovable;Perú;2004;2936.751
+Nuclear;Perú;2004;
+Geotermia;Perú;2004;
+Eólica;Perú;2004;0.7
+Solar;Perú;2004;
+Otros;Perú;2004;
+Térmica renovable;Perú;2004;23.0
+Total;Perú;2004;6016.318600000002
+Hidro;República Dominicana;2004;464.0
+Térmica no renovable;República Dominicana;2004;2781.43
+Nuclear;República Dominicana;2004;
+Geotermia;República Dominicana;2004;
+Eólica;República Dominicana;2004;
+Solar;República Dominicana;2004;
+Otros;República Dominicana;2004;
+Térmica renovable;República Dominicana;2004;
+Total;República Dominicana;2004;3245.43
+Hidro;Uruguay;2004;1538.0
+Térmica no renovable;Uruguay;2004;498.3897
+Nuclear;Uruguay;2004;
+Geotermia;Uruguay;2004;
+Eólica;Uruguay;2004;
+Solar;Uruguay;2004;
+Otros;Uruguay;2004;
+Térmica renovable;Uruguay;2004;13.45
+Total;Uruguay;2004;2049.8397
+Hidro;Venezuela;2004;13864.0
+Térmica no renovable;Venezuela;2004;8260.0
+Nuclear;Venezuela;2004;
+Geotermia;Venezuela;2004;
+Eólica;Venezuela;2004;
+Solar;Venezuela;2004;
+Otros;Venezuela;2004;
+Térmica renovable;Venezuela;2004;
+Total;Venezuela;2004;22124.0
+Hidro;Argentina;2005;9939.0
+Térmica no renovable;Argentina;2005;13140.0
+Nuclear;Argentina;2005;1005.0
+Geotermia;Argentina;2005;
+Eólica;Argentina;2005;0.0
+Solar;Argentina;2005;0.0
+Otros;Argentina;2005;
+Térmica renovable;Argentina;2005;
+Total;Argentina;2005;24084.0
+Hidro;Bolivia;2005;460.9920000000001
+Térmica no renovable;Bolivia;2005;893.8052498896121
+Nuclear;Bolivia;2005;
+Geotermia;Bolivia;2005;
+Eólica;Bolivia;2005;0.0
+Solar;Bolivia;2005;0.0
+Otros;Bolivia;2005;
+Térmica renovable;Bolivia;2005;0.0
+Total;Bolivia;2005;1354.797249889612
+Hidro;Brasil;2005;71059.1
+Térmica no renovable;Brasil;2005;16431.6160785091
+Nuclear;Brasil;2005;2007.0
+Geotermia;Brasil;2005;
+Eólica;Brasil;2005;29.0
+Solar;Brasil;2005;0.0
+Otros;Brasil;2005;
+Térmica renovable;Brasil;2005;3338.38392149088
+Total;Brasil;2005;92865.09999999999
+Hidro;Chile;2005;4707.602
+Térmica no renovable;Chile;2005;7130.573000000001
+Nuclear;Chile;2005;0.0
+Geotermia;Chile;2005;0.0
+Eólica;Chile;2005;0.0
+Solar;Chile;2005;0.0
+Otros;Chile;2005;0.0
+Térmica renovable;Chile;2005;17.4
+Total;Chile;2005;11855.575
+Hidro;Colombia;2005;8948.09
+Térmica no renovable;Colombia;2005;4377.65
+Nuclear;Colombia;2005;
+Geotermia;Colombia;2005;
+Eólica;Colombia;2005;10.0
+Solar;Colombia;2005;
+Otros;Colombia;2005;
+Térmica renovable;Colombia;2005;19.5
+Total;Colombia;2005;13355.24
+Hidro;Costa Rica;2005;1303.634
+Térmica no renovable;Costa Rica;2005;395.569
+Nuclear;Costa Rica;2005;0.0
+Geotermia;Costa Rica;2005;165.71
+Eólica;Costa Rica;2005;68.55
+Solar;Costa Rica;2005;0.0
+Otros;Costa Rica;2005;0.0
+Térmica renovable;Costa Rica;2005;27.7
+Total;Costa Rica;2005;1961.163
+Hidro;Cuba;2005;48.2
+Térmica no renovable;Cuba;2005;3549.300000000001
+Nuclear;Cuba;2005;
+Geotermia;Cuba;2005;
+Eólica;Cuba;2005;0.5
+Solar;Cuba;2005;0.0
+Otros;Cuba;2005;
+Térmica renovable;Cuba;2005;677.1
+Total;Cuba;2005;4275.1
+Hidro;Ecuador;2005;1763.536
+Térmica no renovable;Ecuador;2005;1898.0464
+Nuclear;Ecuador;2005;0.0
+Geotermia;Ecuador;2005;0.0
+Eólica;Ecuador;2005;0.0
+Solar;Ecuador;2005;0.018
+Otros;Ecuador;2005;
+Térmica renovable;Ecuador;2005;64.8
+Total;Ecuador;2005;3726.4004
+Hidro;El Salvador;2005;461.0
+Térmica no renovable;El Salvador;2005;532.0
+Nuclear;El Salvador;2005;
+Geotermia;El Salvador;2005;151.0
+Eólica;El Salvador;2005;
+Solar;El Salvador;2005;
+Otros;El Salvador;2005;
+Térmica renovable;El Salvador;2005;81.0
+Total;El Salvador;2005;1225.0
+Hidro;Guatemala;2005;716.322
+Térmica no renovable;Guatemala;2005;1176.518
+Nuclear;Guatemala;2005;
+Geotermia;Guatemala;2005;24.0
+Eólica;Guatemala;2005;0.0
+Solar;Guatemala;2005;0.0
+Otros;Guatemala;2005;
+Térmica renovable;Guatemala;2005;355.0
+Total;Guatemala;2005;2271.84
+Hidro;Haiti;2005;56.286
+Térmica no renovable;Haiti;2005;211.044
+Nuclear;Haiti;2005;
+Geotermia;Haiti;2005;
+Eólica;Haiti;2005;
+Solar;Haiti;2005;
+Otros;Haiti;2005;
+Térmica renovable;Haiti;2005;
+Total;Haiti;2005;267.33
+Hidro;Honduras;2005;477.7
+Térmica no renovable;Honduras;2005;919.75
+Nuclear;Honduras;2005;
+Geotermia;Honduras;2005;0.0
+Eólica;Honduras;2005;0.0
+Solar;Honduras;2005;0.0
+Otros;Honduras;2005;
+Térmica renovable;Honduras;2005;59.3
+Total;Honduras;2005;1456.75
+Hidro;México;2005;10535.93
+Térmica no renovable;México;2005;33671.03999999999
+Nuclear;México;2005;1364.88
+Geotermia;México;2005;959.5
+Eólica;México;2005;2.21
+Solar;México;2005;
+Otros;México;2005;
+Térmica renovable;México;2005;
+Total;México;2005;46533.55999999999
+Hidro;Nicaragua;2005;104.63
+Térmica no renovable;Nicaragua;2005;456.56
+Nuclear;Nicaragua;2005;0.0
+Geotermia;Nicaragua;2005;87.5
+Eólica;Nicaragua;2005;0.0
+Solar;Nicaragua;2005;0.0
+Otros;Nicaragua;2005;
+Térmica renovable;Nicaragua;2005;121.8
+Total;Nicaragua;2005;770.49
+Hidro;Panamá;2005;846.0
+Térmica no renovable;Panamá;2005;662.1
+Nuclear;Panamá;2005;
+Geotermia;Panamá;2005;
+Eólica;Panamá;2005;
+Solar;Panamá;2005;
+Otros;Panamá;2005;
+Térmica renovable;Panamá;2005;
+Total;Panamá;2005;1508.1
+Hidro;Paraguay;2005;7410.0
+Térmica no renovable;Paraguay;2005;6.1
+Nuclear;Paraguay;2005;
+Geotermia;Paraguay;2005;
+Eólica;Paraguay;2005;
+Solar;Paraguay;2005;
+Otros;Paraguay;2005;
+Térmica renovable;Paraguay;2005;
+Total;Paraguay;2005;7416.1
+Hidro;Perú;2005;3207.0616
+Térmica no renovable;Perú;2005;2969.763999999999
+Nuclear;Perú;2005;
+Geotermia;Perú;2005;
+Eólica;Perú;2005;0.7
+Solar;Perú;2005;
+Otros;Perú;2005;
+Térmica renovable;Perú;2005;23.0
+Total;Perú;2005;6200.5256
+Hidro;República Dominicana;2005;464.0
+Térmica no renovable;República Dominicana;2005;2693.33
+Nuclear;República Dominicana;2005;
+Geotermia;República Dominicana;2005;
+Eólica;República Dominicana;2005;
+Solar;República Dominicana;2005;
+Otros;República Dominicana;2005;
+Térmica renovable;República Dominicana;2005;
+Total;República Dominicana;2005;3157.33
+Hidro;Uruguay;2005;1538.0
+Térmica no renovable;Uruguay;2005;496.789
+Nuclear;Uruguay;2005;
+Geotermia;Uruguay;2005;
+Eólica;Uruguay;2005;
+Solar;Uruguay;2005;
+Otros;Uruguay;2005;
+Térmica renovable;Uruguay;2005;14.45
+Total;Uruguay;2005;2049.239
+Hidro;Venezuela;2005;14414.81
+Térmica no renovable;Venezuela;2005;7353.13
+Nuclear;Venezuela;2005;
+Geotermia;Venezuela;2005;
+Eólica;Venezuela;2005;0.0
+Solar;Venezuela;2005;0.02
+Otros;Venezuela;2005;
+Térmica renovable;Venezuela;2005;
+Total;Venezuela;2005;21767.96
+Hidro;Argentina;2006;10009.0
+Térmica no renovable;Argentina;2006;13094.0
+Nuclear;Argentina;2006;1005.0
+Geotermia;Argentina;2006;
+Eólica;Argentina;2006;0.0
+Solar;Argentina;2006;0.0
+Otros;Argentina;2006;
+Térmica renovable;Argentina;2006;
+Total;Argentina;2006;24108.0
+Hidro;Bolivia;2006;483.2792500000001
+Térmica no renovable;Bolivia;2006;926.2426499644756
+Nuclear;Bolivia;2006;
+Geotermia;Bolivia;2006;
+Eólica;Bolivia;2006;0.0
+Solar;Bolivia;2006;0.0
+Otros;Bolivia;2006;
+Térmica renovable;Bolivia;2006;0.0
+Total;Bolivia;2006;1409.521899964476
+Hidro;Brasil;2006;73678.0
+Térmica no renovable;Brasil;2006;16669.6447991258
+Nuclear;Brasil;2006;2007.0
+Geotermia;Brasil;2006;
+Eólica;Brasil;2006;237.0
+Solar;Brasil;2006;0.0
+Otros;Brasil;2006;
+Térmica renovable;Brasil;2006;3702.35520087416
+Total;Brasil;2006;96293.99999999996
+Hidro;Chile;2006;4711.402
+Térmica no renovable;Chile;2006;7140.573000000001
+Nuclear;Chile;2006;0.0
+Geotermia;Chile;2006;0.0
+Eólica;Chile;2006;0.0
+Solar;Chile;2006;0.0
+Otros;Chile;2006;0.0
+Térmica renovable;Chile;2006;17.4
+Total;Chile;2006;11869.375
+Hidro;Colombia;2006;8947.39
+Térmica no renovable;Colombia;2006;4291.25
+Nuclear;Colombia;2006;
+Geotermia;Colombia;2006;
+Eólica;Colombia;2006;18.42
+Solar;Colombia;2006;
+Otros;Colombia;2006;
+Térmica renovable;Colombia;2006;23.4
+Total;Colombia;2006;13280.46
+Hidro;Costa Rica;2006;1411.485
+Térmica no renovable;Costa Rica;2006;423.269
+Nuclear;Costa Rica;2006;0.0
+Geotermia;Costa Rica;2006;165.71
+Eólica;Costa Rica;2006;68.55
+Solar;Costa Rica;2006;0.0
+Otros;Costa Rica;2006;0.0
+Térmica renovable;Costa Rica;2006;27.7
+Total;Costa Rica;2006;2096.714
+Hidro;Cuba;2006;48.2
+Térmica no renovable;Cuba;2006;4682.3
+Nuclear;Cuba;2006;
+Geotermia;Cuba;2006;
+Eólica;Cuba;2006;0.5
+Solar;Cuba;2006;0.0
+Otros;Cuba;2006;
+Térmica renovable;Cuba;2006;445.0
+Total;Cuba;2006;5176.0
+Hidro;Ecuador;2006;1800.726
+Térmica no renovable;Ecuador;2006;2195.4654
+Nuclear;Ecuador;2006;0.0
+Geotermia;Ecuador;2006;0.0
+Eólica;Ecuador;2006;0.0
+Solar;Ecuador;2006;0.018
+Otros;Ecuador;2006;
+Térmica renovable;Ecuador;2006;73.8
+Total;Ecuador;2006;4070.0094
+Hidro;El Salvador;2006;473.0
+Térmica no renovable;El Salvador;2006;604.0
+Nuclear;El Salvador;2006;
+Geotermia;El Salvador;2006;151.0
+Eólica;El Salvador;2006;
+Solar;El Salvador;2006;
+Otros;El Salvador;2006;
+Térmica renovable;El Salvador;2006;86.0
+Total;El Salvador;2006;1314.0
+Hidro;Guatemala;2006;734.422
+Térmica no renovable;Guatemala;2006;1176.518
+Nuclear;Guatemala;2006;
+Geotermia;Guatemala;2006;24.0
+Eólica;Guatemala;2006;0.0
+Solar;Guatemala;2006;0.0
+Otros;Guatemala;2006;
+Térmica renovable;Guatemala;2006;355.0
+Total;Guatemala;2006;2289.94
+Hidro;Haiti;2006;56.286
+Térmica no renovable;Haiti;2006;211.044
+Nuclear;Haiti;2006;
+Geotermia;Haiti;2006;
+Eólica;Haiti;2006;
+Solar;Haiti;2006;
+Otros;Haiti;2006;
+Térmica renovable;Haiti;2006;
+Total;Haiti;2006;267.33
+Hidro;Honduras;2006;501.47
+Térmica no renovable;Honduras;2006;917.188
+Nuclear;Honduras;2006;
+Geotermia;Honduras;2006;0.0
+Eólica;Honduras;2006;0.0
+Solar;Honduras;2006;0.0
+Otros;Honduras;2006;
+Térmica renovable;Honduras;2006;59.3
+Total;Honduras;2006;1477.958
+Hidro;México;2006;10566.33
+Térmica no renovable;México;2006;35875.75999999999
+Nuclear;México;2006;1364.88
+Geotermia;México;2006;959.5
+Eólica;México;2006;2.21
+Solar;México;2006;
+Otros;México;2006;
+Térmica renovable;México;2006;
+Total;México;2006;48768.67999999999
+Hidro;Nicaragua;2006;104.63
+Térmica no renovable;Nicaragua;2006;449.12
+Nuclear;Nicaragua;2006;0.0
+Geotermia;Nicaragua;2006;87.5
+Eólica;Nicaragua;2006;0.0
+Solar;Nicaragua;2006;0.0
+Otros;Nicaragua;2006;
+Térmica renovable;Nicaragua;2006;121.8
+Total;Nicaragua;2006;763.05
+Hidro;Panamá;2006;846.5
+Térmica no renovable;Panamá;2006;620.8
+Nuclear;Panamá;2006;
+Geotermia;Panamá;2006;
+Eólica;Panamá;2006;
+Solar;Panamá;2006;
+Otros;Panamá;2006;
+Térmica renovable;Panamá;2006;
+Total;Panamá;2006;1467.3
+Hidro;Paraguay;2006;7410.0
+Térmica no renovable;Paraguay;2006;6.1
+Nuclear;Paraguay;2006;
+Geotermia;Paraguay;2006;
+Eólica;Paraguay;2006;
+Solar;Paraguay;2006;
+Otros;Paraguay;2006;
+Térmica renovable;Paraguay;2006;
+Total;Paraguay;2006;7416.1
+Hidro;Perú;2006;3216.0026
+Térmica no renovable;Perú;2006;3418.441
+Nuclear;Perú;2006;
+Geotermia;Perú;2006;
+Eólica;Perú;2006;0.7
+Solar;Perú;2006;
+Otros;Perú;2006;
+Térmica renovable;Perú;2006;23.0
+Total;Perú;2006;6658.143599999999
+Hidro;República Dominicana;2006;469.0
+Térmica no renovable;República Dominicana;2006;2695.43
+Nuclear;República Dominicana;2006;
+Geotermia;República Dominicana;2006;
+Eólica;República Dominicana;2006;
+Solar;República Dominicana;2006;
+Otros;República Dominicana;2006;
+Térmica renovable;República Dominicana;2006;
+Total;República Dominicana;2006;3164.43
+Hidro;Uruguay;2006;1538.0
+Térmica no renovable;Uruguay;2006;697.088
+Nuclear;Uruguay;2006;
+Geotermia;Uruguay;2006;
+Eólica;Uruguay;2006;
+Solar;Uruguay;2006;
+Otros;Uruguay;2006;
+Térmica renovable;Uruguay;2006;14.45
+Total;Uruguay;2006;2249.538
+Hidro;Venezuela;2006;14597.81
+Térmica no renovable;Venezuela;2006;7619.1
+Nuclear;Venezuela;2006;
+Geotermia;Venezuela;2006;
+Eólica;Venezuela;2006;0.0
+Solar;Venezuela;2006;0.1
+Otros;Venezuela;2006;
+Térmica renovable;Venezuela;2006;
+Total;Venezuela;2006;22217.01
+Hidro;Argentina;2007;10226.0
+Térmica no renovable;Argentina;2007;13321.0
+Nuclear;Argentina;2007;1005.0
+Geotermia;Argentina;2007;
+Eólica;Argentina;2007;0.0
+Solar;Argentina;2007;0.0
+Otros;Argentina;2007;
+Térmica renovable;Argentina;2007;
+Total;Argentina;2007;24552.0
+Hidro;Bolivia;2007;485.4032500000001
+Térmica no renovable;Bolivia;2007;987.6878999999999
+Nuclear;Bolivia;2007;
+Geotermia;Bolivia;2007;
+Eólica;Bolivia;2007;0.0
+Solar;Bolivia;2007;0.0
+Otros;Bolivia;2007;
+Térmica renovable;Bolivia;2007;25.0
+Total;Bolivia;2007;1498.09115
+Hidro;Brasil;2007;76869.0
+Térmica no renovable;Brasil;2007;17125.8031185001
+Nuclear;Brasil;2007;2007.0
+Geotermia;Brasil;2007;
+Eólica;Brasil;2007;247.0
+Solar;Brasil;2007;0.0
+Otros;Brasil;2007;
+Térmica renovable;Brasil;2007;4103.189
+Total;Brasil;2007;100351.9921185001
+Hidro;Chile;2007;5223.486
+Térmica no renovable;Chile;2007;7793.033
+Nuclear;Chile;2007;0.0
+Geotermia;Chile;2007;0.0
+Eólica;Chile;2007;18.2
+Solar;Chile;2007;0.0
+Otros;Chile;2007;0.0
+Térmica renovable;Chile;2007;17.4
+Total;Chile;2007;13052.119
+Hidro;Colombia;2007;8991.13
+Térmica no renovable;Colombia;2007;4381.15
+Nuclear;Colombia;2007;
+Geotermia;Colombia;2007;
+Eólica;Colombia;2007;18.42
+Solar;Colombia;2007;
+Otros;Colombia;2007;
+Térmica renovable;Colombia;2007;23.4
+Total;Colombia;2007;13414.1
+Hidro;Costa Rica;2007;1500.396
+Térmica no renovable;Costa Rica;2007;422.269
+Nuclear;Costa Rica;2007;0.0
+Geotermia;Costa Rica;2007;165.71
+Eólica;Costa Rica;2007;69.92
+Solar;Costa Rica;2007;0.0
+Otros;Costa Rica;2007;0.0
+Térmica renovable;Costa Rica;2007;23.7
+Total;Costa Rica;2007;2181.995
+Hidro;Cuba;2007;40.9
+Térmica no renovable;Cuba;2007;4842.5
+Nuclear;Cuba;2007;
+Geotermia;Cuba;2007;
+Eólica;Cuba;2007;0.0
+Solar;Cuba;2007;0.0
+Otros;Cuba;2007;
+Térmica renovable;Cuba;2007;546.0
+Total;Cuba;2007;5429.4
+Hidro;Ecuador;2007;2057.083
+Térmica no renovable;Ecuador;2007;2345.100399999999
+Nuclear;Ecuador;2007;0.0
+Geotermia;Ecuador;2007;0.0
+Eólica;Ecuador;2007;2.4
+Solar;Ecuador;2007;0.018
+Otros;Ecuador;2007;
+Térmica renovable;Ecuador;2007;73.8
+Total;Ecuador;2007;4478.401399999999
+Hidro;El Salvador;2007;484.0
+Térmica no renovable;El Salvador;2007;635.0
+Nuclear;El Salvador;2007;
+Geotermia;El Salvador;2007;204.0
+Eólica;El Salvador;2007;
+Solar;El Salvador;2007;
+Otros;El Salvador;2007;
+Térmica renovable;El Salvador;2007;113.0
+Total;El Salvador;2007;1436.0
+Hidro;Guatemala;2007;760.422
+Térmica no renovable;Guatemala;2007;1192.262
+Nuclear;Guatemala;2007;
+Geotermia;Guatemala;2007;49.2
+Eólica;Guatemala;2007;0.0
+Solar;Guatemala;2007;0.0
+Otros;Guatemala;2007;
+Térmica renovable;Guatemala;2007;355.0
+Total;Guatemala;2007;2356.884
+Hidro;Haiti;2007;56.286
+Térmica no renovable;Haiti;2007;211.044
+Nuclear;Haiti;2007;
+Geotermia;Haiti;2007;
+Eólica;Haiti;2007;
+Solar;Haiti;2007;
+Otros;Haiti;2007;
+Térmica renovable;Haiti;2007;
+Total;Haiti;2007;267.33
+Hidro;Honduras;2007;518.27
+Térmica no renovable;Honduras;2007;912.75
+Nuclear;Honduras;2007;
+Geotermia;Honduras;2007;0.0
+Eólica;Honduras;2007;0.0
+Solar;Honduras;2007;0.0
+Otros;Honduras;2007;
+Térmica renovable;Honduras;2007;81.251
+Total;Honduras;2007;1512.271
+Hidro;México;2007;11343.33
+Térmica no renovable;México;2007;37275.36000000001
+Nuclear;México;2007;1364.88
+Geotermia;México;2007;959.5
+Eólica;México;2007;85.48
+Solar;México;2007;
+Otros;México;2007;
+Térmica renovable;México;2007;
+Total;México;2007;51028.55000000001
+Hidro;Nicaragua;2007;105.3
+Térmica no renovable;Nicaragua;2007;517.12
+Nuclear;Nicaragua;2007;0.0
+Geotermia;Nicaragua;2007;87.5
+Eólica;Nicaragua;2007;0.0
+Solar;Nicaragua;2007;0.0
+Otros;Nicaragua;2007;
+Térmica renovable;Nicaragua;2007;121.8
+Total;Nicaragua;2007;831.72
+Hidro;Panamá;2007;846.5
+Térmica no renovable;Panamá;2007;664.2
+Nuclear;Panamá;2007;
+Geotermia;Panamá;2007;
+Eólica;Panamá;2007;
+Solar;Panamá;2007;
+Otros;Panamá;2007;
+Térmica renovable;Panamá;2007;
+Total;Panamá;2007;1510.7
+Hidro;Paraguay;2007;8110.0
+Térmica no renovable;Paraguay;2007;6.1
+Nuclear;Paraguay;2007;
+Geotermia;Paraguay;2007;
+Eólica;Paraguay;2007;
+Solar;Paraguay;2007;
+Otros;Paraguay;2007;
+Térmica renovable;Paraguay;2007;
+Total;Paraguay;2007;8116.1
+Hidro;Perú;2007;3233.5982
+Térmica no renovable;Perú;2007;3770.219
+Nuclear;Perú;2007;
+Geotermia;Perú;2007;
+Eólica;Perú;2007;0.7
+Solar;Perú;2007;
+Otros;Perú;2007;
+Térmica renovable;Perú;2007;23.0
+Total;Perú;2007;7027.5172
+Hidro;República Dominicana;2007;469.0
+Térmica no renovable;República Dominicana;2007;2695.43
+Nuclear;República Dominicana;2007;
+Geotermia;República Dominicana;2007;
+Eólica;República Dominicana;2007;
+Solar;República Dominicana;2007;
+Otros;República Dominicana;2007;
+Térmica renovable;República Dominicana;2007;
+Total;República Dominicana;2007;3164.43
+Hidro;Uruguay;2007;1538.0
+Térmica no renovable;Uruguay;2007;695.3679999999999
+Nuclear;Uruguay;2007;
+Geotermia;Uruguay;2007;
+Eólica;Uruguay;2007;
+Solar;Uruguay;2007;
+Otros;Uruguay;2007;
+Térmica renovable;Uruguay;2007;172.6
+Total;Uruguay;2007;2405.968
+Hidro;Venezuela;2007;14597.81
+Térmica no renovable;Venezuela;2007;7943.14
+Nuclear;Venezuela;2007;
+Geotermia;Venezuela;2007;
+Eólica;Venezuela;2007;0.0
+Solar;Venezuela;2007;0.9
+Otros;Venezuela;2007;
+Térmica renovable;Venezuela;2007;
+Total;Venezuela;2007;22541.85
+Hidro;Argentina;2008;10233.0
+Térmica no renovable;Argentina;2008;15152.0
+Nuclear;Argentina;2008;1005.0
+Geotermia;Argentina;2008;
+Eólica;Argentina;2008;0.0
+Solar;Argentina;2008;0.0
+Otros;Argentina;2008;
+Térmica renovable;Argentina;2008;
+Total;Argentina;2008;26390.0
+Hidro;Bolivia;2008;480.7782500000001
+Térmica no renovable;Bolivia;2008;993.5087
+Nuclear;Bolivia;2008;
+Geotermia;Bolivia;2008;
+Eólica;Bolivia;2008;0.0
+Solar;Bolivia;2008;0.0
+Otros;Bolivia;2008;
+Térmica renovable;Bolivia;2008;25.0
+Total;Bolivia;2008;1499.28695
+Hidro;Brasil;2008;77545.0
+Térmica no renovable;Brasil;2008;17944.8548153029
+Nuclear;Brasil;2008;2007.0
+Geotermia;Brasil;2008;
+Eólica;Brasil;2008;398.0
+Solar;Brasil;2008;0.0
+Otros;Brasil;2008;
+Térmica renovable;Brasil;2008;5054.14518469709
+Total;Brasil;2008;102949.0
+Hidro;Chile;2008;5309.036
+Térmica no renovable;Chile;2008;8144.233
+Nuclear;Chile;2008;0.0
+Geotermia;Chile;2008;0.0
+Eólica;Chile;2008;18.2
+Solar;Chile;2008;0.0
+Otros;Chile;2008;0.0
+Térmica renovable;Chile;2008;32.4
+Total;Chile;2008;13503.869
+Hidro;Colombia;2008;8996.56
+Térmica no renovable;Colombia;2008;4440.15
+Nuclear;Colombia;2008;
+Geotermia;Colombia;2008;
+Eólica;Colombia;2008;18.42
+Solar;Colombia;2008;
+Otros;Colombia;2008;
+Térmica renovable;Colombia;2008;23.4
+Total;Colombia;2008;13478.53
+Hidro;Costa Rica;2008;1517.896
+Térmica no renovable;Costa Rica;2008;601.317
+Nuclear;Costa Rica;2008;0.0
+Geotermia;Costa Rica;2008;165.71
+Eólica;Costa Rica;2008;69.92
+Solar;Costa Rica;2008;0.0
+Otros;Costa Rica;2008;0.0
+Térmica renovable;Costa Rica;2008;23.7
+Total;Costa Rica;2008;2378.543
+Hidro;Cuba;2008;60.1
+Térmica no renovable;Cuba;2008;4782.8
+Nuclear;Cuba;2008;
+Geotermia;Cuba;2008;
+Eólica;Cuba;2008;7.5
+Solar;Cuba;2008;0.0
+Otros;Cuba;2008;
+Térmica renovable;Cuba;2008;546.0
+Total;Cuba;2008;5396.400000000001
+Hidro;Ecuador;2008;2056.3344
+Térmica no renovable;Ecuador;2008;2378.254199999999
+Nuclear;Ecuador;2008;0.0
+Geotermia;Ecuador;2008;0.0
+Eólica;Ecuador;2008;2.4
+Solar;Ecuador;2008;0.018
+Otros;Ecuador;2008;
+Térmica renovable;Ecuador;2008;106.8
+Total;Ecuador;2008;4543.806599999999
+Hidro;El Salvador;2008;484.0
+Térmica no renovable;El Salvador;2008;642.0
+Nuclear;El Salvador;2008;
+Geotermia;El Salvador;2008;204.0
+Eólica;El Salvador;2008;
+Solar;El Salvador;2008;
+Otros;El Salvador;2008;
+Térmica renovable;El Salvador;2008;109.0
+Total;El Salvador;2008;1439.0
+Hidro;Guatemala;2008;760.982
+Térmica no renovable;Guatemala;2008;1285.562
+Nuclear;Guatemala;2008;
+Geotermia;Guatemala;2008;49.2
+Eólica;Guatemala;2008;0.0
+Solar;Guatemala;2008;0.0
+Otros;Guatemala;2008;
+Térmica renovable;Guatemala;2008;355.0
+Total;Guatemala;2008;2450.744
+Hidro;Haiti;2008;56.286
+Térmica no renovable;Haiti;2008;275.044
+Nuclear;Haiti;2008;
+Geotermia;Haiti;2008;
+Eólica;Haiti;2008;
+Solar;Haiti;2008;
+Otros;Haiti;2008;
+Térmica renovable;Haiti;2008;
+Total;Haiti;2008;331.33
+Hidro;Honduras;2008;520.53
+Térmica no renovable;Honduras;2008;966.9
+Nuclear;Honduras;2008;
+Geotermia;Honduras;2008;0.0
+Eólica;Honduras;2008;0.0
+Solar;Honduras;2008;0.0
+Otros;Honduras;2008;
+Térmica renovable;Honduras;2008;97.851
+Total;Honduras;2008;1585.281
+Hidro;México;2008;11343.25
+Térmica no renovable;México;2008;37347.59
+Nuclear;México;2008;1364.88
+Geotermia;México;2008;964.5
+Eólica;México;2008;85.25
+Solar;México;2008;
+Otros;México;2008;
+Térmica renovable;México;2008;
+Total;México;2008;51105.46999999999
+Hidro;Nicaragua;2008;105.3
+Térmica no renovable;Nicaragua;2008;576.3599999999999
+Nuclear;Nicaragua;2008;0.0
+Geotermia;Nicaragua;2008;87.5
+Eólica;Nicaragua;2008;0.0
+Solar;Nicaragua;2008;0.0
+Otros;Nicaragua;2008;
+Térmica renovable;Nicaragua;2008;121.8
+Total;Nicaragua;2008;890.9599999999998
+Hidro;Panamá;2008;869.0
+Térmica no renovable;Panamá;2008;787.2
+Nuclear;Panamá;2008;
+Geotermia;Panamá;2008;
+Eólica;Panamá;2008;
+Solar;Panamá;2008;
+Otros;Panamá;2008;
+Térmica renovable;Panamá;2008;
+Total;Panamá;2008;1656.2
+Hidro;Paraguay;2008;8110.0
+Térmica no renovable;Paraguay;2008;6.1
+Nuclear;Paraguay;2008;
+Geotermia;Paraguay;2008;
+Eólica;Paraguay;2008;
+Solar;Paraguay;2008;
+Otros;Paraguay;2008;
+Térmica renovable;Paraguay;2008;
+Total;Paraguay;2008;8116.1
+Hidro;Perú;2008;3242.026000000002
+Térmica no renovable;Perú;2008;3892.209000000002
+Nuclear;Perú;2008;
+Geotermia;Perú;2008;
+Eólica;Perú;2008;0.7
+Solar;Perú;2008;
+Otros;Perú;2008;
+Térmica renovable;Perú;2008;23.0
+Total;Perú;2008;7157.935000000003
+Hidro;República Dominicana;2008;472.0
+Térmica no renovable;República Dominicana;2008;2444.1
+Nuclear;República Dominicana;2008;
+Geotermia;República Dominicana;2008;
+Eólica;República Dominicana;2008;
+Solar;República Dominicana;2008;
+Otros;República Dominicana;2008;
+Térmica renovable;República Dominicana;2008;
+Total;República Dominicana;2008;2916.1
+Hidro;Uruguay;2008;1538.0
+Térmica no renovable;Uruguay;2008;800.5
+Nuclear;Uruguay;2008;
+Geotermia;Uruguay;2008;
+Eólica;Uruguay;2008;14.6
+Solar;Uruguay;2008;0.0737
+Otros;Uruguay;2008;
+Térmica renovable;Uruguay;2008;172.6
+Total;Uruguay;2008;2525.7737
+Hidro;Venezuela;2008;14597.81
+Térmica no renovable;Venezuela;2008;8568.189999999999
+Nuclear;Venezuela;2008;
+Geotermia;Venezuela;2008;
+Eólica;Venezuela;2008;0.0
+Solar;Venezuela;2008;1.12
+Otros;Venezuela;2008;
+Térmica renovable;Venezuela;2008;
+Total;Venezuela;2008;23167.12
+Hidro;Argentina;2009;10604.0
+Térmica no renovable;Argentina;2009;15626.0
+Nuclear;Argentina;2009;1005.0
+Geotermia;Argentina;2009;
+Eólica;Argentina;2009;0.0
+Solar;Argentina;2009;0.0
+Otros;Argentina;2009;
+Térmica renovable;Argentina;2009;
+Total;Argentina;2009;27235.0
+Hidro;Bolivia;2009;488.1392500000001
+Térmica no renovable;Bolivia;2009;1012.4198
+Nuclear;Bolivia;2009;
+Geotermia;Bolivia;2009;
+Eólica;Bolivia;2009;0.0
+Solar;Bolivia;2009;0.0
+Otros;Bolivia;2009;
+Térmica renovable;Bolivia;2009;25.0
+Total;Bolivia;2009;1525.55905
+Hidro;Brasil;2009;78610.0
+Térmica no renovable;Brasil;2009;17632.7235664909
+Nuclear;Brasil;2009;2007.0
+Geotermia;Brasil;2009;
+Eólica;Brasil;2009;602.0
+Solar;Brasil;2009;0.0
+Otros;Brasil;2009;
+Térmica renovable;Brasil;2009;5717.27643350913
+Total;Brasil;2009;104569.0
+Hidro;Chile;2009;5335.701999999999
+Térmica no renovable;Chile;2009;9594.951000000001
+Nuclear;Chile;2009;0.0
+Geotermia;Chile;2009;0.0
+Eólica;Chile;2009;81.8
+Solar;Chile;2009;0.0
+Otros;Chile;2009;0.0
+Térmica renovable;Chile;2009;90.3
+Total;Chile;2009;15102.753
+Hidro;Colombia;2009;8997.11
+Térmica no renovable;Colombia;2009;4459.95
+Nuclear;Colombia;2009;
+Geotermia;Colombia;2009;
+Eólica;Colombia;2009;18.42
+Solar;Colombia;2009;
+Otros;Colombia;2009;
+Térmica renovable;Colombia;2009;33.4
+Total;Colombia;2009;13508.88
+Hidro;Costa Rica;2009;1532.737
+Térmica no renovable;Costa Rica;2009;598.437
+Nuclear;Costa Rica;2009;0.0
+Geotermia;Costa Rica;2009;165.71
+Eólica;Costa Rica;2009;95.12
+Solar;Costa Rica;2009;0.0
+Otros;Costa Rica;2009;0.0
+Térmica renovable;Costa Rica;2009;23.7
+Total;Costa Rica;2009;2415.704
+Hidro;Cuba;2009;57.9
+Térmica no renovable;Cuba;2009;4938.5
+Nuclear;Cuba;2009;
+Geotermia;Cuba;2009;
+Eólica;Cuba;2009;7.6
+Solar;Cuba;2009;0.0
+Otros;Cuba;2009;
+Térmica renovable;Cuba;2009;546.0
+Total;Cuba;2009;5550.0
+Hidro;Ecuador;2009;2059.2482
+Térmica no renovable;Ecuador;2009;2544.7024
+Nuclear;Ecuador;2009;0.0
+Geotermia;Ecuador;2009;0.0
+Eólica;Ecuador;2009;2.4
+Solar;Ecuador;2009;0.018
+Otros;Ecuador;2009;
+Térmica renovable;Ecuador;2009;106.8
+Total;Ecuador;2009;4713.1686
+Hidro;El Salvador;2009;486.0
+Térmica no renovable;El Salvador;2009;691.0
+Nuclear;El Salvador;2009;
+Geotermia;El Salvador;2009;204.0
+Eólica;El Salvador;2009;
+Solar;El Salvador;2009;
+Otros;El Salvador;2009;
+Térmica renovable;El Salvador;2009;109.0
+Total;El Salvador;2009;1490.0
+Hidro;Guatemala;2009;767.932
+Térmica no renovable;Guatemala;2009;1285.562
+Nuclear;Guatemala;2009;
+Geotermia;Guatemala;2009;49.2
+Eólica;Guatemala;2009;0.0
+Solar;Guatemala;2009;0.0
+Otros;Guatemala;2009;
+Térmica renovable;Guatemala;2009;355.0
+Total;Guatemala;2009;2457.694
+Hidro;Haiti;2009;56.286
+Térmica no renovable;Haiti;2009;336.244
+Nuclear;Haiti;2009;
+Geotermia;Haiti;2009;
+Eólica;Haiti;2009;
+Solar;Haiti;2009;0.01
+Otros;Haiti;2009;
+Térmica renovable;Haiti;2009;
+Total;Haiti;2009;392.54
+Hidro;Honduras;2009;526.22
+Térmica no renovable;Honduras;2009;898.45
+Nuclear;Honduras;2009;
+Geotermia;Honduras;2009;0.0
+Eólica;Honduras;2009;0.0
+Solar;Honduras;2009;0.0
+Otros;Honduras;2009;
+Térmica renovable;Honduras;2009;100.501
+Total;Honduras;2009;1525.171
+Hidro;México;2009;11383.25
+Térmica no renovable;México;2009;37888.21
+Nuclear;México;2009;1364.88
+Geotermia;México;2009;964.5
+Eólica;México;2009;85.25
+Solar;México;2009;
+Otros;México;2009;
+Térmica renovable;México;2009;
+Total;México;2009;51686.09
+Hidro;Nicaragua;2009;105.3
+Térmica no renovable;Nicaragua;2009;627.1499999999999
+Nuclear;Nicaragua;2009;0.0
+Geotermia;Nicaragua;2009;87.5
+Eólica;Nicaragua;2009;39.90000000000001
+Solar;Nicaragua;2009;0.0
+Otros;Nicaragua;2009;
+Térmica renovable;Nicaragua;2009;121.8
+Total;Nicaragua;2009;981.6499999999997
+Hidro;Panamá;2009;878.9
+Térmica no renovable;Panamá;2009;937.6
+Nuclear;Panamá;2009;
+Geotermia;Panamá;2009;
+Eólica;Panamá;2009;
+Solar;Panamá;2009;
+Otros;Panamá;2009;
+Térmica renovable;Panamá;2009;
+Total;Panamá;2009;1816.5
+Hidro;Paraguay;2009;8110.0
+Térmica no renovable;Paraguay;2009;6.1
+Nuclear;Paraguay;2009;
+Geotermia;Paraguay;2009;
+Eólica;Paraguay;2009;
+Solar;Paraguay;2009;
+Otros;Paraguay;2009;
+Térmica renovable;Paraguay;2009;
+Total;Paraguay;2009;8116.1
+Hidro;Perú;2009;3277.464000000002
+Térmica no renovable;Perú;2009;4685.332
+Nuclear;Perú;2009;
+Geotermia;Perú;2009;
+Eólica;Perú;2009;0.7
+Solar;Perú;2009;
+Otros;Perú;2009;
+Térmica renovable;Perú;2009;23.0
+Total;Perú;2009;7986.496000000002
+Hidro;República Dominicana;2009;523.0
+Térmica no renovable;República Dominicana;2009;2437.48
+Nuclear;República Dominicana;2009;
+Geotermia;República Dominicana;2009;
+Eólica;República Dominicana;2009;
+Solar;República Dominicana;2009;
+Otros;República Dominicana;2009;
+Térmica renovable;República Dominicana;2009;
+Total;República Dominicana;2009;2960.48
+Hidro;Uruguay;2009;1538.0
+Térmica no renovable;Uruguay;2009;878.3
+Nuclear;Uruguay;2009;
+Geotermia;Uruguay;2009;
+Eólica;Uruguay;2009;30.6
+Solar;Uruguay;2009;0.11
+Otros;Uruguay;2009;
+Térmica renovable;Uruguay;2009;172.6
+Total;Uruguay;2009;2619.61
+Hidro;Venezuela;2009;14622.81
+Térmica no renovable;Venezuela;2009;9116.039999999999
+Nuclear;Venezuela;2009;
+Geotermia;Venezuela;2009;
+Eólica;Venezuela;2009;0.0
+Solar;Venezuela;2009;1.5
+Otros;Venezuela;2009;
+Térmica renovable;Venezuela;2009;
+Total;Venezuela;2009;23740.35
+Hidro;Argentina;2010;10604.0
+Térmica no renovable;Argentina;2010;16818.0
+Nuclear;Argentina;2010;1005.0
+Geotermia;Argentina;2010;
+Eólica;Argentina;2010;0.0
+Solar;Argentina;2010;0.0
+Otros;Argentina;2010;
+Térmica renovable;Argentina;2010;
+Total;Argentina;2010;28427.0
+Hidro;Bolivia;2010;488.2092500000001
+Térmica no renovable;Bolivia;2010;1121.6257
+Nuclear;Bolivia;2010;
+Geotermia;Bolivia;2010;
+Eólica;Bolivia;2010;0.0
+Solar;Bolivia;2010;0.0
+Otros;Bolivia;2010;
+Térmica renovable;Bolivia;2010;25.0
+Total;Bolivia;2010;1634.83495
+Hidro;Brasil;2010;80703.11765
+Térmica no renovable;Brasil;2010;21761.7534392437
+Nuclear;Brasil;2010;2007.0
+Geotermia;Brasil;2010;
+Eólica;Brasil;2010;926.8862
+Solar;Brasil;2010;1.0
+Otros;Brasil;2010;
+Térmica renovable;Brasil;2010;7927.186
+Total;Brasil;2010;113326.9432892437
+Hidro;Chile;2010;5370.804
+Térmica no renovable;Chile;2010;10204.281
+Nuclear;Chile;2010;0.0
+Geotermia;Chile;2010;0.0
+Eólica;Chile;2010;165.8
+Solar;Chile;2010;0.0
+Otros;Chile;2010;0.0
+Térmica renovable;Chile;2010;107.3
+Total;Chile;2010;15848.185
+Hidro;Colombia;2010;9257.43
+Térmica no renovable;Colombia;2010;4917.95
+Nuclear;Colombia;2010;
+Geotermia;Colombia;2010;
+Eólica;Colombia;2010;18.42
+Solar;Colombia;2010;
+Otros;Colombia;2010;
+Térmica renovable;Colombia;2010;53.3
+Total;Colombia;2010;14247.1
+Hidro;Costa Rica;2010;1554.437
+Térmica no renovable;Costa Rica;2010;862.209
+Nuclear;Costa Rica;2010;0.0
+Geotermia;Costa Rica;2010;165.71
+Eólica;Costa Rica;2010;119.62
+Solar;Costa Rica;2010;0.0
+Otros;Costa Rica;2010;0.0
+Térmica renovable;Costa Rica;2010;43.7
+Total;Costa Rica;2010;2745.675999999999
+Hidro;Cuba;2010;62.5
+Térmica no renovable;Cuba;2010;5232.8
+Nuclear;Cuba;2010;
+Geotermia;Cuba;2010;
+Eólica;Cuba;2010;9.3
+Solar;Cuba;2010;0.0
+Otros;Cuba;2010;
+Térmica renovable;Cuba;2010;548.0
+Total;Cuba;2010;5852.6
+Hidro;Ecuador;2010;2242.4153
+Térmica no renovable;Ecuador;2010;2791.5476
+Nuclear;Ecuador;2010;0.0
+Geotermia;Ecuador;2010;0.0
+Eólica;Ecuador;2010;2.4
+Solar;Ecuador;2010;0.018
+Otros;Ecuador;2010;
+Térmica renovable;Ecuador;2010;101.3
+Total;Ecuador;2010;5137.6809
+Hidro;El Salvador;2010;487.0
+Térmica no renovable;El Salvador;2010;691.0
+Nuclear;El Salvador;2010;
+Geotermia;El Salvador;2010;204.0
+Eólica;El Salvador;2010;
+Solar;El Salvador;2010;
+Otros;El Salvador;2010;
+Térmica renovable;El Salvador;2010;109.0
+Total;El Salvador;2010;1491.0
+Hidro;Guatemala;2010;866.47
+Térmica no renovable;Guatemala;2010;1285.562
+Nuclear;Guatemala;2010;
+Geotermia;Guatemala;2010;49.2
+Eólica;Guatemala;2010;0.0
+Solar;Guatemala;2010;0.0
+Otros;Guatemala;2010;
+Térmica renovable;Guatemala;2010;355.0
+Total;Guatemala;2010;2556.232
+Hidro;Haiti;2010;56.286
+Térmica no renovable;Haiti;2010;336.244
+Nuclear;Haiti;2010;
+Geotermia;Haiti;2010;
+Eólica;Haiti;2010;
+Solar;Haiti;2010;0.558
+Otros;Haiti;2010;
+Térmica renovable;Haiti;2010;
+Total;Haiti;2010;393.088
+Hidro;Honduras;2010;528.33
+Térmica no renovable;Honduras;2010;898.45
+Nuclear;Honduras;2010;
+Geotermia;Honduras;2010;0.0
+Eólica;Honduras;2010;0.0
+Solar;Honduras;2010;0.0
+Otros;Honduras;2010;
+Térmica renovable;Honduras;2010;100.501
+Total;Honduras;2010;1527.281
+Hidro;México;2010;11503.228
+Térmica no renovable;México;2010;39027.56799999999
+Nuclear;México;2010;1364.88
+Geotermia;México;2010;964.5
+Eólica;México;2010;85.25
+Solar;México;2010;
+Otros;México;2010;
+Térmica renovable;México;2010;
+Total;México;2010;52945.42599999998
+Hidro;Nicaragua;2010;105.3
+Térmica no renovable;Nicaragua;2010;694.9915
+Nuclear;Nicaragua;2010;0.0
+Geotermia;Nicaragua;2010;87.5
+Eólica;Nicaragua;2010;63.00000000000001
+Solar;Nicaragua;2010;0.0
+Otros;Nicaragua;2010;
+Térmica renovable;Nicaragua;2010;121.8
+Total;Nicaragua;2010;1072.5915
+Hidro;Panamá;2010;936.8
+Térmica no renovable;Panamá;2010;1037.6
+Nuclear;Panamá;2010;
+Geotermia;Panamá;2010;
+Eólica;Panamá;2010;
+Solar;Panamá;2010;
+Otros;Panamá;2010;
+Térmica renovable;Panamá;2010;
+Total;Panamá;2010;1974.4
+Hidro;Paraguay;2010;8110.0
+Térmica no renovable;Paraguay;2010;6.1
+Nuclear;Paraguay;2010;
+Geotermia;Paraguay;2010;
+Eólica;Paraguay;2010;
+Solar;Paraguay;2010;
+Otros;Paraguay;2010;
+Térmica renovable;Paraguay;2010;
+Total;Paraguay;2010;8116.1
+Hidro;Perú;2010;3437.602
+Térmica no renovable;Perú;2010;5151.254999999998
+Nuclear;Perú;2010;
+Geotermia;Perú;2010;
+Eólica;Perú;2010;0.7
+Solar;Perú;2010;
+Otros;Perú;2010;
+Térmica renovable;Perú;2010;23.0
+Total;Perú;2010;8612.556999999999
+Hidro;República Dominicana;2010;523.0
+Térmica no renovable;República Dominicana;2010;2434.48
+Nuclear;República Dominicana;2010;
+Geotermia;República Dominicana;2010;
+Eólica;República Dominicana;2010;
+Solar;República Dominicana;2010;
+Otros;República Dominicana;2010;
+Térmica renovable;República Dominicana;2010;
+Total;República Dominicana;2010;2957.48
+Hidro;Uruguay;2010;1538.0
+Térmica no renovable;Uruguay;2010;875.7
+Nuclear;Uruguay;2010;
+Geotermia;Uruguay;2010;
+Eólica;Uruguay;2010;40.59999999999999
+Solar;Uruguay;2010;0.1427949
+Otros;Uruguay;2010;
+Térmica renovable;Uruguay;2010;235.6
+Total;Uruguay;2010;2690.0427949
+Hidro;Venezuela;2010;14622.81
+Térmica no renovable;Venezuela;2010;10221.43
+Nuclear;Venezuela;2010;
+Geotermia;Venezuela;2010;
+Eólica;Venezuela;2010;0.0
+Solar;Venezuela;2010;1.87
+Otros;Venezuela;2010;
+Térmica renovable;Venezuela;2010;
+Total;Venezuela;2010;24846.11
+Hidro;Argentina;2011;11135.0
+Térmica no renovable;Argentina;2011;17794.0
+Nuclear;Argentina;2011;1005.0
+Geotermia;Argentina;2011;
+Eólica;Argentina;2011;7.0
+Solar;Argentina;2011;1.0
+Otros;Argentina;2011;
+Térmica renovable;Argentina;2011;
+Total;Argentina;2011;29942.0
+Hidro;Bolivia;2011;493.8009500000001
+Térmica no renovable;Bolivia;2011;1180.720977777778
+Nuclear;Bolivia;2011;
+Geotermia;Bolivia;2011;
+Eólica;Bolivia;2011;0.0
+Solar;Bolivia;2011;0.0
+Otros;Bolivia;2011;
+Térmica renovable;Bolivia;2011;25.0
+Total;Bolivia;2011;1699.521927777778
+Hidro;Brasil;2011;82459.0
+Térmica no renovable;Brasil;2011;22214.7340518057
+Nuclear;Brasil;2011;2007.0
+Geotermia;Brasil;2011;
+Eólica;Brasil;2011;1425.6
+Solar;Brasil;2011;1.0
+Otros;Brasil;2011;
+Térmica renovable;Brasil;2011;9027.76594819432
+Total;Brasil;2011;117135.1
+Hidro;Chile;2011;5855.154
+Térmica no renovable;Chile;2011;11121.734
+Nuclear;Chile;2011;0.0
+Geotermia;Chile;2011;0.0
+Eólica;Chile;2011;195.8
+Solar;Chile;2011;0.0
+Otros;Chile;2011;0.0
+Térmica renovable;Chile;2011;127.55
+Total;Chile;2011;17300.238
+Hidro;Colombia;2011;9718.31
+Térmica no renovable;Colombia;2011;4635.95
+Nuclear;Colombia;2011;
+Geotermia;Colombia;2011;
+Eólica;Colombia;2011;18.42
+Solar;Colombia;2011;
+Otros;Colombia;2011;
+Térmica renovable;Colombia;2011;54.8
+Total;Colombia;2011;14427.48
+Hidro;Costa Rica;2011;1682.437
+Térmica no renovable;Costa Rica;2011;862.209
+Nuclear;Costa Rica;2011;0.0
+Geotermia;Costa Rica;2011;210.71
+Eólica;Costa Rica;2011;132.37
+Solar;Costa Rica;2011;0.0
+Otros;Costa Rica;2011;0.0
+Térmica renovable;Costa Rica;2011;43.7
+Total;Costa Rica;2011;2931.425999999999
+Hidro;Cuba;2011;65.0
+Térmica no renovable;Cuba;2011;5293.799999999999
+Nuclear;Cuba;2011;
+Geotermia;Cuba;2011;
+Eólica;Cuba;2011;12.0
+Solar;Cuba;2011;0.1
+Otros;Cuba;2011;
+Térmica renovable;Cuba;2011;543.0
+Total;Cuba;2011;5913.9
+Hidro;Ecuador;2011;2234.4103
+Térmica no renovable;Ecuador;2011;2843.083199999999
+Nuclear;Ecuador;2011;0.0
+Geotermia;Ecuador;2011;0.0
+Eólica;Ecuador;2011;2.4
+Solar;Ecuador;2011;0.0415
+Otros;Ecuador;2011;
+Térmica renovable;Ecuador;2011;101.3
+Total;Ecuador;2011;5181.234999999999
+Hidro;El Salvador;2011;487.0
+Térmica no renovable;El Salvador;2011;691.0
+Nuclear;El Salvador;2011;
+Geotermia;El Salvador;2011;204.0
+Eólica;El Salvador;2011;
+Solar;El Salvador;2011;
+Otros;El Salvador;2011;6.0
+Térmica renovable;El Salvador;2011;115.0
+Total;El Salvador;2011;1503.0
+Hidro;Guatemala;2011;908.35
+Térmica no renovable;Guatemala;2011;1285.562
+Nuclear;Guatemala;2011;
+Geotermia;Guatemala;2011;49.2
+Eólica;Guatemala;2011;0.0
+Solar;Guatemala;2011;0.0
+Otros;Guatemala;2011;
+Térmica renovable;Guatemala;2011;355.0
+Total;Guatemala;2011;2598.112
+Hidro;Haiti;2011;56.286
+Térmica no renovable;Haiti;2011;366.244
+Nuclear;Haiti;2011;
+Geotermia;Haiti;2011;
+Eólica;Haiti;2011;
+Solar;Haiti;2011;0.5860000000000001
+Otros;Haiti;2011;
+Térmica renovable;Haiti;2011;
+Total;Haiti;2011;423.116
+Hidro;Honduras;2011;532.24
+Térmica no renovable;Honduras;2011;910.35
+Nuclear;Honduras;2011;
+Geotermia;Honduras;2011;0.0
+Eólica;Honduras;2011;102.0
+Solar;Honduras;2011;1.44
+Otros;Honduras;2011;
+Térmica renovable;Honduras;2011;138.45
+Total;Honduras;2011;1684.48
+Hidro;México;2011;11452.888
+Térmica no renovable;México;2011;38140.06799999999
+Nuclear;México;2011;1364.88
+Geotermia;México;2011;886.6
+Eólica;México;2011;86.75
+Solar;México;2011;
+Otros;México;2011;
+Térmica renovable;México;2011;
+Total;México;2011;51931.18599999999
+Hidro;Nicaragua;2011;105.3
+Térmica no renovable;Nicaragua;2011;731.1415000000001
+Nuclear;Nicaragua;2011;0.0
+Geotermia;Nicaragua;2011;87.5
+Eólica;Nicaragua;2011;63.00000000000001
+Solar;Nicaragua;2011;0.0
+Otros;Nicaragua;2011;
+Térmica renovable;Nicaragua;2011;121.8
+Total;Nicaragua;2011;1108.7415
+Hidro;Panamá;2011;1352.4
+Térmica no renovable;Panamá;2011;991.9
+Nuclear;Panamá;2011;
+Geotermia;Panamá;2011;
+Eólica;Panamá;2011;
+Solar;Panamá;2011;
+Otros;Panamá;2011;
+Térmica renovable;Panamá;2011;
+Total;Panamá;2011;2344.3
+Hidro;Paraguay;2011;8110.0
+Térmica no renovable;Paraguay;2011;6.1
+Nuclear;Paraguay;2011;
+Geotermia;Paraguay;2011;
+Eólica;Paraguay;2011;
+Solar;Paraguay;2011;
+Otros;Paraguay;2011;
+Térmica renovable;Paraguay;2011;
+Total;Paraguay;2011;8116.1
+Hidro;Perú;2011;3450.953
+Térmica no renovable;Perú;2011;5144.421
+Nuclear;Perú;2011;
+Geotermia;Perú;2011;
+Eólica;Perú;2011;0.7
+Solar;Perú;2011;
+Otros;Perú;2011;
+Térmica renovable;Perú;2011;95.25
+Total;Perú;2011;8691.324
+Hidro;República Dominicana;2011;523.0
+Térmica no renovable;República Dominicana;2011;2445.83
+Nuclear;República Dominicana;2011;
+Geotermia;República Dominicana;2011;
+Eólica;República Dominicana;2011;33.0
+Solar;República Dominicana;2011;
+Otros;República Dominicana;2011;
+Térmica renovable;República Dominicana;2011;
+Total;República Dominicana;2011;3001.83
+Hidro;Uruguay;2011;1538.0
+Térmica no renovable;Uruguay;2011;875.7
+Nuclear;Uruguay;2011;
+Geotermia;Uruguay;2011;
+Eólica;Uruguay;2011;43.605
+Solar;Uruguay;2011;0.389134
+Otros;Uruguay;2011;
+Térmica renovable;Uruguay;2011;243.1
+Total;Uruguay;2011;2700.794134
+Hidro;Venezuela;2011;14622.81
+Térmica no renovable;Venezuela;2011;11096.85
+Nuclear;Venezuela;2011;
+Geotermia;Venezuela;2011;
+Eólica;Venezuela;2011;0.0
+Solar;Venezuela;2011;2.4
+Otros;Venezuela;2011;
+Térmica renovable;Venezuela;2011;
+Total;Venezuela;2011;25722.06
+Hidro;Argentina;2012;11175.0
+Térmica no renovable;Argentina;2012;19025.0
+Nuclear;Argentina;2012;1005.0
+Geotermia;Argentina;2012;
+Eólica;Argentina;2012;109.0
+Solar;Argentina;2012;6.0
+Otros;Argentina;2012;
+Térmica renovable;Argentina;2012;
+Total;Argentina;2012;31320.0
+Hidro;Bolivia;2012;493.7700000000001
+Térmica no renovable;Bolivia;2012;1366.238
+Nuclear;Bolivia;2012;
+Geotermia;Bolivia;2012;
+Eólica;Bolivia;2012;0.0
+Solar;Bolivia;2012;0.0
+Otros;Bolivia;2012;
+Térmica renovable;Bolivia;2012;25.0
+Total;Bolivia;2012;1885.008
+Hidro;Brasil;2012;84294.0
+Térmica no renovable;Brasil;2012;22855.039738627
+Nuclear;Brasil;2012;2007.0
+Geotermia;Brasil;2012;
+Eólica;Brasil;2012;1894.0
+Solar;Brasil;2012;2.0
+Otros;Brasil;2012;
+Térmica renovable;Brasil;2012;9922.96026137301
+Total;Brasil;2012;120975.0
+Hidro;Chile;2012;5934.174
+Térmica no renovable;Chile;2012;11803.933
+Nuclear;Chile;2012;0.0
+Geotermia;Chile;2012;0.0
+Eólica;Chile;2012;195.8
+Solar;Chile;2012;1.35
+Otros;Chile;2012;0.0
+Térmica renovable;Chile;2012;253.78
+Total;Chile;2012;18189.037
+Hidro;Colombia;2012;9778.068
+Térmica no renovable;Colombia;2012;4560.35
+Nuclear;Colombia;2012;
+Geotermia;Colombia;2012;
+Eólica;Colombia;2012;18.42
+Solar;Colombia;2012;
+Otros;Colombia;2012;
+Térmica renovable;Colombia;2012;57.3
+Total;Colombia;2012;14414.138
+Hidro;Costa Rica;2012;1700.33
+Térmica no renovable;Costa Rica;2012;612.601
+Nuclear;Costa Rica;2012;0.0
+Geotermia;Costa Rica;2012;217.46
+Eólica;Costa Rica;2012;148.08
+Solar;Costa Rica;2012;1.01
+Otros;Costa Rica;2012;0.0
+Térmica renovable;Costa Rica;2012;43.7
+Total;Costa Rica;2012;2723.181
+Hidro;Cuba;2012;62.1
+Térmica no renovable;Cuba;2012;5106.2
+Nuclear;Cuba;2012;
+Geotermia;Cuba;2012;
+Eólica;Cuba;2012;11.8
+Solar;Cuba;2012;0.0
+Otros;Cuba;2012;
+Térmica renovable;Cuba;2012;519.0
+Total;Cuba;2012;5699.1
+Hidro;Ecuador;2012;2263.8883
+Térmica no renovable;Ecuador;2012;3086.734599999999
+Nuclear;Ecuador;2012;0.0
+Geotermia;Ecuador;2012;0.0
+Eólica;Ecuador;2012;2.4
+Solar;Ecuador;2012;0.07800000000000001
+Otros;Ecuador;2012;
+Térmica renovable;Ecuador;2012;101.3
+Total;Ecuador;2012;5454.4009
+Hidro;El Salvador;2012;487.0
+Térmica no renovable;El Salvador;2012;685.0
+Nuclear;El Salvador;2012;
+Geotermia;El Salvador;2012;204.0
+Eólica;El Salvador;2012;
+Solar;El Salvador;2012;
+Otros;El Salvador;2012;6.0
+Térmica renovable;El Salvador;2012;110.0
+Total;El Salvador;2012;1492.0
+Hidro;Guatemala;2012;996.52
+Térmica no renovable;Guatemala;2012;1285.56
+Nuclear;Guatemala;2012;
+Geotermia;Guatemala;2012;49.2
+Eólica;Guatemala;2012;0.0
+Solar;Guatemala;2012;0.0
+Otros;Guatemala;2012;
+Térmica renovable;Guatemala;2012;375.0
+Total;Guatemala;2012;2706.28
+Hidro;Haiti;2012;56.286
+Térmica no renovable;Haiti;2012;371.254
+Nuclear;Haiti;2012;
+Geotermia;Haiti;2012;
+Eólica;Haiti;2012;
+Solar;Haiti;2012;1.158
+Otros;Haiti;2012;
+Térmica renovable;Haiti;2012;
+Total;Haiti;2012;428.698
+Hidro;Honduras;2012;541.14
+Térmica no renovable;Honduras;2012;910.35
+Nuclear;Honduras;2012;
+Geotermia;Honduras;2012;0.0
+Eólica;Honduras;2012;102.0
+Solar;Honduras;2012;1.57
+Otros;Honduras;2012;
+Térmica renovable;Honduras;2012;139.55
+Total;Honduras;2012;1694.61
+Hidro;México;2012;11497.603
+Térmica no renovable;México;2012;38022.133
+Nuclear;México;2012;1610.0
+Geotermia;México;2012;811.6
+Eólica;México;2012;597.6
+Solar;México;2012;6.0
+Otros;México;2012;
+Térmica renovable;México;2012;
+Total;México;2012;52544.936
+Hidro;Nicaragua;2012;105.7
+Térmica no renovable;Nicaragua;2012;736.2085
+Nuclear;Nicaragua;2012;0.0
+Geotermia;Nicaragua;2012;164.5
+Eólica;Nicaragua;2012;146.6
+Solar;Nicaragua;2012;0.0
+Otros;Nicaragua;2012;
+Térmica renovable;Nicaragua;2012;133.8
+Total;Nicaragua;2012;1286.8085
+Hidro;Panamá;2012;1469.1
+Térmica no renovable;Panamá;2012;949.5
+Nuclear;Panamá;2012;
+Geotermia;Panamá;2012;
+Eólica;Panamá;2012;
+Solar;Panamá;2012;
+Otros;Panamá;2012;
+Térmica renovable;Panamá;2012;
+Total;Panamá;2012;2418.6
+Hidro;Paraguay;2012;8760.0
+Térmica no renovable;Paraguay;2012;6.1
+Nuclear;Paraguay;2012;
+Geotermia;Paraguay;2012;
+Eólica;Paraguay;2012;
+Solar;Paraguay;2012;
+Otros;Paraguay;2012;
+Térmica renovable;Paraguay;2012;
+Total;Paraguay;2012;8766.1
+Hidro;Perú;2012;3483.973999999999
+Térmica no renovable;Perú;2012;5993.172999999999
+Nuclear;Perú;2012;
+Geotermia;Perú;2012;
+Eólica;Perú;2012;0.7
+Solar;Perú;2012;80.0
+Otros;Perú;2012;
+Térmica renovable;Perú;2012;141.25
+Total;Perú;2012;9699.096999999998
+Hidro;República Dominicana;2012;613.0
+Térmica no renovable;República Dominicana;2012;2855.48
+Nuclear;República Dominicana;2012;
+Geotermia;República Dominicana;2012;
+Eólica;República Dominicana;2012;85.0
+Solar;República Dominicana;2012;
+Otros;República Dominicana;2012;
+Térmica renovable;República Dominicana;2012;
+Total;República Dominicana;2012;3553.48
+Hidro;Uruguay;2012;1538.0
+Térmica no renovable;Uruguay;2012;1075.7
+Nuclear;Uruguay;2012;
+Geotermia;Uruguay;2012;
+Eólica;Uruguay;2012;52.605
+Solar;Uruguay;2012;0.6081878
+Otros;Uruguay;2012;
+Térmica renovable;Uruguay;2012;247.1
+Total;Uruguay;2012;2914.0131878
+Hidro;Venezuela;2012;14622.81
+Térmica no renovable;Venezuela;2012;13067.88
+Nuclear;Venezuela;2012;
+Geotermia;Venezuela;2012;
+Eólica;Venezuela;2012;29.82
+Solar;Venezuela;2012;2.68
+Otros;Venezuela;2012;
+Térmica renovable;Venezuela;2012;
+Total;Venezuela;2012;27723.19
+Hidro;Argentina;2013;11176.0
+Térmica no renovable;Argentina;2013;19091.0
+Nuclear;Argentina;2013;1010.0
+Geotermia;Argentina;2013;
+Eólica;Argentina;2013;162.0
+Solar;Argentina;2013;8.0
+Otros;Argentina;2013;
+Térmica renovable;Argentina;2013;
+Total;Argentina;2013;31447.0
+Hidro;Bolivia;2013;493.2100000000001
+Térmica no renovable;Bolivia;2013;1416.474
+Nuclear;Bolivia;2013;
+Geotermia;Bolivia;2013;
+Eólica;Bolivia;2013;0.0
+Solar;Bolivia;2013;0.0
+Otros;Bolivia;2013;
+Térmica renovable;Bolivia;2013;50.0
+Total;Bolivia;2013;1959.684
+Hidro;Brasil;2013;86018.0
+Térmica no renovable;Brasil;2013;24926.7275128375
+Nuclear;Brasil;2013;1990.0
+Geotermia;Brasil;2013;
+Eólica;Brasil;2013;2202.0
+Solar;Brasil;2013;5.0
+Otros;Brasil;2013;
+Térmica renovable;Brasil;2013;11601.2724871625
+Total;Brasil;2013;126743.0
+Hidro;Chile;2013;5987.0
+Térmica no renovable;Chile;2013;12177.214
+Nuclear;Chile;2013;0.0
+Geotermia;Chile;2013;0.0
+Eólica;Chile;2013;293.0
+Solar;Chile;2013;8.47
+Otros;Chile;2013;0.0
+Térmica renovable;Chile;2013;288.7
+Total;Chile;2013;18754.384
+Hidro;Colombia;2013;9875.478
+Térmica no renovable;Colombia;2013;4603.35
+Nuclear;Colombia;2013;
+Geotermia;Colombia;2013;
+Eólica;Colombia;2013;18.42
+Solar;Colombia;2013;
+Otros;Colombia;2013;
+Térmica renovable;Colombia;2013;61.3
+Total;Colombia;2013;14558.548
+Hidro;Costa Rica;2013;1728.956
+Térmica no renovable;Costa Rica;2013;612.6
+Nuclear;Costa Rica;2013;0.0
+Geotermia;Costa Rica;2013;217.461
+Eólica;Costa Rica;2013;148.08
+Solar;Costa Rica;2013;1.01
+Otros;Costa Rica;2013;0.0
+Térmica renovable;Costa Rica;2013;43.7
+Total;Costa Rica;2013;2751.807
+Hidro;Cuba;2013;62.8
+Térmica no renovable;Cuba;2013;5372.4
+Nuclear;Cuba;2013;
+Geotermia;Cuba;2013;
+Eólica;Cuba;2013;11.75
+Solar;Cuba;2013;9.95
+Otros;Cuba;2013;
+Térmica renovable;Cuba;2013;469.6
+Total;Cuba;2013;5926.5
+Hidro;Ecuador;2013;2263.88928
+Térmica no renovable;Ecuador;2013;3108.234059999999
+Nuclear;Ecuador;2013;0.0
+Geotermia;Ecuador;2013;0.0
+Eólica;Ecuador;2013;18.9
+Solar;Ecuador;2013;3.90322
+Otros;Ecuador;2013;
+Térmica renovable;Ecuador;2013;101.3
+Total;Ecuador;2013;5496.226559999999
+Hidro;El Salvador;2013;488.0
+Térmica no renovable;El Salvador;2013;757.0
+Nuclear;El Salvador;2013;
+Geotermia;El Salvador;2013;204.0
+Eólica;El Salvador;2013;
+Solar;El Salvador;2013;
+Otros;El Salvador;2013;6.0
+Térmica renovable;El Salvador;2013;130.0
+Total;El Salvador;2013;1585.0
+Hidro;Guatemala;2013;996.9900000000001
+Térmica no renovable;Guatemala;2013;1328.415
+Nuclear;Guatemala;2013;
+Geotermia;Guatemala;2013;49.2
+Eólica;Guatemala;2013;0.0
+Solar;Guatemala;2013;0.0
+Otros;Guatemala;2013;
+Térmica renovable;Guatemala;2013;599.15
+Total;Guatemala;2013;2973.755
+Hidro;Haiti;2013;56.286
+Térmica no renovable;Haiti;2013;388.254
+Nuclear;Haiti;2013;
+Geotermia;Haiti;2013;
+Eólica;Haiti;2013;
+Solar;Haiti;2013;1.411
+Otros;Haiti;2013;
+Térmica renovable;Haiti;2013;
+Total;Haiti;2013;445.951
+Hidro;Honduras;2013;561.37
+Térmica no renovable;Honduras;2013;935.25
+Nuclear;Honduras;2013;
+Geotermia;Honduras;2013;0.0
+Eólica;Honduras;2013;102.0
+Solar;Honduras;2013;4.84
+Otros;Honduras;2013;
+Térmica renovable;Honduras;2013;165.55
+Total;Honduras;2013;1769.01
+Hidro;México;2013;11679.0
+Térmica no renovable;México;2013;48411.0
+Nuclear;México;2013;1400.0
+Geotermia;México;2013;823.0
+Eólica;México;2013;1611.0
+Solar;México;2013;46.0
+Otros;México;2013;
+Térmica renovable;México;2013;161.0
+Total;México;2013;64131.0
+Hidro;Nicaragua;2013;120.1
+Térmica no renovable;Nicaragua;2013;735.045
+Nuclear;Nicaragua;2013;0.0
+Geotermia;Nicaragua;2013;154.5
+Eólica;Nicaragua;2013;146.6
+Solar;Nicaragua;2013;1.38
+Otros;Nicaragua;2013;
+Térmica renovable;Nicaragua;2013;133.8
+Total;Nicaragua;2013;1291.425
+Hidro;Panamá;2013;1493.8
+Térmica no renovable;Panamá;2013;1041.8
+Nuclear;Panamá;2013;
+Geotermia;Panamá;2013;
+Eólica;Panamá;2013;20.0
+Solar;Panamá;2013;
+Otros;Panamá;2013;
+Térmica renovable;Panamá;2013;
+Total;Panamá;2013;2555.6
+Hidro;Paraguay;2013;8760.0
+Térmica no renovable;Paraguay;2013;14.7
+Nuclear;Paraguay;2013;
+Geotermia;Paraguay;2013;
+Eólica;Paraguay;2013;
+Solar;Paraguay;2013;
+Otros;Paraguay;2013;
+Térmica renovable;Paraguay;2013;
+Total;Paraguay;2013;8774.7
+Hidro;Perú;2013;3556.182
+Térmica no renovable;Perú;2013;7272.587
+Nuclear;Perú;2013;
+Geotermia;Perú;2013;
+Eólica;Perú;2013;0.7
+Solar;Perú;2013;80.0
+Otros;Perú;2013;
+Térmica renovable;Perú;2013;141.25
+Total;Perú;2013;11050.719
+Hidro;República Dominicana;2013;613.0
+Térmica no renovable;República Dominicana;2013;3080.68
+Nuclear;República Dominicana;2013;
+Geotermia;República Dominicana;2013;
+Eólica;República Dominicana;2013;85.0
+Solar;República Dominicana;2013;
+Otros;República Dominicana;2013;
+Térmica renovable;República Dominicana;2013;
+Total;República Dominicana;2013;3778.68
+Hidro;Uruguay;2013;1538.0
+Térmica no renovable;Uruguay;2013;1274.9
+Nuclear;Uruguay;2013;
+Geotermia;Uruguay;2013;
+Eólica;Uruguay;2013;59.41749999999999
+Solar;Uruguay;2013;1.5759879
+Otros;Uruguay;2013;
+Térmica renovable;Uruguay;2013;417.1
+Total;Uruguay;2013;3290.9934879
+Hidro;Venezuela;2013;14879.81
+Térmica no renovable;Venezuela;2013;15358.81
+Nuclear;Venezuela;2013;
+Geotermia;Venezuela;2013;
+Eólica;Venezuela;2013;50.2
+Solar;Venezuela;2013;2.87
+Otros;Venezuela;2013;
+Térmica renovable;Venezuela;2013;
+Total;Venezuela;2013;30291.69
+Hidro;Argentina;2014;11178.0
+Térmica no renovable;Argentina;2014;19092.0
+Nuclear;Argentina;2014;1010.0
+Geotermia;Argentina;2014;
+Eólica;Argentina;2014;187.0
+Solar;Argentina;2014;8.0
+Otros;Argentina;2014;
+Térmica renovable;Argentina;2014;0.0
+Total;Argentina;2014;31475.0
+Hidro;Bolivia;2014;493.7600000000001
+Térmica no renovable;Bolivia;2014;1694.42
+Nuclear;Bolivia;2014;
+Geotermia;Bolivia;2014;
+Eólica;Bolivia;2014;3.0
+Solar;Bolivia;2014;5.26
+Otros;Bolivia;2014;
+Térmica renovable;Bolivia;2014;60.0
+Total;Bolivia;2014;2256.44
+Hidro;Brasil;2014;89192.838
+Térmica no renovable;Brasil;2014;25485.7076
+Nuclear;Brasil;2014;1990.0
+Geotermia;Brasil;2014;
+Eólica;Brasil;2014;4888.0
+Solar;Brasil;2014;15.0
+Otros;Brasil;2014;
+Térmica renovable;Brasil;2014;12341.2924
+Total;Brasil;2014;133912.838
+Hidro;Chile;2014;6383.599999999999
+Térmica no renovable;Chile;2014;11455.264
+Nuclear;Chile;2014;0.0
+Geotermia;Chile;2014;0.0
+Eólica;Chile;2014;735.3399999999999
+Solar;Chile;2014;222.144
+Otros;Chile;2014;0.0
+Térmica renovable;Chile;2014;463.8
+Total;Chile;2014;19260.148
+Hidro;Colombia;2014;10919.778
+Térmica no renovable;Colombia;2014;4662.35
+Nuclear;Colombia;2014;
+Geotermia;Colombia;2014;
+Eólica;Colombia;2014;18.42
+Solar;Colombia;2014;
+Otros;Colombia;2014;
+Térmica renovable;Colombia;2014;72.3
+Total;Colombia;2014;15672.848
+Hidro;Costa Rica;2014;1796.686
+Térmica no renovable;Costa Rica;2014;595.69
+Nuclear;Costa Rica;2014;0.0
+Geotermia;Costa Rica;2014;217.461
+Eólica;Costa Rica;2014;196.46
+Solar;Costa Rica;2014;1.0
+Otros;Costa Rica;2014;0.0
+Térmica renovable;Costa Rica;2014;40.0
+Total;Costa Rica;2014;2847.297
+Hidro;Cuba;2014;62.8
+Térmica no renovable;Cuba;2014;5606.84
+Nuclear;Cuba;2014;
+Geotermia;Cuba;2014;
+Eólica;Cuba;2014;11.75
+Solar;Cuba;2014;11.05
+Otros;Cuba;2014;
+Térmica renovable;Cuba;2014;498.96
+Total;Cuba;2014;6191.400000000001
+Hidro;Ecuador;2014;2248.0903
+Térmica no renovable;Ecuador;2014;3291.5766
+Nuclear;Ecuador;2014;0.0
+Geotermia;Ecuador;2014;0.0
+Eólica;Ecuador;2014;21.15
+Solar;Ecuador;2014;26.40799999999999
+Otros;Ecuador;2014;
+Térmica renovable;Ecuador;2014;144.3
+Total;Ecuador;2014;5731.5249
+Hidro;El Salvador;2014;490.0
+Térmica no renovable;El Salvador;2014;757.0
+Nuclear;El Salvador;2014;
+Geotermia;El Salvador;2014;204.0
+Eólica;El Salvador;2014;
+Solar;El Salvador;2014;
+Otros;El Salvador;2014;6.0
+Térmica renovable;El Salvador;2014;130.0
+Total;El Salvador;2014;1587.0
+Hidro;Guatemala;2014;1006.335
+Térmica no renovable;Guatemala;2014;1314.212
+Nuclear;Guatemala;2014;
+Geotermia;Guatemala;2014;49.2
+Eólica;Guatemala;2014;0.0
+Solar;Guatemala;2014;5.0
+Otros;Guatemala;2014;
+Térmica renovable;Guatemala;2014;675.4529999999999
+Total;Guatemala;2014;3050.2
+Hidro;Haiti;2014;56.286
+Térmica no renovable;Haiti;2014;388.254
+Nuclear;Haiti;2014;
+Geotermia;Haiti;2014;
+Eólica;Haiti;2014;
+Solar;Haiti;2014;1.597
+Otros;Haiti;2014;
+Térmica renovable;Haiti;2014;
+Total;Haiti;2014;446.137
+Hidro;Honduras;2014;629.08
+Térmica no renovable;Honduras;2014;940.25
+Nuclear;Honduras;2014;
+Geotermia;Honduras;2014;0.0
+Eólica;Honduras;2014;152.0
+Solar;Honduras;2014;0.0
+Otros;Honduras;2014;
+Térmica renovable;Honduras;2014;165.75
+Total;Honduras;2014;1887.08
+Hidro;México;2014;12458.0
+Térmica no renovable;México;2014;47438.0
+Nuclear;México;2014;1400.0
+Geotermia;México;2014;813.0
+Eólica;México;2014;2036.0
+Solar;México;2014;56.0
+Otros;México;2014;0.3
+Térmica renovable;México;2014;1251.0
+Total;México;2014;65452.3
+Hidro;Nicaragua;2014;120.1
+Térmica no renovable;Nicaragua;2014;732.594
+Nuclear;Nicaragua;2014;0.0
+Geotermia;Nicaragua;2014;154.5
+Eólica;Nicaragua;2014;186.2
+Solar;Nicaragua;2014;1.38
+Otros;Nicaragua;2014;
+Térmica renovable;Nicaragua;2014;133.8
+Total;Nicaragua;2014;1328.574
+Hidro;Panamá;2014;1623.4
+Térmica no renovable;Panamá;2014;1147.8
+Nuclear;Panamá;2014;
+Geotermia;Panamá;2014;
+Eólica;Panamá;2014;55.0
+Solar;Panamá;2014;2.4
+Otros;Panamá;2014;
+Térmica renovable;Panamá;2014;
+Total;Panamá;2014;2828.6
+Hidro;Paraguay;2014;8760.0
+Térmica no renovable;Paraguay;2014;14.7
+Nuclear;Paraguay;2014;
+Geotermia;Paraguay;2014;
+Eólica;Paraguay;2014;
+Solar;Paraguay;2014;
+Otros;Paraguay;2014;
+Térmica renovable;Paraguay;2014;
+Total;Paraguay;2014;8774.7
+Hidro;Perú;2014;3661.864999999999
+Térmica no renovable;Perú;2014;7160.804000000001
+Nuclear;Perú;2014;
+Geotermia;Perú;2014;
+Eólica;Perú;2014;142.7
+Solar;Perú;2014;96.0
+Otros;Perú;2014;
+Térmica renovable;Perú;2014;141.25
+Total;Perú;2014;11202.619
+Hidro;República Dominicana;2014;616.0
+Térmica no renovable;República Dominicana;2014;3067.9
+Nuclear;República Dominicana;2014;
+Geotermia;República Dominicana;2014;
+Eólica;República Dominicana;2014;85.0
+Solar;República Dominicana;2014;
+Otros;República Dominicana;2014;
+Térmica renovable;República Dominicana;2014;
+Total;República Dominicana;2014;3768.9
+Hidro;Uruguay;2014;1538.0
+Térmica no renovable;Uruguay;2014;1274.9
+Nuclear;Uruguay;2014;
+Geotermia;Uruguay;2014;
+Eólica;Uruguay;2014;481.2775
+Solar;Uruguay;2014;3.707270000000001
+Otros;Uruguay;2014;
+Térmica renovable;Uruguay;2014;417.7
+Total;Uruguay;2014;3715.58477
+Hidro;Venezuela;2014;14879.81
+Térmica no renovable;Venezuela;2014;15534.3
+Nuclear;Venezuela;2014;
+Geotermia;Venezuela;2014;
+Eólica;Venezuela;2014;50.343
+Solar;Venezuela;2014;2.787
+Otros;Venezuela;2014;
+Térmica renovable;Venezuela;2014;50.0
+Total;Venezuela;2014;30517.24
+Hidro;Argentina;2015;11178.0
+Térmica no renovable;Argentina;2015;19688.0
+Nuclear;Argentina;2015;1755.0
+Geotermia;Argentina;2015;
+Eólica;Argentina;2015;187.0
+Solar;Argentina;2015;8.0
+Otros;Argentina;2015;0.0
+Térmica renovable;Argentina;2015;0.0
+Total;Argentina;2015;32816.0
+Hidro;Bolivia;2015;494.8650000000001
+Térmica no renovable;Bolivia;2015;1804.272199999999
+Nuclear;Bolivia;2015;
+Geotermia;Bolivia;2015;
+Eólica;Bolivia;2015;3.0
+Solar;Bolivia;2015;5.26
+Otros;Bolivia;2015;
+Térmica renovable;Bolivia;2015;98.5
+Total;Bolivia;2015;2405.8972
+Hidro;Brasil;2015;91649.71974
+Térmica no renovable;Brasil;2015;26307.19125957135
+Nuclear;Brasil;2015;1990.0
+Geotermia;Brasil;2015;
+Eólica;Brasil;2015;7632.732
+Solar;Brasil;2015;31.3469184
+Otros;Brasil;2015;
+Térmica renovable;Brasil;2015;13256.62465
+Total;Brasil;2015;140867.6145679714
+Hidro;Chile;2015;6487.5
+Térmica no renovable;Chile;2015;11706.12
+Nuclear;Chile;2015;0.0
+Geotermia;Chile;2015;0.0
+Eólica;Chile;2015;909.86
+Solar;Chile;2015;548.0229999999999
+Otros;Chile;2015;0.0
+Térmica renovable;Chile;2015;443.4
+Total;Chile;2015;20094.90300000001
+Hidro;Colombia;2015;11500.548
+Térmica no renovable;Colombia;2015;4871.85
+Nuclear;Colombia;2015;
+Geotermia;Colombia;2015;
+Eólica;Colombia;2015;18.42
+Solar;Colombia;2015;
+Otros;Colombia;2015;
+Térmica renovable;Colombia;2015;93.2
+Total;Colombia;2015;16484.018
+Hidro;Costa Rica;2015;1941.695
+Térmica no renovable;Costa Rica;2015;595.69
+Nuclear;Costa Rica;2015;0.0
+Geotermia;Costa Rica;2015;217.361
+Eólica;Costa Rica;2015;265.46
+Solar;Costa Rica;2015;1.0
+Otros;Costa Rica;2015;0.0
+Térmica renovable;Costa Rica;2015;40.0
+Total;Costa Rica;2015;3061.206
+Hidro;Cuba;2015;62.8
+Térmica no renovable;Cuba;2015;5686.840000000001
+Nuclear;Cuba;2015;
+Geotermia;Cuba;2015;
+Eólica;Cuba;2015;11.75
+Solar;Cuba;2015;21.75
+Otros;Cuba;2015;
+Térmica renovable;Cuba;2015;530.36
+Total;Cuba;2015;6313.500000000001
+Hidro;Ecuador;2015;2407.6103
+Térmica no renovable;Ecuador;2015;3406.3786
+Nuclear;Ecuador;2015;0.0
+Geotermia;Ecuador;2015;0.0
+Eólica;Ecuador;2015;21.15
+Solar;Ecuador;2015;25.53791999999999
+Otros;Ecuador;2015;
+Térmica renovable;Ecuador;2015;144.3
+Total;Ecuador;2015;6004.97682
+Hidro;El Salvador;2015;481.0
+Térmica no renovable;El Salvador;2015;757.0
+Nuclear;El Salvador;2015;
+Geotermia;El Salvador;2015;204.0
+Eólica;El Salvador;2015;
+Solar;El Salvador;2015;11.0
+Otros;El Salvador;2015;6.85
+Térmica renovable;El Salvador;2015;195.0
+Total;El Salvador;2015;1654.85
+Hidro;Guatemala;2015;1085.409000000001
+Térmica no renovable;Guatemala;2015;1555.212
+Nuclear;Guatemala;2015;
+Geotermia;Guatemala;2015;49.2
+Eólica;Guatemala;2015;75.9
+Solar;Guatemala;2015;80.0
+Otros;Guatemala;2015;
+Térmica renovable;Guatemala;2015;876.609
+Total;Guatemala;2015;3722.330000000001
+Hidro;Haiti;2015;56.286
+Térmica no renovable;Haiti;2015;388.624
+Nuclear;Haiti;2015;
+Geotermia;Haiti;2015;
+Eólica;Haiti;2015;
+Solar;Haiti;2015;1.964
+Otros;Haiti;2015;
+Térmica renovable;Haiti;2015;
+Total;Haiti;2015;446.874
+Hidro;Honduras;2015;650.47
+Térmica no renovable;Honduras;2015;935.6
+Nuclear;Honduras;2015;
+Geotermia;Honduras;2015;0.0
+Eólica;Honduras;2015;152.0
+Solar;Honduras;2015;410.15
+Otros;Honduras;2015;
+Térmica renovable;Honduras;2015;186.6
+Total;Honduras;2015;2334.82
+Hidro;México;2015;12489.0
+Térmica no renovable;México;2015;48801.0
+Nuclear;México;2015;1510.0
+Geotermia;México;2015;884.0
+Eólica;México;2015;2805.0
+Solar;México;2015;56.0
+Otros;México;2015;131.0
+Térmica renovable;México;2015;1350.0
+Total;México;2015;68026.0
+Hidro;Nicaragua;2015;137.6
+Térmica no renovable;Nicaragua;2015;732.594
+Nuclear;Nicaragua;2015;0.0
+Geotermia;Nicaragua;2015;154.5
+Eólica;Nicaragua;2015;186.2
+Solar;Nicaragua;2015;1.38
+Otros;Nicaragua;2015;
+Térmica renovable;Nicaragua;2015;133.8
+Total;Nicaragua;2015;1346.074
+Hidro;Panamá;2015;1726.0
+Térmica no renovable;Panamá;2015;1202.2
+Nuclear;Panamá;2015;
+Geotermia;Panamá;2015;
+Eólica;Panamá;2015;252.5
+Solar;Panamá;2015;43.2
+Otros;Panamá;2015;
+Térmica renovable;Panamá;2015;
+Total;Panamá;2015;3223.9
+Hidro;Paraguay;2015;8760.0
+Térmica no renovable;Paraguay;2015;14.7
+Nuclear;Paraguay;2015;
+Geotermia;Paraguay;2015;
+Eólica;Paraguay;2015;
+Solar;Paraguay;2015;
+Otros;Paraguay;2015;
+Térmica renovable;Paraguay;2015;
+Total;Paraguay;2015;8774.7
+Hidro;Perú;2015;4151.843
+Térmica no renovable;Perú;2015;7605.783999999999
+Nuclear;Perú;2015;
+Geotermia;Perú;2015;
+Eólica;Perú;2015;239.8
+Solar;Perú;2015;96.0
+Otros;Perú;2015;
+Térmica renovable;Perú;2015;95.20000000000002
+Total;Perú;2015;12188.627
+Hidro;República Dominicana;2015;616.0
+Térmica no renovable;República Dominicana;2015;2876.3
+Nuclear;República Dominicana;2015;
+Geotermia;República Dominicana;2015;
+Eólica;República Dominicana;2015;85.0
+Solar;República Dominicana;2015;
+Otros;República Dominicana;2015;
+Térmica renovable;República Dominicana;2015;
+Total;República Dominicana;2015;3577.3
+Hidro;Uruguay;2015;1538.0
+Térmica no renovable;Uruguay;2015;1101.7
+Nuclear;Uruguay;2015;
+Geotermia;Uruguay;2015;
+Eólica;Uruguay;2015;856.7555
+Solar;Uruguay;2015;64.45989999999999
+Otros;Uruguay;2015;
+Térmica renovable;Uruguay;2015;427.7
+Total;Uruguay;2015;3988.6154
+Hidro;Venezuela;2015;15136.81
+Térmica no renovable;Venezuela;2015;15858.86
+Nuclear;Venezuela;2015;
+Geotermia;Venezuela;2015;
+Eólica;Venezuela;2015;50.387
+Solar;Venezuela;2015;2.8275
+Otros;Venezuela;2015;
+Térmica renovable;Venezuela;2015;50.0
+Total;Venezuela;2015;31098.8845
+Hidro;Argentina;2016;11239.94
+Térmica no renovable;Argentina;2016;20763.28
+Nuclear;Argentina;2016;1755.0
+Geotermia;Argentina;2016;
+Eólica;Argentina;2016;187.35
+Solar;Argentina;2016;8.2
+Otros;Argentina;2016;0.0
+Térmica renovable;Argentina;2016;16.6
+Total;Argentina;2016;33970.37
+Hidro;Bolivia;2016;494.5100000000001
+Térmica no renovable;Bolivia;2016;1795.773099999999
+Nuclear;Bolivia;2016;
+Geotermia;Bolivia;2016;
+Eólica;Bolivia;2016;27.0
+Solar;Bolivia;2016;5.26
+Otros;Bolivia;2016;
+Térmica renovable;Bolivia;2016;98.5
+Total;Bolivia;2016;2421.0431
+Hidro;Brasil;2016;96924.99831
+Térmica no renovable;Brasil;2016;27146.44482480082
+Nuclear;Brasil;2016;1990.0
+Geotermia;Brasil;2016;
+Eólica;Brasil;2016;10128.94222
+Solar;Brasil;2016;84.76142
+Otros;Brasil;2016;
+Térmica renovable;Brasil;2016;14146.9075193953
+Total;Brasil;2016;150422.0542941961
+Hidro;Chile;2016;6634.4
+Térmica no renovable;Chile;2016;12690.8
+Nuclear;Chile;2016;0.0
+Geotermia;Chile;2016;0.0
+Eólica;Chile;2016;1142.26
+Solar;Chile;2016;1287.838
+Otros;Chile;2016;0.0
+Térmica renovable;Chile;2016;499.8
+Total;Chile;2016;22255.09799999999
+Hidro;Colombia;2016;11606.398
+Térmica no renovable;Colombia;2016;4876.45
+Nuclear;Colombia;2016;
+Geotermia;Colombia;2016;
+Eólica;Colombia;2016;18.42
+Solar;Colombia;2016;
+Otros;Colombia;2016;
+Térmica renovable;Colombia;2016;95.75
+Total;Colombia;2016;16597.018
+Hidro;Costa Rica;2016;2328.053
+Térmica no renovable;Costa Rica;2016;571.691
+Nuclear;Costa Rica;2016;0.0
+Geotermia;Costa Rica;2016;206.86
+Eólica;Costa Rica;2016;319.14
+Solar;Costa Rica;2016;1.0
+Otros;Costa Rica;2016;0.0
+Térmica renovable;Costa Rica;2016;40.0
+Total;Costa Rica;2016;3466.744
+Hidro;Cuba;2016;65.9
+Térmica no renovable;Cuba;2016;5845.740000000001
+Nuclear;Cuba;2016;
+Geotermia;Cuba;2016;
+Eólica;Cuba;2016;11.75
+Solar;Cuba;2016;34.85
+Otros;Cuba;2016;
+Térmica renovable;Cuba;2016;495.36
+Total;Cuba;2016;6453.6
+Hidro;Ecuador;2016;4446.360290000001
+Térmica no renovable;Ecuador;2016;3586.1356
+Nuclear;Ecuador;2016;0.0
+Geotermia;Ecuador;2016;0.0
+Eólica;Ecuador;2016;21.15
+Solar;Ecuador;2016;26.47727999999999
+Otros;Ecuador;2016;
+Térmica renovable;Ecuador;2016;146.3
+Total;Ecuador;2016;8226.42317
+Hidro;El Salvador;2016;480.0
+Térmica no renovable;El Salvador;2016;757.0
+Nuclear;El Salvador;2016;
+Geotermia;El Salvador;2016;204.0
+Eólica;El Salvador;2016;
+Solar;El Salvador;2016;12.0
+Otros;El Salvador;2016;6.85
+Térmica renovable;El Salvador;2016;252.0
+Total;El Salvador;2016;1711.85
+Hidro;Guatemala;2016;1256.380000000001
+Térmica no renovable;Guatemala;2016;1547.212
+Nuclear;Guatemala;2016;
+Geotermia;Guatemala;2016;49.2
+Eólica;Guatemala;2016;75.9
+Solar;Guatemala;2016;80.0
+Otros;Guatemala;2016;
+Térmica renovable;Guatemala;2016;1055.109
+Total;Guatemala;2016;4063.801
+Hidro;Haiti;2016;56.286
+Térmica no renovable;Haiti;2016;388.624
+Nuclear;Haiti;2016;
+Geotermia;Haiti;2016;
+Eólica;Haiti;2016;
+Solar;Haiti;2016;2.005
+Otros;Haiti;2016;
+Térmica renovable;Haiti;2016;
+Total;Haiti;2016;446.915
+Hidro;Honduras;2016;670.08
+Térmica no renovable;Honduras;2016;1034.1
+Nuclear;Honduras;2016;
+Geotermia;Honduras;2016;0.0
+Eólica;Honduras;2016;175.0
+Solar;Honduras;2016;439.95
+Otros;Honduras;2016;
+Térmica renovable;Honduras;2016;233.3
+Total;Honduras;2016;2552.43
+Hidro;México;2016;12589.0
+Térmica no renovable;México;2016;52331.0
+Nuclear;México;2016;1608.0
+Geotermia;México;2016;909.0
+Eólica;México;2016;3735.0
+Solar;México;2016;145.0
+Otros;México;2016;262.0
+Térmica renovable;México;2016;1931.61
+Total;México;2016;73510.61
+Hidro;Nicaragua;2016;142.45
+Térmica no renovable;Nicaragua;2016;735.1895
+Nuclear;Nicaragua;2016;0.0
+Geotermia;Nicaragua;2016;154.5
+Eólica;Nicaragua;2016;186.2
+Solar;Nicaragua;2016;1.38
+Otros;Nicaragua;2016;
+Térmica renovable;Nicaragua;2016;176.6
+Total;Nicaragua;2016;1396.3195
+Hidro;Panamá;2016;1768.7
+Térmica no renovable;Panamá;2016;1234.7
+Nuclear;Panamá;2016;
+Geotermia;Panamá;2016;
+Eólica;Panamá;2016;270.0
+Solar;Panamá;2016;89.3
+Otros;Panamá;2016;
+Térmica renovable;Panamá;2016;8.1
+Total;Panamá;2016;3370.8
+Hidro;Paraguay;2016;8760.0
+Térmica no renovable;Paraguay;2016;0.5
+Nuclear;Paraguay;2016;
+Geotermia;Paraguay;2016;
+Eólica;Paraguay;2016;
+Solar;Paraguay;2016;
+Otros;Paraguay;2016;
+Térmica renovable;Paraguay;2016;
+Total;Paraguay;2016;8760.5
+Hidro;Perú;2016;5189.245
+Térmica no renovable;Perú;2016;8842.32
+Nuclear;Perú;2016;
+Geotermia;Perú;2016;
+Eólica;Perú;2016;239.95
+Solar;Perú;2016;100.0
+Otros;Perú;2016;
+Térmica renovable;Perú;2016;146.2
+Total;Perú;2016;14517.715
+Hidro;República Dominicana;2016;616.0
+Térmica no renovable;República Dominicana;2016;2858.8
+Nuclear;República Dominicana;2016;
+Geotermia;República Dominicana;2016;
+Eólica;República Dominicana;2016;135.0
+Solar;República Dominicana;2016;30.0
+Otros;República Dominicana;2016;
+Térmica renovable;República Dominicana;2016;
+Total;República Dominicana;2016;3639.8
+Hidro;Uruguay;2016;1538.0
+Térmica no renovable;Uruguay;2016;646.7
+Nuclear;Uruguay;2016;
+Geotermia;Uruguay;2016;
+Eólica;Uruguay;2016;1211.4555
+Solar;Uruguay;2016;88.95033999999998
+Otros;Uruguay;2016;
+Térmica renovable;Uruguay;2016;427.7
+Total;Uruguay;2016;3912.80584
+Hidro;Venezuela;2016;15136.81
+Térmica no renovable;Venezuela;2016;16775.82
+Nuclear;Venezuela;2016;
+Geotermia;Venezuela;2016;
+Eólica;Venezuela;2016;50.398
+Solar;Venezuela;2016;2.832
+Otros;Venezuela;2016;
+Térmica renovable;Venezuela;2016;50.0
+Total;Venezuela;2016;32015.86
+Hidro;Argentina;2017;11242.82
+Térmica no renovable;Argentina;2017;22895.755
+Nuclear;Argentina;2017;1755.0
+Geotermia;Argentina;2017;
+Eólica;Argentina;2017;226.65
+Solar;Argentina;2017;8.2
+Otros;Argentina;2017;0.0
+Térmica renovable;Argentina;2017;21.52
+Total;Argentina;2017;36149.945
+Hidro;Bolivia;2017;619.4250000000002
+Térmica no renovable;Bolivia;2017;1842.029599999999
+Nuclear;Bolivia;2017;
+Geotermia;Bolivia;2017;
+Eólica;Bolivia;2017;27.0
+Solar;Bolivia;2017;10.9
+Otros;Bolivia;2017;
+Térmica renovable;Bolivia;2017;86.0
+Total;Bolivia;2017;2585.354599999999
+Hidro;Brasil;2017;100319.0
+Térmica no renovable;Brasil;2017;27165.19564228632
+Nuclear;Brasil;2017;1990.0
+Geotermia;Brasil;2017;
+Eólica;Brasil;2017;12293.24286
+Solar;Brasil;2017;1096.32463
+Otros;Brasil;2017;
+Térmica renovable;Brasil;2017;14716.2405039204
+Total;Brasil;2017;157580.0036362067
+Hidro;Chile;2017;6736.719999999999
+Térmica no renovable;Chile;2017;12570.306
+Nuclear;Chile;2017;0.0
+Geotermia;Chile;2017;55.0
+Eólica;Chile;2017;1419.66
+Solar;Chile;2017;2265.769
+Otros;Chile;2017;0.0
+Térmica renovable;Chile;2017;681.18
+Total;Chile;2017;23728.635
+Hidro;Colombia;2017;11725.628
+Térmica no renovable;Colombia;2017;4948.95
+Nuclear;Colombia;2017;
+Geotermia;Colombia;2017;
+Eólica;Colombia;2017;18.42
+Solar;Colombia;2017;9.8
+Otros;Colombia;2017;
+Térmica renovable;Colombia;2017;134.65
+Total;Colombia;2017;16837.448
+Hidro;Costa Rica;2017;2328.105
+Térmica no renovable;Costa Rica;2017;571.69
+Nuclear;Costa Rica;2017;0.0
+Geotermia;Costa Rica;2017;206.86
+Eólica;Costa Rica;2017;377.82
+Solar;Costa Rica;2017;5.4
+Otros;Costa Rica;2017;0.0
+Térmica renovable;Costa Rica;2017;40.0
+Total;Costa Rica;2017;3529.875
+Hidro;Cuba;2017;65.9
+Térmica no renovable;Cuba;2017;5791.512999999999
+Nuclear;Cuba;2017;
+Geotermia;Cuba;2017;
+Eólica;Cuba;2017;11.75
+Solar;Cuba;2017;73.35
+Otros;Cuba;2017;
+Térmica renovable;Cuba;2017;533.287
+Total;Cuba;2017;6475.799999999999
+Hidro;Ecuador;2017;4515.960289999999
+Térmica no renovable;Ecuador;2017;3335.492199999999
+Nuclear;Ecuador;2017;0.0
+Geotermia;Ecuador;2017;0.0
+Eólica;Ecuador;2017;21.15
+Solar;Ecuador;2017;26.47727999999999
+Otros;Ecuador;2017;
+Térmica renovable;Ecuador;2017;151.56
+Total;Ecuador;2017;8050.639769999998
+Hidro;El Salvador;2017;574.0
+Térmica no renovable;El Salvador;2017;757.0
+Nuclear;El Salvador;2017;
+Geotermia;El Salvador;2017;204.0
+Eólica;El Salvador;2017;
+Solar;El Salvador;2017;121.0
+Otros;El Salvador;2017;6.85
+Térmica renovable;El Salvador;2017;263.0
+Total;El Salvador;2017;1925.85
+Hidro;Guatemala;2017;1437.157000000001
+Térmica no renovable;Guatemala;2017;1327.708
+Nuclear;Guatemala;2017;
+Geotermia;Guatemala;2017;49.2
+Eólica;Guatemala;2017;75.9
+Solar;Guatemala;2017;80.0
+Otros;Guatemala;2017;
+Térmica renovable;Guatemala;2017;1090.809
+Total;Guatemala;2017;4060.774
+Hidro;Haiti;2017;56.286
+Térmica no renovable;Haiti;2017;390.224
+Nuclear;Haiti;2017;
+Geotermia;Haiti;2017;
+Eólica;Haiti;2017;
+Solar;Haiti;2017;2.535
+Otros;Haiti;2017;
+Térmica renovable;Haiti;2017;
+Total;Haiti;2017;449.045
+Hidro;Honduras;2017;694.34
+Térmica no renovable;Honduras;2017;1062.1
+Nuclear;Honduras;2017;
+Geotermia;Honduras;2017;35.0
+Eólica;Honduras;2017;225.0
+Solar;Honduras;2017;490.54
+Otros;Honduras;2017;
+Térmica renovable;Honduras;2017;233.3
+Total;Honduras;2017;2740.28
+Hidro;México;2017;12612.0
+Térmica no renovable;México;2017;47166.0
+Nuclear;México;2017;1608.0
+Geotermia;México;2017;899.0
+Eólica;México;2017;3898.0
+Solar;México;2017;171.0
+Otros;México;2017;374.0
+Térmica renovable;México;2017;1322.0
+Total;México;2017;68050.0
+Hidro;Nicaragua;2017;142.45
+Térmica no renovable;Nicaragua;2017;808.6595
+Nuclear;Nicaragua;2017;0.0
+Geotermia;Nicaragua;2017;154.5
+Eólica;Nicaragua;2017;186.2
+Solar;Nicaragua;2017;13.96
+Otros;Nicaragua;2017;
+Térmica renovable;Nicaragua;2017;176.6
+Total;Nicaragua;2017;1482.3695
+Hidro;Panamá;2017;1777.3
+Térmica no renovable;Panamá;2017;1224.9
+Nuclear;Panamá;2017;
+Geotermia;Panamá;2017;
+Eólica;Panamá;2017;270.0
+Solar;Panamá;2017;143.0
+Otros;Panamá;2017;
+Térmica renovable;Panamá;2017;8.1
+Total;Panamá;2017;3423.3
+Hidro;Paraguay;2017;8760.0
+Térmica no renovable;Paraguay;2017;0.5
+Nuclear;Paraguay;2017;
+Geotermia;Paraguay;2017;
+Eólica;Paraguay;2017;
+Solar;Paraguay;2017;
+Otros;Paraguay;2017;
+Térmica renovable;Paraguay;2017;
+Total;Paraguay;2017;8760.5
+Hidro;Perú;2017;5245.930000000001
+Térmica no renovable;Perú;2017;8848.207
+Nuclear;Perú;2017;
+Geotermia;Perú;2017;
+Eólica;Perú;2017;239.95
+Solar;Perú;2017;244.484
+Otros;Perú;2017;
+Térmica renovable;Perú;2017;156.2
+Total;Perú;2017;14734.771
+Hidro;República Dominicana;2017;616.0
+Térmica no renovable;República Dominicana;2017;2897.15
+Nuclear;República Dominicana;2017;
+Geotermia;República Dominicana;2017;
+Eólica;República Dominicana;2017;135.0
+Solar;República Dominicana;2017;30.0
+Otros;República Dominicana;2017;
+Térmica renovable;República Dominicana;2017;30.0
+Total;República Dominicana;2017;3708.15
+Hidro;Uruguay;2017;1538.0
+Térmica no renovable;Uruguay;2017;826.7
+Nuclear;Uruguay;2017;
+Geotermia;Uruguay;2017;
+Eólica;Uruguay;2017;1510.6675
+Solar;Uruguay;2017;242.6183649999999
+Otros;Uruguay;2017;
+Térmica renovable;Uruguay;2017;416.2
+Total;Uruguay;2017;4534.185864999999
+Hidro;Venezuela;2017;15136.81
+Térmica no renovable;Venezuela;2017;16128.49
+Nuclear;Venezuela;2017;
+Geotermia;Venezuela;2017;
+Eólica;Venezuela;2017;50.5135
+Solar;Venezuela;2017;4.4565
+Otros;Venezuela;2017;
+Térmica renovable;Venezuela;2017;50.0
+Total;Venezuela;2017;31370.27
+Hidro;Argentina;2018;11288.32
+Térmica no renovable;Argentina;2018;24530.769
+Nuclear;Argentina;2018;1755.0
+Geotermia;Argentina;2018;
+Eólica;Argentina;2018;750.25
+Solar;Argentina;2018;190.63
+Otros;Argentina;2018;
+Térmica renovable;Argentina;2018;22.715
+Total;Argentina;2018;38537.68399999999
+Hidro;Bolivia;2018;690.2250000000004
+Térmica no renovable;Bolivia;2018;1855.6525
+Nuclear;Bolivia;2018;
+Geotermia;Bolivia;2018;
+Eólica;Bolivia;2018;27.0
+Solar;Bolivia;2018;70.99999999999999
+Otros;Bolivia;2018;
+Térmica renovable;Bolivia;2018;127.5
+Total;Bolivia;2018;2771.3775
+Hidro;Brasil;2018;104198.29331
+Térmica no renovable;Brasil;2018;25736.81372000004
+Nuclear;Brasil;2018;1990.0
+Geotermia;Brasil;2018;
+Eólica;Brasil;2018;14400.3144
+Solar;Brasil;2018;2360.31505
+Otros;Brasil;2018;
+Térmica renovable;Brasil;2018;14824.06509
+Total;Brasil;2018;163509.80157
+Hidro;Chile;2018;6754.419999999999
+Térmica no renovable;Chile;2018;13116.239
+Nuclear;Chile;2018;
+Geotermia;Chile;2018;44.91
+Eólica;Chile;2018;1741.21
+Solar;Chile;2018;2432.51
+Otros;Chile;2018;
+Térmica renovable;Chile;2018;521.8000000000001
+Total;Chile;2018;24611.089
+Hidro;Colombia;2018;11836.568
+Térmica no renovable;Colombia;2018;5317.59
+Nuclear;Colombia;2018;
+Geotermia;Colombia;2018;
+Eólica;Colombia;2018;18.42
+Solar;Colombia;2018;9.799999999999999
+Otros;Colombia;2018;
+Térmica renovable;Colombia;2018;145.15
+Total;Colombia;2018;17327.528
+Hidro;Costa Rica;2018;2372.612
+Térmica no renovable;Costa Rica;2018;571.691
+Nuclear;Costa Rica;2018;
+Geotermia;Costa Rica;2018;206.86
+Eólica;Costa Rica;2018;407.77
+Solar;Costa Rica;2018;5.4
+Otros;Costa Rica;2018;
+Térmica renovable;Costa Rica;2018;52.5
+Total;Costa Rica;2018;3616.833
+Hidro;Cuba;2018;64.0
+Térmica no renovable;Cuba;2018;5902.485
+Nuclear;Cuba;2018;
+Geotermia;Cuba;2018;
+Eólica;Cuba;2018;11.8
+Solar;Cuba;2018;127.2
+Otros;Cuba;2018;
+Térmica renovable;Cuba;2018;555.635
+Total;Cuba;2018;6661.12
+Hidro;Ecuador;2018;5066.403989999999
+Térmica no renovable;Ecuador;2018;3395.154621000001
+Nuclear;Ecuador;2018;0.0
+Geotermia;Ecuador;2018;0.0
+Eólica;Ecuador;2018;21.15
+Solar;Ecuador;2018;27.62983999999999
+Otros;Ecuador;2018;
+Térmica renovable;Ecuador;2018;151.56
+Total;Ecuador;2018;8661.898451
+Hidro;El Salvador;2018;573.585
+Térmica no renovable;El Salvador;2018;757.0
+Nuclear;El Salvador;2018;
+Geotermia;El Salvador;2018;204.0
+Eólica;El Salvador;2018;
+Solar;El Salvador;2018;167.0
+Otros;El Salvador;2018;6.85
+Térmica renovable;El Salvador;2018;294.0
+Total;El Salvador;2018;2002.435
+Hidro;Guatemala;2018;1499.077000000001
+Térmica no renovable;Guatemala;2018;1244.708
+Nuclear;Guatemala;2018;
+Geotermia;Guatemala;2018;49.2
+Eólica;Guatemala;2018;107.4
+Solar;Guatemala;2018;80.0
+Otros;Guatemala;2018;
+Térmica renovable;Guatemala;2018;1080.72
+Total;Guatemala;2018;4061.105
+Hidro;Haiti;2018;77.886
+Térmica no renovable;Haiti;2018;390.374
+Nuclear;Haiti;2018;
+Geotermia;Haiti;2018;
+Eólica;Haiti;2018;0.024
+Solar;Haiti;2018;2.554
+Otros;Haiti;2018;
+Térmica renovable;Haiti;2018;
+Total;Haiti;2018;470.838
+Hidro;Honduras;2018;724.35
+Térmica no renovable;Honduras;2018;1051.35
+Nuclear;Honduras;2018;
+Geotermia;Honduras;2018;39.0
+Eólica;Honduras;2018;225.0
+Solar;Honduras;2018;559.15
+Otros;Honduras;2018;
+Térmica renovable;Honduras;2018;233.3
+Total;Honduras;2018;2832.15
+Hidro;México;2018;12612.0
+Térmica no renovable;México;2018;49011.0
+Nuclear;México;2018;1608.0
+Geotermia;México;2018;899.0
+Eólica;México;2018;4866.0
+Solar;México;2018;1878.0
+Otros;México;2018;375.0
+Térmica renovable;México;2018;1709.0
+Total;México;2018;72958.0
+Hidro;Nicaragua;2018;142.45
+Térmica no renovable;Nicaragua;2018;808.6595
+Nuclear;Nicaragua;2018;0.0
+Geotermia;Nicaragua;2018;154.5
+Eólica;Nicaragua;2018;186.2
+Solar;Nicaragua;2018;13.96
+Otros;Nicaragua;2018;
+Térmica renovable;Nicaragua;2018;176.6
+Total;Nicaragua;2018;1482.3695
+Hidro;Panamá;2018;1776.7
+Térmica no renovable;Panamá;2018;1908.9
+Nuclear;Panamá;2018;
+Geotermia;Panamá;2018;
+Eólica;Panamá;2018;270.0
+Solar;Panamá;2018;188.9
+Otros;Panamá;2018;
+Térmica renovable;Panamá;2018;8.1
+Total;Panamá;2018;4152.6
+Hidro;Paraguay;2018;8760.0
+Térmica no renovable;Paraguay;2018;0.5
+Nuclear;Paraguay;2018;
+Geotermia;Paraguay;2018;
+Eólica;Paraguay;2018;
+Solar;Paraguay;2018;
+Otros;Paraguay;2018;
+Térmica renovable;Paraguay;2018;
+Total;Paraguay;2018;8760.5
+Hidro;Perú;2018;5363.365000000002
+Térmica no renovable;Perú;2018;8965.886999999999
+Nuclear;Perú;2018;
+Geotermia;Perú;2018;
+Eólica;Perú;2018;372.2499999999999
+Solar;Perú;2018;284.484
+Otros;Perú;2018;
+Térmica renovable;Perú;2018;158.6
+Total;Perú;2018;15144.586
+Hidro;República Dominicana;2018;616.0
+Térmica no renovable;República Dominicana;2018;3068.65
+Nuclear;República Dominicana;2018;
+Geotermia;República Dominicana;2018;
+Eólica;República Dominicana;2018;183.0
+Solar;República Dominicana;2018;81.0
+Otros;República Dominicana;2018;
+Térmica renovable;República Dominicana;2018;30.0
+Total;República Dominicana;2018;3978.65
+Hidro;Uruguay;2018;1538.0
+Térmica no renovable;Uruguay;2018;1186.7
+Nuclear;Uruguay;2018;
+Geotermia;Uruguay;2018;
+Eólica;Uruguay;2018;1510.6675
+Solar;Uruguay;2018;248.3759499
+Otros;Uruguay;2018;
+Térmica renovable;Uruguay;2018;416.2
+Total;Uruguay;2018;4899.9434499
+Hidro;Venezuela;2018;15100.81
+Térmica no renovable;Venezuela;2018;15450.34
+Nuclear;Venezuela;2018;
+Geotermia;Venezuela;2018;
+Eólica;Venezuela;2018;50.5135
+Solar;Venezuela;2018;4.4565
+Otros;Venezuela;2018;
+Térmica renovable;Venezuela;2018;50.0
+Total;Venezuela;2018;30656.12
+Hidro;Argentina;2019;11310.0
+Térmica no renovable;Argentina;2019;24545.0
+Nuclear;Argentina;2019;1755.0
+Geotermia;Argentina;2019;
+Eólica;Argentina;2019;1609.0
+Solar;Argentina;2019;439.0
+Otros;Argentina;2019;
+Térmica renovable;Argentina;2019;2.0
+Total;Argentina;2019;39660.0
+Hidro;Bolivia;2019;759.2250000000003
+Térmica no renovable;Bolivia;2019;2669.620700000001
+Nuclear;Bolivia;2019;
+Geotermia;Bolivia;2019;
+Eólica;Bolivia;2019;27.0
+Solar;Bolivia;2019;121.0
+Otros;Bolivia;2019;
+Térmica renovable;Bolivia;2019;127.5
+Total;Bolivia;2019;3704.345700000001
+Hidro;Brasil;2019;109154.8576
+Térmica no renovable;Brasil;2019;26246.07582000004
+Nuclear;Brasil;2019;1990.0
+Geotermia;Brasil;2019;
+Eólica;Brasil;2019;15388.21372
+Solar;Brasil;2019;4465.48307
+Otros;Brasil;2019;
+Térmica renovable;Brasil;2019;15035.50881
+Total;Brasil;2019;172280.13902
+Hidro;Chile;2019;6826.896
+Térmica no renovable;Chile;2019;12905.55748
+Nuclear;Chile;2019;
+Geotermia;Chile;2019;44.91
+Eólica;Chile;2019;2161.84
+Solar;Chile;2019;2798.694
+Otros;Chile;2019;
+Térmica renovable;Chile;2019;474.1600000000001
+Total;Chile;2019;25212.05748
+Hidro;Colombia;2019;11916.608
+Térmica no renovable;Colombia;2019;5364.19
+Nuclear;Colombia;2019;
+Geotermia;Colombia;2019;
+Eólica;Colombia;2019;18.42
+Solar;Colombia;2019;17.9758
+Otros;Colombia;2019;
+Térmica renovable;Colombia;2019;145.15
+Total;Colombia;2019;17462.3438
+Hidro;Costa Rica;2019;2343.166
+Térmica no renovable;Costa Rica;2019;474.112
+Nuclear;Costa Rica;2019;
+Geotermia;Costa Rica;2019;261.86
+Eólica;Costa Rica;2019;410.915
+Solar;Costa Rica;2019;5.4
+Otros;Costa Rica;2019;
+Térmica renovable;Costa Rica;2019;71.0
+Total;Costa Rica;2019;3566.453
+Hidro;Cuba;2019;64.0
+Térmica no renovable;Cuba;2019;5434.2
+Nuclear;Cuba;2019;
+Geotermia;Cuba;2019;
+Eólica;Cuba;2019;12.0
+Solar;Cuba;2019;147.2
+Otros;Cuba;2019;
+Térmica renovable;Cuba;2019;850.4
+Total;Cuba;2019;6507.799999999999
+Hidro;Ecuador;2019;5076.403989999999
+Térmica no renovable;Ecuador;2019;3408.266621000001
+Nuclear;Ecuador;2019;0.0
+Geotermia;Ecuador;2019;0.0
+Eólica;Ecuador;2019;21.15
+Solar;Ecuador;2019;27.62983999999999
+Otros;Ecuador;2019;
+Térmica renovable;Ecuador;2019;151.56
+Total;Ecuador;2019;8685.010450999998
+Hidro;El Salvador;2019;573.585
+Térmica no renovable;El Salvador;2019;771.11
+Nuclear;El Salvador;2019;
+Geotermia;El Salvador;2019;204.4
+Eólica;El Salvador;2019;
+Solar;El Salvador;2019;406.33
+Otros;El Salvador;2019;6.85
+Térmica renovable;El Salvador;2019;294.0
+Total;El Salvador;2019;2256.275
+Hidro;Guatemala;2019;1556.077000000001
+Térmica no renovable;Guatemala;2019;1244.708
+Nuclear;Guatemala;2019;
+Geotermia;Guatemala;2019;52.0
+Eólica;Guatemala;2019;107.4
+Solar;Guatemala;2019;92.5
+Otros;Guatemala;2019;
+Térmica renovable;Guatemala;2019;1001.22
+Total;Guatemala;2019;4053.905000000001
+Hidro;Haiti;2019;77.886
+Térmica no renovable;Haiti;2019;390.374
+Nuclear;Haiti;2019;
+Geotermia;Haiti;2019;
+Eólica;Haiti;2019;0.024
+Solar;Haiti;2019;2.607
+Otros;Haiti;2019;
+Térmica renovable;Haiti;2019;
+Total;Haiti;2019;470.891
+Hidro;Honduras;2019;730.48
+Térmica no renovable;Honduras;2019;1037.35
+Nuclear;Honduras;2019;
+Geotermia;Honduras;2019;39.0
+Eólica;Honduras;2019;235.0
+Solar;Honduras;2019;569.68
+Otros;Honduras;2019;
+Térmica renovable;Honduras;2019;260.5700000000001
+Total;Honduras;2019;2872.08
+Hidro;México;2019;12612.0
+Térmica no renovable;México;2019;51547.0
+Nuclear;México;2019;1608.0
+Geotermia;México;2019;899.0
+Eólica;México;2019;6050.0
+Solar;México;2019;3646.0
+Otros;México;2019;375.0
+Térmica renovable;México;2019;1710.0
+Total;México;2019;78447.0
+Hidro;Nicaragua;2019;157.418
+Térmica no renovable;Nicaragua;2019;888.311
+Nuclear;Nicaragua;2019;0.0
+Geotermia;Nicaragua;2019;153.24
+Eólica;Nicaragua;2019;186.2
+Solar;Nicaragua;2019;16.361
+Otros;Nicaragua;2019;
+Térmica renovable;Nicaragua;2019;218.195
+Total;Nicaragua;2019;1619.725
+Hidro;Panamá;2019;1795.5
+Térmica no renovable;Panamá;2019;1819.4
+Nuclear;Panamá;2019;
+Geotermia;Panamá;2019;
+Eólica;Panamá;2019;270.0
+Solar;Panamá;2019;197.9
+Otros;Panamá;2019;
+Térmica renovable;Panamá;2019;8.1
+Total;Panamá;2019;4090.9
+Hidro;Paraguay;2019;8772.0
+Térmica no renovable;Paraguay;2019;0.5
+Nuclear;Paraguay;2019;
+Geotermia;Paraguay;2019;
+Eólica;Paraguay;2019;
+Solar;Paraguay;2019;
+Otros;Paraguay;2019;
+Térmica renovable;Paraguay;2019;
+Total;Paraguay;2019;8772.5
+Hidro;Perú;2019;5397.205000000002
+Térmica no renovable;Perú;2019;8884.041
+Nuclear;Perú;2019;
+Geotermia;Perú;2019;
+Eólica;Perú;2019;372.2499999999999
+Solar;Perú;2019;289.034
+Otros;Perú;2019;
+Térmica renovable;Perú;2019;180.31
+Total;Perú;2019;15122.84
+Hidro;República Dominicana;2019;623.0
+Térmica no renovable;República Dominicana;2019;3711.05
+Nuclear;República Dominicana;2019;
+Geotermia;República Dominicana;2019;
+Eólica;República Dominicana;2019;370.0
+Solar;República Dominicana;2019;155.0
+Otros;República Dominicana;2019;
+Térmica renovable;República Dominicana;2019;30.0
+Total;República Dominicana;2019;4889.05
+Hidro;Uruguay;2019;1538.0
+Térmica no renovable;Uruguay;2019;1176.7
+Nuclear;Uruguay;2019;
+Geotermia;Uruguay;2019;
+Eólica;Uruguay;2019;1513.9875
+Solar;Uruguay;2019;253.6204087999999
+Otros;Uruguay;2019;
+Térmica renovable;Uruguay;2019;416.27
+Total;Uruguay;2019;4898.5779088
+Hidro;Venezuela;2019;15122.81
+Térmica no renovable;Venezuela;2019;17097.34
+Nuclear;Venezuela;2019;
+Geotermia;Venezuela;2019;
+Eólica;Venezuela;2019;25.3135
+Solar;Venezuela;2019;4.4565
+Otros;Venezuela;2019;
+Térmica renovable;Venezuela;2019;50.0
+Total;Venezuela;2019;32299.92
+Hidro;Argentina;2020;11344.0
+Térmica no renovable;Argentina;2020;25362.0
+Nuclear;Argentina;2020;1755.0
+Geotermia;Argentina;2020;
+Eólica;Argentina;2020;2623.0
+Solar;Argentina;2020;759.0
+Otros;Argentina;2020;
+Térmica renovable;Argentina;2020;109.0
+Total;Argentina;2020;41952.0
+Hidro;Bolivia;2020;759.2250000000003
+Térmica no renovable;Bolivia;2020;2677.1287
+Nuclear;Bolivia;2020;
+Geotermia;Bolivia;2020;
+Eólica;Bolivia;2020;27.0
+Solar;Bolivia;2020;121.7371
+Otros;Bolivia;2020;
+Térmica renovable;Bolivia;2020;127.5
+Total;Bolivia;2020;3712.5908
+Hidro;Brasil;2020;109294.05105
+Térmica no renovable;Brasil;2020;27756.72762000004
+Nuclear;Brasil;2020;1990.0
+Geotermia;Brasil;2020;
+Eólica;Brasil;2020;17146.12821
+Solar;Brasil;2020;7922.21937
+Otros;Brasil;2020;
+Térmica renovable;Brasil;2020;15395.64319
+Total;Brasil;2020;179504.76944
+Hidro;Chile;2020;6814.416
+Térmica no renovable;Chile;2020;12875.25148
+Nuclear;Chile;2020;
+Geotermia;Chile;2020;44.91
+Eólica;Chile;2020;2526.802
+Solar;Chile;2020;3574.880999999999
+Otros;Chile;2020;
+Térmica renovable;Chile;2020;474.1600000000001
+Total;Chile;2020;26310.42048
+Hidro;Colombia;2020;11944.792
+Térmica no renovable;Colombia;2020;5589.289999999999
+Nuclear;Colombia;2020;
+Geotermia;Colombia;2020;
+Eólica;Colombia;2020;18.42
+Solar;Colombia;2020;60.7793
+Otros;Colombia;2020;
+Térmica renovable;Colombia;2020;150.65
+Total;Colombia;2020;17763.9313
+Hidro;Costa Rica;2020;2331.291
+Térmica no renovable;Costa Rica;2020;474.112
+Nuclear;Costa Rica;2020;
+Geotermia;Costa Rica;2020;261.86
+Eólica;Costa Rica;2020;393.515
+Solar;Costa Rica;2020;5.4
+Otros;Costa Rica;2020;
+Térmica renovable;Costa Rica;2020;71.0
+Total;Costa Rica;2020;3537.178
+Hidro;Cuba;2020;64.6
+Térmica no renovable;Cuba;2020;5413.736
+Nuclear;Cuba;2020;
+Geotermia;Cuba;2020;
+Eólica;Cuba;2020;12.0
+Solar;Cuba;2020;209.5
+Otros;Cuba;2020;
+Térmica renovable;Cuba;2020;960.624
+Total;Cuba;2020;6660.46
+Hidro;Ecuador;2020;5098.745989999999
+Térmica no renovable;Ecuador;2020;3413.207621
+Nuclear;Ecuador;2020;0.0
+Geotermia;Ecuador;2020;0.0
+Eólica;Ecuador;2020;21.15
+Solar;Ecuador;2020;27.62983999999999
+Otros;Ecuador;2020;
+Térmica renovable;Ecuador;2020;151.56
+Total;Ecuador;2020;8712.293450999998
+Hidro;El Salvador;2020;573.793
+Térmica no renovable;El Salvador;2020;771.11
+Nuclear;El Salvador;2020;
+Geotermia;El Salvador;2020;204.4
+Eólica;El Salvador;2020;36.0
+Solar;El Salvador;2020;474.4559849999999
+Otros;El Salvador;2020;6.850000000000001
+Térmica renovable;El Salvador;2020;293.6
+Total;El Salvador;2020;2360.208985
+Hidro;Guatemala;2020;1578.713
+Térmica no renovable;Guatemala;2020;1248.708
+Nuclear;Guatemala;2020;
+Geotermia;Guatemala;2020;49.2
+Eólica;Guatemala;2020;107.4
+Solar;Guatemala;2020;92.5
+Otros;Guatemala;2020;
+Térmica renovable;Guatemala;2020;1035.72
+Total;Guatemala;2020;4112.241
+Hidro;Haiti;2020;77.886
+Térmica no renovable;Haiti;2020;390.374
+Nuclear;Haiti;2020;
+Geotermia;Haiti;2020;
+Eólica;Haiti;2020;0.024
+Solar;Haiti;2020;2.607
+Otros;Haiti;2020;
+Térmica renovable;Haiti;2020;
+Total;Haiti;2020;470.891
+Hidro;Honduras;2020;840.23
+Térmica no renovable;Honduras;2020;1047.65
+Nuclear;Honduras;2020;
+Geotermia;Honduras;2020;39.0
+Eólica;Honduras;2020;235.0
+Solar;Honduras;2020;578.18
+Otros;Honduras;2020;
+Térmica renovable;Honduras;2020;260.5700000000001
+Total;Honduras;2020;3000.63
+Hidro;México;2020;12612.0
+Térmica no renovable;México;2020;53614.0
+Nuclear;México;2020;1608.0
+Geotermia;México;2020;951.0
+Eólica;México;2020;6504.0
+Solar;México;2020;5149.0
+Otros;México;2020;378.0
+Térmica renovable;México;2020;2305.0
+Total;México;2020;83121.0
+Hidro;Nicaragua;2020;157.418
+Térmica no renovable;Nicaragua;2020;888.311
+Nuclear;Nicaragua;2020;0.0
+Geotermia;Nicaragua;2020;153.24
+Eólica;Nicaragua;2020;186.2
+Solar;Nicaragua;2020;16.361
+Otros;Nicaragua;2020;
+Térmica renovable;Nicaragua;2020;218.195
+Total;Nicaragua;2020;1619.725
+Hidro;Panamá;2020;1821.2
+Térmica no renovable;Panamá;2020;1819.4
+Nuclear;Panamá;2020;
+Geotermia;Panamá;2020;
+Eólica;Panamá;2020;270.0
+Solar;Panamá;2020;213.0
+Otros;Panamá;2020;
+Térmica renovable;Panamá;2020;8.1
+Total;Panamá;2020;4131.700000000001
+Hidro;Paraguay;2020;8772.0
+Térmica no renovable;Paraguay;2020;0.5
+Nuclear;Paraguay;2020;
+Geotermia;Paraguay;2020;
+Eólica;Paraguay;2020;0.055
+Solar;Paraguay;2020;0.1504
+Otros;Paraguay;2020;
+Térmica renovable;Paraguay;2020;
+Total;Paraguay;2020;8772.7054
+Hidro;Perú;2020;5416.583000000018
+Térmica no renovable;Perú;2020;8889.652999999958
+Nuclear;Perú;2020;
+Geotermia;Perú;2020;
+Eólica;Perú;2020;408.9900000000002
+Solar;Perú;2020;289.034
+Otros;Perú;2020;
+Térmica renovable;Perú;2020;182.7099999999998
+Total;Perú;2020;15186.96999999997
+Hidro;República Dominicana;2020;623.0
+Térmica no renovable;República Dominicana;2020;3711.41
+Nuclear;República Dominicana;2020;
+Geotermia;República Dominicana;2020;
+Eólica;República Dominicana;2020;370.0
+Solar;República Dominicana;2020;155.0
+Otros;República Dominicana;2020;
+Térmica renovable;República Dominicana;2020;30.0
+Total;República Dominicana;2020;4889.41
+Hidro;Uruguay;2020;1538.0
+Térmica no renovable;Uruguay;2020;1176.7
+Nuclear;Uruguay;2020;
+Geotermia;Uruguay;2020;
+Eólica;Uruguay;2020;1513.9875
+Solar;Uruguay;2020;258.0838687999999
+Otros;Uruguay;2020;
+Térmica renovable;Uruguay;2020;416.27
+Total;Uruguay;2020;4903.041368800001
+Hidro;Venezuela;2020;15122.81
+Térmica no renovable;Venezuela;2020;16876.323
+Nuclear;Venezuela;2020;
+Geotermia;Venezuela;2020;
+Eólica;Venezuela;2020;25.3135
+Solar;Venezuela;2020;4.4565
+Otros;Venezuela;2020;
+Térmica renovable;Venezuela;2020;50.0
+Total;Venezuela;2020;32078.903
+Hidro;Argentina;2021;11345.0
+Térmica no renovable;Argentina;2021;25398.0
+Nuclear;Argentina;2021;1755.0
+Geotermia;Argentina;2021;
+Eólica;Argentina;2021;3291.0
+Solar;Argentina;2021;1060.0
+Otros;Argentina;2021;
+Térmica renovable;Argentina;2021;139.0
+Total;Argentina;2021;42988.0
+Hidro;Bolivia;2021;759.1750000000002
+Térmica no renovable;Bolivia;2021;2923.7319
+Nuclear;Bolivia;2021;
+Geotermia;Bolivia;2021;
+Eólica;Bolivia;2021;129.2
+Solar;Bolivia;2021;171.7070999999999
+Otros;Bolivia;2021;
+Térmica renovable;Bolivia;2021;152.5
+Total;Bolivia;2021;4136.314
+Hidro;Brasil;2021;109413.20931
+Térmica no renovable;Brasil;2021;28976.72332000004
+Nuclear;Brasil;2021;1990.0
+Geotermia;Brasil;2021;
+Eólica;Brasil;2021;20786.11681
+Solar;Brasil;2021;13403.56574
+Otros;Brasil;2021;
+Térmica renovable;Brasil;2021;16004.87962
+Total;Brasil;2021;190574.4948
+Hidro;Chile;2021;7112.916000000002
+Térmica no renovable;Chile;2021;13401.12848
+Nuclear;Chile;2021;
+Geotermia;Chile;2021;77.91
+Eólica;Chile;2021;3536.402
+Solar;Chile;2021;6197.914000000002
+Otros;Chile;2021;
+Térmica renovable;Chile;2021;535.76
+Total;Chile;2021;30862.03048
+Hidro;Colombia;2021;11944.792
+Térmica no renovable;Colombia;2021;5456.889999999999
+Nuclear;Colombia;2021;
+Geotermia;Colombia;2021;
+Eólica;Colombia;2021;18.42
+Solar;Colombia;2021;135.99
+Otros;Colombia;2021;
+Térmica renovable;Colombia;2021;206.35
+Total;Colombia;2021;17762.442
+Hidro;Costa Rica;2021;2330.888
+Térmica no renovable;Costa Rica;2021;425.962
+Nuclear;Costa Rica;2021;
+Geotermia;Costa Rica;2021;258.84
+Eólica;Costa Rica;2021;390.215
+Solar;Costa Rica;2021;5.4
+Otros;Costa Rica;2021;
+Térmica renovable;Costa Rica;2021;71.0
+Total;Costa Rica;2021;3482.305
+Hidro;Cuba;2021;64.6
+Térmica no renovable;Cuba;2021;5499.513000000001
+Nuclear;Cuba;2021;
+Geotermia;Cuba;2021;
+Eólica;Cuba;2021;12.0
+Solar;Cuba;2021;229.8
+Otros;Cuba;2021;
+Térmica renovable;Cuba;2021;961.347
+Total;Cuba;2021;6767.260000000001
+Hidro;Ecuador;2021;5106.845989999998
+Térmica no renovable;Ecuador;2021;3426.137620999999
+Nuclear;Ecuador;2021;0.0
+Geotermia;Ecuador;2021;0.0
+Eólica;Ecuador;2021;21.15
+Solar;Ecuador;2021;27.65318
+Otros;Ecuador;2021;
+Térmica renovable;Ecuador;2021;152.62
+Total;Ecuador;2021;8734.406790999996
+Hidro;El Salvador;2021;571.859
+Térmica no renovable;El Salvador;2021;771.106
+Nuclear;El Salvador;2021;
+Geotermia;El Salvador;2021;204.4
+Eólica;El Salvador;2021;54.0
+Solar;El Salvador;2021;539.06
+Otros;El Salvador;2021;6.3
+Térmica renovable;El Salvador;2021;294.6
+Total;El Salvador;2021;2441.325
+Hidro;Guatemala;2021;1556.587000000001
+Térmica no renovable;Guatemala;2021;1248.708
+Nuclear;Guatemala;2021;
+Geotermia;Guatemala;2021;49.2
+Eólica;Guatemala;2021;107.4
+Solar;Guatemala;2021;93.0
+Otros;Guatemala;2021;
+Térmica renovable;Guatemala;2021;1056.645
+Total;Guatemala;2021;4111.540000000001
+Hidro;Haiti;2021;77.886
+Térmica no renovable;Haiti;2021;390.374
+Nuclear;Haiti;2021;
+Geotermia;Haiti;2021;
+Eólica;Haiti;2021;0.024
+Solar;Haiti;2021;2.607
+Otros;Haiti;2021;
+Térmica renovable;Haiti;2021;
+Total;Haiti;2021;470.891
+Hidro;Honduras;2021;852.83
+Térmica no renovable;Honduras;2021;1047.65
+Nuclear;Honduras;2021;
+Geotermia;Honduras;2021;44.0
+Eólica;Honduras;2021;235.0
+Solar;Honduras;2021;578.18
+Otros;Honduras;2021;
+Térmica renovable;Honduras;2021;260.5700000000001
+Total;Honduras;2021;3018.23
+Hidro;México;2021;12614.0
+Térmica no renovable;México;2021;55340.0
+Nuclear;México;2021;1608.0
+Geotermia;México;2021;976.0
+Eólica;México;2021;6977.0
+Solar;México;2021;5955.0
+Otros;México;2021;378.0
+Térmica renovable;México;2021;2305.0
+Total;México;2021;86153.0
+Hidro;Nicaragua;2021;158.61
+Térmica no renovable;Nicaragua;2021;882.9
+Nuclear;Nicaragua;2021;0.0
+Geotermia;Nicaragua;2021;153.24
+Eólica;Nicaragua;2021;186.2
+Solar;Nicaragua;2021;16.29
+Otros;Nicaragua;2021;
+Térmica renovable;Nicaragua;2021;218.2
+Total;Nicaragua;2021;1615.44
+Hidro;Panamá;2021;1821.2
+Térmica no renovable;Panamá;2021;1698.5
+Nuclear;Panamá;2021;
+Geotermia;Panamá;2021;
+Eólica;Panamá;2021;270.0
+Solar;Panamá;2021;440.6
+Otros;Panamá;2021;
+Térmica renovable;Panamá;2021;8.1
+Total;Panamá;2021;4238.400000000001
+Hidro;Paraguay;2021;8760.0
+Térmica no renovable;Paraguay;2021;0.5
+Nuclear;Paraguay;2021;
+Geotermia;Paraguay;2021;
+Eólica;Paraguay;2021;0.055
+Solar;Paraguay;2021;0.1504
+Otros;Paraguay;2021;
+Térmica renovable;Paraguay;2021;
+Total;Paraguay;2021;8760.7054
+Hidro;Perú;2021;5513.774000000002
+Térmica no renovable;Perú;2021;8956.724999999946
+Nuclear;Perú;2021;
+Geotermia;Perú;2021;
+Eólica;Perú;2021;408.99
+Solar;Perú;2021;286.51
+Otros;Perú;2021;
+Térmica renovable;Perú;2021;174.31
+Total;Perú;2021;15340.30899999995
+Hidro;República Dominicana;2021;623.28
+Térmica no renovable;República Dominicana;2021;3675.4
+Nuclear;República Dominicana;2021;
+Geotermia;República Dominicana;2021;
+Eólica;República Dominicana;2021;370.25
+Solar;República Dominicana;2021;305.48
+Otros;República Dominicana;2021;
+Térmica renovable;República Dominicana;2021;30.0
+Total;República Dominicana;2021;5004.41
+Hidro;Uruguay;2021;1538.0
+Térmica no renovable;Uruguay;2021;1176.7
+Nuclear;Uruguay;2021;
+Geotermia;Uruguay;2021;
+Eólica;Uruguay;2021;1513.9875
+Solar;Uruguay;2021;266.9963238
+Otros;Uruguay;2021;
+Térmica renovable;Uruguay;2021;416.42
+Total;Uruguay;2021;4912.1038238
+Hidro;Venezuela;2021;17041.81
+Térmica no renovable;Venezuela;2021;18200.0
+Nuclear;Venezuela;2021;
+Geotermia;Venezuela;2021;
+Eólica;Venezuela;2021;25.3135
+Solar;Venezuela;2021;4.4565
+Otros;Venezuela;2021;
+Térmica renovable;Venezuela;2021;50.0
+Total;Venezuela;2021;35321.57999999999
