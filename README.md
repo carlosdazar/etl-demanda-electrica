@@ -159,6 +159,7 @@ Las principales librerías utilizadas en los notebooks son:
 - "matplotlib" (generación de gráficos)
 - "ydata-profiling" (generación automática de reportes HTML para EDA  de datos)
 - walter
+## 6. Instalación y configuración
 ### Instrucciones de ejecución
 #### Opción 1 (Recomendada) Ejecutar en Google Colab
 1. Subir la carpeta del proyecto a la unidad de **Google Drive** en la ruta:
@@ -167,8 +168,32 @@ Las principales librerías utilizadas en los notebooks son:
 3. Abrir y ejecutar el notebook orquestador **"pipeline.ip`ynb"**
 4. El notebook montará automáticamente Google Drive mediante "drive.mount('/content/drive')" y ejecutará de forma secuencial los notebooks de las carpetas `extract/`, `transform/` y `load/`.
 #### Opción 2 Ejecución Local
-1. clonar el repositorio
+1. clonar el repositorio (https://github.com/carlosdazar/etl-demanda-electrica.git)
 2. Correr el local
 - Dependencias listadas en `requirements.txt`
-  
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/[usuario]/[repositorio].git
+cd [repositorio]
+
+# 2. Crear y activar el entorno virtual
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+
+# 3. Instalar dependencias
+pip install -r requirements.txt
+```
+### Variables de entorno
+Este proyecto no requiere llaves API ni credenciales privadas ya que es de acceso público.
+Para mantener la flexibilidad de ejecución entre entono local y Google Colab, se utiliza la variable global de ruta base `BASE_DIR` en cada notebook:
+ Variable | Descripción | Ejemplo |
+|---|---|---|
+| `BASE_DIR` | Ruta raíz del proyecto donde se leen y escriben las capas de datos (`data/`)| `/content/drive/MyDrive/Colab Notebooks/Master/1.ETL/entregable3` |
+| `API_WB_SE4ALL_URL` | Endpoint base público de la API del Banco Mundial| https : //data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL |
+### Obtención de los datos
+los datos crudos usados en el pipeline provienen de dos fuentes distintas y se gestionan de la siguiente manera:
+1.***HUB de energía***
+-***método de obtención***: Requiere descarga previa en https://hubenergia.org/index.php/es/indicators/capacidad-generacion-y-consumo-de-electricidad. Se debe guardar manualmente en la carpeta `data/original/`
+-***proceso de extracción***: Al ejecutar el notebook `extract/extract_HUB_data.ipynb` se lee el archivo inicial, separa y filtra las tres categorías principales, guarda los archivos en `data/raw/`:
+
 
