@@ -68,22 +68,107 @@ subgraph Fuentes y Extracción
         API[World Bank API REST] -->|petición HTTP| E2[extract_WB_SE4ALL_data.ipynb]
     end
       subgraph Extract Output
-        E1 --> R1[(data/raw/extract_HUB_*.csv)]
-        E2 --> R2[(data/raw/extract_energia_sostenible_*.csv)]
+        E1 --> R1[(data/raw/extract_HUB_capacidad_instalada.csv)]
+        E1 --> R2[(data/raw/extract_HUB_capacidad_consumo.csv)]
+        E1 --> R3[(data/raw/extract_HUB_generacion_electrica.csv)]
+        E2 --> R4[(data/raw/extract_energia_sostenible_WB_SE4ALL.csv)]
     end
-
     subgraph Transform
-        R1 --> T1[transform_HUB_data.ipynb]
-        R2 --> T2[transform_WB_SE4ALL_data.ipynb]
+        R1 & R2 & R3 --> T1[transform_HUB_data.ipynb]
+        R4 --> T2[transform_WB_SE4ALL_data.ipynb]
         T1 --> D1[(data/transformed/transform_HUB_energia.csv)]
-        T2 --> D2[(data/transformed/transform_energia_sostenible_*.csv)]
+        T2 --> D2[(data/transformed/transform_energia_sostenible_WB_SE4ALL.csv)]
     end
 
     subgraph Load
-        D1 --> L[load_dataset_maestro.ipynb]
-        D2 --> L
-        L --> M[(data/processed/dataset_maestro.csv)]
+        D1 --> L[load_capacidad_energeticao.ipynb]
+        D2 --> L[load_capacidad_energeticao.ipynb]
+        L --> M[(data/processed/energia.csv)]
     end
 
-    M -.->|Insumo de entrada| ML[Modelos de Predicción / Consumidor Final]
+    M -.->|energia.csv-insumo de entrada| ML[Modelos de Predicción / Consumidor Final]
 ```
+El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), ejecuta de forma modular la siguiente secuencia de flujo ETL:
+1. Extract: Para la fuente Hub se ejecuta el notebook de extracción "extract_HUB_data.ipynb" obteniendo el archivo original  xlsx de la carpeta data/original y para la API del banco mundial se ejecuta el notebook "extract_WB_SE4ALL_data.ipynb". se generan los siguientes archivos que se depositan en la carpeta data/raw:
+* extract_HUB_capacidad_instalada.csv
+* extract_HUB_capacidad_consumo.csv
+* extract_HUB_generacion_electrica.csv
+* extract_energia_sostenible_WB_SE4ALL.csv
+
+2. Transform: lee los datos que se obtuvieron de la fase de extracción de data/raw. aplica limpieza, estandarización de variables, homologación de unidades e imputación de datos nulos o faltantes. los resulados generados que se depositan en la carpeta data/transformed son:
+* transform_HUB_energia.csv.csv
+* transform_energia_sostenible_WB_SE4ALL.csv
+  
+3. Load: Toma los conjuntos de datos transformados de data/transformed/, realiza la consolidación final (merge) en formato ancho (wide) para la rejilla temporal 2000–2021 y exporta el Dataset Maestro unificado en data/processed/ --- parte de walter
+
+**Tecnologías:** Python 3.10+, pandas, NumPy, requests, openpyxl, matplotlib, ydata-profiling, subprocess, pathlib, Google Colab / Google Drive, Git/GitHub, SQLAlchemy, PostgreSQL
+
+## 4. Estructura del repositorio
+
+```
+├── data               <- Conjuntos de datos
+│
+│   ├── original       <- Conjuntos de datos originales HUB de energía.
+│   │  ├── hub.xlsx
+│   ├── transformed    <- Conjuntos de datos finales trasformados, listos para load.
+│   │  ├── transform_HUB_energia.csv.csv
+│   │  ├── transform_energia_sostenible_WB_SE4ALL.csv
+│   └── raw            <- Datos originales de la extracción, sin modificar.
+│   │  ├── extract_HUB_capacidad_instalada.csv
+│   │  ├── extract_HUB_capacidad_consumo.csv
+│   │  ├── extract_HUB_generacion_electrica.csv
+│   │  ├── extract_energia_sostenible_WB_SE4ALL.csv
+│   └── load           <- Dataset "Maestro" final, listo para análisis o modelado.
+│   │  ├── energia.scv
+│   └── model          <- Modelo Predicción de la demanda eléctrica 20 países con mayor consumo de América Latina.
+├
+├── extract            <- Código de extracción de datos.
+│   │  ├── extract_HUB_data.ipynb
+│   │  ├── extract_WB_SE4ALL_data.ipynb
+├
+├── transform          <- Código de limpieza y transformación.
+│   │  ├── transform_HUB_data.ipynb
+│   │  ├── transform_WB_SE4ALL_data.ipynb
+├
+├── load               <- Código de carga al destino.
+│   │  ├── load_capacidad_energetica.ipynb
+├
+├── model               <- Código  Modelo Predicción de la demanda eléctrica 20 países con mayor consumo de América Latina.
+│   │  ├── load_demanda_atendida_renovable.ipynb
+├
+├── pipeline.py        <- Orquesta la ejecución completa (extract → transform → load).
+│
+├── requirements.txt   <- Dependencias del proyecto.
+│
+├── .gitignore         <- Archivos que git debe ignorar.
+│
+└── README.md          <- Este archivo.
+```
+## 5. Requisitos
+### Requisitos del sistema
+**Entorno Principal:** Google Colab ( Python 3.10+ configuración de la nube) almacenamiento en Google Drive.
+
+**Ejecución Local (Opcional):** Python 3.10 o superior y Júpiter Notebook/ JupyterLab.
+
+### Dependencias requeridas
+Las principales librerías utilizadas en los notebooks son:
+- "Pandas" ( manipulación de datos y estructuras Dataset)
+- "Numpy"  ( operaciones numéricas y vectoriales)
+- "Request" ( peticiones HTTP a la API del Banco Mundial)
+- "openpyxl" ( lectura y escritura de archivos Excel de Hub de energía)
+- "matplotlib" (generación de gráficos)
+- "ydata-profiling" (generación automática de reportes HTML para EDA  de datos)
+- walter
+### Instrucciones de ejecución
+#### Opción 1 (Recomendada) Ejecutar en Google Colab
+1. Subir la carpeta del proyecto a la unidad de **Google Drive** en la ruta:
+   "/My Drive/Colab Notebooks/Master/1.ETL/entregable3/"
+2. Asegurase de tener el dataset inicial HUB, lo puede descargar en https://hubenergia.org/index.php/es/indicators/capacidad-generacion-y-consumo-de-electricidad, este se debe guardar en la ruta "data/original/"
+3. Abrir y ejecutar el notebook orquestador **"pipeline.ip`ynb"**
+4. El notebook montará automáticamente Google Drive mediante "drive.mount('/content/drive')" y ejecutará de forma secuencial los notebooks de las carpetas `extract/`, `transform/` y `load/`.
+#### Opción 2 Ejecución Local
+1. clonar el repositorio
+2. Correr el local
+- Dependencias listadas en `requirements.txt`
+  
+
