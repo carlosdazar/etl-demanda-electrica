@@ -33,5 +33,57 @@ Cuando se habla de demanda eléctrica de un país, se hace referencia a la canti
 
 Este proyecto surge con la necesidad de consolidar y preparar un flujo de datos limpio y estructurado que integre diferentes métricas de consumo, generación y sostenibilidad eléctrica de los 20 países con mayor consumo energético de la región, con el fin de generar diferentes mecanismos que permitan predecir la demanda eléctrica y analizar en qué medida es posible satisfacerla mediante el uso de energías renovables.
 
-*Objetivo:** Generar un dataset final “maestro” unificado, estandarizado en formato ancho, acotado en una rejilla temporal al periodo de 2000-2021, con datos limpios de generación (PTJ), capacidad instalada (PTJ), consumo por sector (PTJ), así como los indicadores de acceso (PTJ), sostenibilidad (USD) e intensidad eléctrica (PTJ). El cual puede ser utilizado como insumo inicial para entrenar modelos de predicción de la demanda eléctrica regional. También puede ser aplicado en el análisis comportamental de la generación y consumo eléctrico por país en una rejilla temporal de 2000 a 2021.
+**Objetivo:** Generar un dataset final “maestro” unificado, estandarizado en formato ancho, acotado en una rejilla temporal al periodo de 2000-2021, con datos limpios de generación (PTJ), capacidad instalada (PTJ), consumo por sector (PTJ), así como los indicadores de acceso (PTJ), sostenibilidad (USD) e intensidad eléctrica (PTJ). El cual puede ser utilizado como insumo inicial para entrenar modelos de predicción de la demanda eléctrica regional. También puede ser aplicado en el análisis comportamental de la generación y consumo eléctrico por país en una rejilla temporal de 2000 a 2021.
 
+## 2. Fuentes de datos
+
+| Fuente | Tipo (CSV, API, BD, web) | Origen / URL | Tamaño aprox. | Frecuencia de actualización | Licencia |
+|---|---|---|---|---|---|
+| **Hub de Energía** (Generación, Capacidad y Consumo) | Archivo Excel | Hub de Energía : https://hubenergia.org/index.php/es/indicators/capacidad-generacion-y-consumo-de-electricidad | ~1,320 filas × 24 columnas (3 hojas) | Anual | Uso publico |
+| **World Bank SE4ALL API** (Indicadores de acceso, sostenibilidad e intensidad energética) | API REST (JSON) |World Bank Data API: https : //data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL| ~4,400 registros (8 indicadores × 20 países × 22 años) | Anual |CC-BY 4.0|
+
+### Cobertura Geográfica y Temporal
+* **Periodo de estudio:** 2000 – 2021 (rejilla temporal uniforme de 22 años).
+* **Alcance geográfico:** Top 20 países con mayor consumo energético de América Latina:
+
+País | País |
+|---|---|
+| 1. Brasil | 11. Uruguay|
+| 2. México | 12. Guatemala |
+| 3. Argentina | 13. Costa Rica |
+| 4. Chile | 14. Panama |
+| 5. Colombia | 15. Bolivia |
+| 6. Perú | 16. Honduras |
+| 7. Venezuela | 17. El Salvador |
+| 8. Ecuador | 18. Nicaragua|
+| 9. República Dominicana | 19. Cuba |
+| 10. Paraguay | 20. Haití |
+
+## 3. Arquitectura del pipeline
+
+```mermaid
+flowchart LR
+subgraph Fuentes y Extracción
+        O[(data/original/)] -->|dataset inicial Hub| E1[extract_HUB_data.ipynb]
+        API[World Bank API REST] -->|petición HTTP| E2[extract_WB_SE4ALL_data.ipynb]
+    end
+      subgraph Extract Output
+        E1 --> R1[(data/raw/extract_HUB_*.csv)]
+        E2 --> R2[(data/raw/extract_energia_sostenible_*.csv)]
+    end
+
+    subgraph Transform
+        R1 --> T1[transform_HUB_data.ipynb]
+        R2 --> T2[transform_WB_SE4ALL_data.ipynb]
+        T1 --> D1[(data/transformed/transform_HUB_energia.csv)]
+        T2 --> D2[(data/transformed/transform_energia_sostenible_*.csv)]
+    end
+
+    subgraph Load
+        D1 --> L[load_dataset_maestro.ipynb]
+        D2 --> L
+        L --> M[(data/processed/dataset_maestro.csv)]
+    end
+
+    M -.->|Insumo de entrada| ML[Modelos de Predicción / Consumidor Final]
+```
