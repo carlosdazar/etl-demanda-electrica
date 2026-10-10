@@ -195,21 +195,13 @@ los datos crudos usados en el pipeline provienen de dos fuentes distintas y se g
 
 1.**HUB de energía**
 
--**método de obtención**: Requiere descarga previa en https://hubenergia.org/index.php/es/indicators/capacidad-generacion-y-consumo-de-electricidad. Se debe guardar manualmente en la carpeta `data/original/`
-
--**proceso de extracción**: Al ejecutar el notebook `extract/extract_HUB_data.ipynb` se lee el archivo inicial, separa y filtra las tres categorías principales, guarda los archivos en `data/raw/`:
-
--`extract_HUB_capacidad_instalada.csv`
-
--`extract_HUB_consumo.csv`
-
--`extract_HUB_generacion_electrica.csv`
+**método de obtención**: Requiere descarga previa en https://hubenergia.org/index.php/es/indicators/capacidad-generacion-y-consumo-de-electricidad. Se debe guardar manualmente en la carpeta `data/original/`
 
 2. **World Bank (SE4ALL API REST)**
 
--**método de obtención**: Extracción desde  la API RES JSON https : //data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL
+**método de obtención**: Extracción desde  la API RES JSON https : //data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL
 
--**proceso de extracción**: Al ejecutar el notebook `extract/extract_WB_SE4ALL_data.ipynb` consulta dinámicamente el endpoint público de la API del Banco Mundial, separa y filtra las tres categorías principales, guarda los archivos en `data/raw/`.
+
 
 
 
