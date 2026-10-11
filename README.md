@@ -99,7 +99,9 @@ El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), eje
 * transform_HUB_energia.csv.csv
 * transform_energia_sostenible_WB_SE4ALL.csv
   
-3. Load: Toma los conjuntos de datos transformados de data/transformed/, realiza la consolidación final (merge) en formato ancho (wide) para la rejilla temporal 2000–2021 y exporta el Dataset Maestro unificado en data/processed/ --- parte de walter
+3. Load: Toma los conjuntos de datos transformados de data/transformed/, realiza la consolidación final (merge) en formato ancho (wide) para la rejilla temporal 2000–2021 y exporta el Dataset Maestro unificado en data/processed/ y lo carga en una base SQLite. Antes de insertar arregla los nombres de columna que traían comas y espacios, crea las tablas y al final revisa que lo que quedó en la base coincida con el CSV.
+- **Scripts:** `load/load_sqlite.py`
+- **Destino:** `data/energia.db` (SQLite)
 
 **Tecnologías:** Python 3.10+, pandas, NumPy, requests, openpyxl, matplotlib, ydata-profiling, subprocess, pathlib, Google Colab / Google Drive, Git/GitHub, SQLAlchemy, PostgreSQL
 
@@ -159,7 +161,7 @@ Las principales librerías utilizadas en los notebooks son:
 - "openpyxl" ( lectura y escritura de archivos Excel de Hub de energía)
 - "matplotlib" (generación de gráficos)
 - "ydata-profiling" (generación automática de reportes HTML para EDA  de datos)
-- walter
+- "Sqlite3" (motor de base de datos relacional y ligero que funciona de forma autónoma, sin necesidad de instalar o configurar un servidor independiente)
 ## 6. Instalación y configuración
 ### Instrucciones de ejecución
 #### Opción 1 (Recomendada) Ejecutar en Google Colab
@@ -191,6 +193,9 @@ Para mantener la flexibilidad de ejecución entre entono local y Google Colab, s
 |---|---|---|
 | `BASE_DIR` | Ruta raíz del proyecto donde se leen y escriben las capas de datos (`data/`)| `/content/drive/MyDrive/Colab Notebooks/Master/1.ETL/entregable3` |
 | `API_WB_SE4ALL_URL` | Endpoint base público de la API del Banco Mundial| https : //data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL |
+
+La etapa Load con SQLite **no requiere credenciales ni variables de entorno**: la base es un archivo local (`data/energia.db`). Si se migra a un motor con servidor (PostgreSQL, MySQL), agregue aquí las variables de conexión usando un archivo `.env` (incluido en `.gitignore`).
+
 ### Obtención de los datos
 los datos crudos usados en el pipeline provienen de dos fuentes distintas y se gestionan de la siguiente manera:
 
@@ -304,6 +309,8 @@ El tiempo estimado de ejecución es entre 2 y 6 Minutos en total ( depende de la
 - **Salidas (`data/load/`):**
   
      - `energia.csv`
+       
+#### SQlite
 
     
 ## 9. Modelo y diccionario de datos
