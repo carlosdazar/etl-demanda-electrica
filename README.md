@@ -259,7 +259,7 @@ En `data/processed`
 En `extract`
 * Reportes de perfilado y/o EDA en formato HTML (`ydata-profiling`)
 
-El tiempo estimado de ejecución es entre 2 y 6 Minutos en total ( depende de la latencia de respuesta de la API del banco Mundial)ç
+El tiempo estimado de ejecución es entre 2 y 6 Minutos en total ( depende de la latencia de respuesta de la API del banco Mundial)
 
 ## 8. Detalle de las etapas ETL
 
@@ -422,4 +422,13 @@ De esta forma se puede concluir que el modelo ExtraTreesRegressor presenta un de
 El modelo queda guardado en `data/model` como `modelo_extratrees_energia.pkl`
 
 ## 12. Limitaciones y trabajo futuro
+
 ## 13. Referencias
+- Documentación de SQLite: <https://www.sqlite.org/docs.html>
+- Documentación de pandas (`read_csv`, `to_sql`): <https://pandas.pydata.org/docs/>
+- Documentación de data profiling : <https://blog.hubspot.com/marketing/data-profiling/>
+- Documentación de scikit learn : <https://scikit-learn.org/stable/>
+- Documentación de Numpy: <https://numpy.org/>
+- Módulo `sqlite3` de Python: <https://docs.python.org/3/library/sqlite3.html>
+- [Fuente original del dataset de energía: nombre y enlace.]
+- Uso de IA generativa: se usó Claude (Anthropic), Chatgpt y Gemini como apoyo para la elaboración de los scripts yel borrador de estas secciones. Todo se ejecutó sobre los datos reales y los resultados se revisaron.
