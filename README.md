@@ -1,5 +1,5 @@
 # Predicción de la demanda eléctrica mediante fuentes de energía renovables en los 20 países con mayor consumo de América Latina
-Este pipeline de ETL extrae datos históricos de generación, capacidad instalada y consumo eléctrico (vía HUB de energía) junto con los indicadores de acceso, sostenibilidad e intensidad energética (vía API REST de World Bank SE4ALL), los unifica para los 20 países con mayor consumo eléctrico de América Latina en una ventana temporal común (2000-2021), realiza el proceso de limpieza, imputación estructural, escalado y pivoteo en formato ancho; finalmente, en la fase de carga, genera un dataset optimizado para posteriormente ser usado para entrenar un modelo predictivo de demanda eléctrica regional.
+Este pipeline de ETL extrae datos históricos de generación, capacidad instalada y consumo eléctrico (vía HUB de energía) junto con los indicadores de acceso, sostenibilidad e intensidad energética (vía API REST de World Bank SE4ALL), los unifica para los 20 países con mayor consumo eléctrico de América Latina en una ventana temporal común (2000-2021), realiza el proceso de limpieza, imputación estructural, escalado y pivoteo en formato ancho; finalmente, en la fase de carga, genera un dataset consolidado y una base de datos optimizada para posteriormente ser usado para entrenar un modelo predictivo de demanda eléctrica regional.
 
 **Curso:** ETL — Maestría en Inteligencia Artificial y Ciencia de Datos, Universidad Autónoma de Occidente
 **Periodo:** 2026-2
@@ -112,36 +112,51 @@ El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), eje
 ├── data               <- Conjuntos de datos
 │
 │   ├── original       <- Conjuntos de datos originales HUB de energía.
+│   │
 │   │  ├── hub.xlsx
+│   │
 │   ├── transformed    <- Conjuntos de datos finales trasformados, listos para load.
+│   │ 
 │   │  ├── transform_HUB_energia.csv
 │   │  ├── transform_energia_sostenible_WB_SE4ALL.csv
+│   │
 │   └── raw            <- Datos originales de la extracción, sin modificar.
+│   │ 
 │   │  ├── extract_HUB_capacidad_instalada.csv
 │   │  ├── extract_HUB_capacidad_consumo.csv
 │   │  ├── extract_HUB_generacion_electrica.csv
 │   │  ├── extract_energia_sostenible_WB_SE4ALL.csv
+│   │
 │   └── processed      <- Dataset "Maestro" final, listo para análisis o modelado.
+│   │ 
 │   │  ├── energia.csv
 │   │  ├── energia.db
 │   │ 
 │   └── model          <- Modelo Predicción de la demanda eléctrica 20 países con mayor consumo de América Latina.
+│   │ 
 ├   ├  ├── modelo_extratrees_energia.pkl
 ├
 ├── extract            <- Código de extracción de datos.
+│   │ 
 │   │  ├── extract_HUB_data.ipynb
 │   │  ├── extract_WB_SE4ALL_data.ipynb
 ├
 ├── transform          <- Código de limpieza y transformación.
+│   │ 
 │   │  ├── transform_HUB_data.ipynb
 │   │  ├── transform_WB_SE4ALL_data.ipynb
 ├
 ├── load               <- Código de carga al destino.
 │   │  ├── load_capacidad_energetica.ipynb
 ├
-├── model               <- Código  Modelo Predicción de la demanda eléctrica 20 países con mayor consumo de América Latina.
+├── model              <- Código  Modelo Predicción de la demanda eléctrica 20 países con mayor consumo de América Latina.
 │   │  ├── model_demanda_atendida_renovable.ipynb
 ├
+├── docs               <- tienes manuales, guías o capturas de pantalla
+│   │ 
+│   │  ├── 
+│   │  ├── 
+│ 
 ├── pipeline.py        <- Orquesta la ejecución completa (extract → transform → load).
 │
 ├── requirements.txt   <- Dependencias del proyecto.
@@ -304,22 +319,22 @@ El tiempo estimado de ejecución es entre 2 y 6 Minutos en total ( depende de la
 
 ### 8.3 Load
 
-- **Qué hace:** Consolida los datos procesados en la etapa transform (`data/transformed/`),realiza la consolidación final (merge) en formato ancho (wide) para la rejilla temporal 2000–2021 y exporta el Dataset Maestro unificado en `data/processed/` listo para ser consumido por modelos de predicción o para el análisis comportamental de la generación y consumo eléctrico por país en una rejilla temporal de 2000 a 2021.
+- **Qué hace:** Consolida los datos procesados en la etapa transform (`data/transformed/`),realiza la consolidación final (merge) en formato ancho (wide) para la rejilla temporal 2000–2021 y exporta el Dataset  unificado en `data/processed/` listo para ser consumido por modelos de predicción o para el análisis comportamental de la generación y consumo eléctrico por país en una rejilla temporal de 2000 a 2021.Establece conexión con una base datos SQlite, se reconstruye el esquema dimensional mediante un modelo estrella/copo de nieve poblando la dimensión dim_pais (20 países) y distribuyendo los indicadores en 7 tablas de hechos temáticas (`hechos_capacidad`, `hechos_capacidad_renovable`, `hechos_generacion`, `hechos_consumo`, `hechos_consumo_renovable`, `hechos_financieros` y `hechos_otros`) asociadas por la clave foránea `id_pais` y el `anio`.
 
 - **Notebooks:**
   
-    - `load_capacidad_energetica.ipynb`
+    - `load/load_capacidad_energetica.ipynb`
 
 - **Salidas (`data/processed/`):**
   
-     - `energia.csv`
+     - Dataset Unificado:`energia.csv`
+     - Base de Datos Relacional: `energia.db`
        
-#### SQlite
 
     
 ## 9. Modelo y diccionario de datos
 
-El producto final del pipeline es una estructura de datos tabular plana en formato ancho, la granularidad del dataset esta definida por la combinación de **País** y **Año** (`[pais, anio]`).
+Se opto por un Modelo Estrella porque permite desnormalizar el contexto descriptivo (dim_pais) y lo conecta de manera directa con las tablas de hecho temáticas (`generacion`,`capacidad`,`consumo`,). Esto reduce la cantidad de uso de `JOINs` para la consulta de la base de datos, asi mismo optimiza el tiempo de respuesta y establece una estructura limpia e intuitiva. La imagen del modelo se muestra a continuación:
 
 ### Estructura general de las 48 variables 
 
