@@ -154,7 +154,7 @@ El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), eje
 ├
 ├── docs               <- tienes manuales, guías o capturas de pantalla
 │   │ 
-│   │  ├── 
+│   │  ├── modelo_datos.jpeg
 │   │  ├── 
 │ 
 ├── pipeline.py        <- Orquesta la ejecución completa (extract → transform → load).
