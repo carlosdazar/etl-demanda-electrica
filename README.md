@@ -81,12 +81,12 @@ subgraph Fuentes y Extracción
     end
 
     subgraph Load
-        D1 --> L[load_capacidad_energeticao.ipynb]
-        D2 --> L[load_capacidad_energeticao.ipynb]
+        D1 --> L[load_capacidad_energetica.ipynb]
         L --> M[(data/processed/energia.csv)]
     end
 
     M -.->|energia.csv-insumo de entrada| ML[Modelos de Predicción / Consumidor Final]
+    M -.->|"almacenamiento"| DB[("energia.db")]
 ```
 El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), ejecuta de forma modular la siguiente secuencia de flujo ETL:
 1. Extract: Para la fuente Hub se ejecuta el notebook de extracción "extract_HUB_data.ipynb" obteniendo el archivo original  xlsx de la carpeta data/original y para la API del banco mundial se ejecuta el notebook "extract_WB_SE4ALL_data.ipynb". se generan los siguientes archivos que se depositan en la carpeta data/raw:
@@ -100,7 +100,7 @@ El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), eje
 * transform_energia_sostenible_WB_SE4ALL.csv
   
 3. Load: Toma los conjuntos de datos transformados de data/transformed/, realiza la consolidación final (merge) en formato ancho (wide) para la rejilla temporal 2000–2021 y exporta el Dataset Maestro unificado en data/processed/ y lo carga en una base SQLite. Antes de insertar arregla los nombres de columna que traían comas y espacios, crea las tablas y al final revisa que lo que quedó en la base coincida con el CSV.
-- **Scripts:** `load/load_sqlite.py`
+- **Scripts:** `processed/load_capacidad_energetica.csv`
 - **Destino:** `data/energia.db` (SQLite)
 
 **Tecnologías:** Python 3.10+, pandas, NumPy, requests, openpyxl, matplotlib, ydata-profiling, subprocess, pathlib, Google Colab / Google Drive, Git/GitHub, SQLAlchemy, PostgreSQL
@@ -122,6 +122,8 @@ El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), eje
 │   │  ├── extract_energia_sostenible_WB_SE4ALL.csv
 │   └── processed      <- Dataset "Maestro" final, listo para análisis o modelado.
 │   │  ├── energia.csv
+│   │  ├── energia.db
+│   │ 
 │   └── model          <- Modelo Predicción de la demanda eléctrica 20 países con mayor consumo de América Latina.
 ├   ├  ├── modelo_extratrees_energia.pkl
 ├
@@ -194,7 +196,7 @@ Para mantener la flexibilidad de ejecución entre entono local y Google Colab, s
 | `BASE_DIR` | Ruta raíz del proyecto donde se leen y escriben las capas de datos (`data/`)| `/content/drive/MyDrive/Colab Notebooks/Master/1.ETL/entregable3` |
 | `API_WB_SE4ALL_URL` | Endpoint base público de la API del Banco Mundial| https : //data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL |
 
-La etapa Load con SQLite **no requiere credenciales ni variables de entorno**: la base es un archivo local (`data/energia.db`). Si se migra a un motor con servidor (PostgreSQL, MySQL), agregue aquí las variables de conexión usando un archivo `.env` (incluido en `.gitignore`).
+La etapa Load con SQLite **no requiere credenciales ni variables de entorno**: la base es un archivo local (`data/proecessed/energia.db`). Si se migra a un motor con servidor (PostgreSQL, MySQL), agregue aquí las variables de conexión usando un archivo `.env` (incluido en `.gitignore`).
 
 ### Obtención de los datos
 los datos crudos usados en el pipeline provienen de dos fuentes distintas y se gestionan de la siguiente manera:
@@ -250,8 +252,9 @@ En `data/transformed`
 * `transform_HUB_energia.csv`
 * `transform_energia_sostenible_WB_SE4ALL.csv`
 
-En `data/load`
+En `data/processed`
 * `energia.csv` ( Dataset final consolidado en formato ancho para 20 Países de América Latina entre los años 2000 a 2021)
+* `energia.df` ( Dataset final consolidado en la base de datos SQlite)
   
 En `extract`
 * Reportes de perfilado y/o EDA en formato HTML (`ydata-profiling`)
@@ -306,7 +309,7 @@ El tiempo estimado de ejecución es entre 2 y 6 Minutos en total ( depende de la
   
     - `load_capacidad_energetica.ipynb`
 
-- **Salidas (`data/load/`):**
+- **Salidas (`data/processed/`):**
   
      - `energia.csv`
        
@@ -364,7 +367,7 @@ Como parte de la fase de validación exploratoria, se implementó `ydata-profili
 walter
 ### Modelo de Predicción
 
-El dataset consolidado (`dataset_maestro.csv`) permitió alimentar y evaluar distintos modelos de Machine Learning para proyectar la demanda Energética de los 20 paises de mayor consumo en América latina.
+El dataset consolidado (`energia.csv`) permitió alimentar y evaluar distintos modelos de Machine Learning para proyectar la demanda Energética de los 20 paises de mayor consumo en América latina.
 
 #### concepto de demanda Energetica
 
