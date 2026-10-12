@@ -336,36 +336,110 @@ El tiempo estimado de ejecución es entre 2 y 6 Minutos en total ( depende de la
 
 Se opto por un Modelo Estrella porque permite desnormalizar el contexto descriptivo (dim_pais) y lo conecta de manera directa con las tablas de hecho temáticas (`generacion`,`capacidad`,`consumo`,). Esto reduce la cantidad de uso de `JOINs` para la consulta de la base de datos, asi mismo optimiza el tiempo de respuesta y establece una estructura limpia e intuitiva. La imagen del modelo se muestra a continuación:
 
-### Estructura general de las 48 variables 
+![Modelo de datos](docs/modelo_datos.jpeg)
 
-| Categoría | N° Cols | Descripción y Variables Clave |
-|---|---|---|
-| **Identificadores** | 2 | `pais` (*string*), `anio` (*integer*) |
-| **Acceso e Intensidad (WB)** | 3 | `acceso_electricidad_pt`, `acceso_combustibles_tecnologias_limpias_pt`, `intensidad_energetica_mj_pib` |
-| **Capacidad Renovable p/cápita (WB)** | 8 | `capacidad_renovable_total_w_persona`, `capacidad_renovable_hidroelectrica_w_persona`, `capacidad_renovable_solar_w_persona`, `capacidad_renovable_eolica_w_persona`, etc. |
-| **Consumo y Proporción Renovable (WB)** | 5 | `consumo_renovable_electricidad_pj`, `consumo_final_total_energia_pj`, `proporcion_energias_renovables_total_pt`, etc. |
-| **Flujos Financieros Renovables (WB)** | 8 | `flujos_financieros_renovables_total_usd`, `flujos_financieros_solar_usd`, `flujos_financieros_eolica_usd`, etc. |
-| **Capacidad Instalada por Fuente (Hub)** | 8 | `capacidad_hidro`, `capacidad_solar`, `capacidad_eolica`, `capacidad_termica_no_renovable`, etc. |
-| **Consumo por Sector (Hub)** | 6 | `consumo_residencial`, `consumo_transporte`, `consumo_industrial`, `consumo_comercial_servicios_publico`, `consumo_agro_pesca_mineria`, `consumo_construccion_otros` |
-| **Generación por Fuente (Hub)** | 8 | `generacion_hidro`, `generacion_eolica`, `generacion_solar`, `generacion_termica_no_renovable`, `generacion_nuclear`, etc. |
+### Estructura general 
 
----
+1. Tabla Dimensión: `dim_pais`
+   
+Guarda el catálogo único de los 20 países en América Latina.
+   
+| Columna | Tipo | Descripción | Ejemplo |
+|---|---|---|---|
+| `id_pais` | INTEGER | Clave primaria autonumerada | `1` |
+| `pais` | TEXT | Nombre normalizado del país (único) | `colombia` |
 
-### Diccionario de Datos
+2. Tabla de Hechos: `hechos_generacion`
+   
+Mide la producción de energía eléctrica según la fuente energética (PJ)
 
-| Columna | Tipo | Fuente | Descripción | Ejemplo |
-|---|---|---|---|---|
-| `pais` | `string` | General | Nombre estandarizado del país (América Latina) | `Argentina` |
-| `anio` | `integer` | General | Año correspondiente a la observación (2000–2021) | `2000` |
-| `acceso_electricidad_pt` | `float` | WB SE4ALL | Cobertura del servicio eléctrico (% de la población) | `95.7` |
-| `capacidad_renovable_total_w_persona` | `float` | WB SE4ALL | Capacidad renovable instalada por habitante (W/persona) | `235000000.0` |
-| `consumo_final_total_energia_pj` | `float` | WB SE4ALL | Consumo final total de energía en Petajulios ($PJ$) | `1655.8` |
-| `intensidad_energetica_mj_pib` | `float` | WB SE4ALL | Intensidad energética de la economía (MJ por PIB PPA) | `3.69` |
-| `consumo_residencial` | `float` | Hub Energía | Consumo final de energía en el sector residencial | `1.09` |
-| `consumo_transporte` | `float` | Hub Energía | Consumo final de energía en el sector transporte | `0.125` |
-| `generacion_hidro` | `float` | Hub Energía | Generación eléctrica bruta de fuente hídrica | `103.54` |
-| `generacion_termica no renovable` | `float` | Hub Energía | Generación eléctrica a partir de combustibles fósiles | `165.90` |
-| `...` | — | — | *38 columnas adicionales siguiendo la misma estructura de nomenclatura.* | — |
+| Columna | Tipo | Descripción | Ejemplo |
+|---|---|---|---|
+| `id_pais` | INTEGER | Clave foránea que referencia a `dim_pais(id_pais)` | `1` |
+| `anio` | INTEGER | Año del registro (Rango: 2000–2021) | `2021` |
+| `generacion_eolica` | REAL | Generación eléctrica de fuente eólica | `15.42` |
+| `generacion_geotermia` | REAL | Generación eléctrica de fuente geotérmica | `0.00` |
+| `generacion_hidro` | REAL | Generación eléctrica de fuente hidroeléctrica | `217.79` |
+| `generacion_nuclear` | REAL | Generación eléctrica de fuente nuclear | `0.00` |
+| `generacion_otros` | REAL | Generación de otras fuentes no clasificadas | `1.20` |
+| `generacion_solar` | REAL | Generación eléctrica de fuente solar fotovoltaica | `4.28` |
+| `generacion_termica_no_renovable` | REAL | Generación por combustibles fósiles (carbón, gas, diésel) | `85.10` |
+| `generacion_termica_renovable` | REAL | Generación por biomasa o biogás | `12.30` |
+
+3. Tabla de Hechos: `hechos_capacidad`
+
+Capacidad instalada de generación eléctrica por tipo de fuente.
+
+| Columna | Tipo | Descripción | Ejemplo |
+|---|---|---|---|
+| `id_pais` | INTEGER | Clave foránea que referencia a `dim_pais(id_pais)` | `1` |
+| `anio` | INTEGER | Año del registro (2000–2021) | `2021` |
+| `capacidad_eolica` | REAL | Capacidad eólica instalada | `0.00` |
+| `capacidad_geotermia` | REAL | Capacidad geotérmica instalada | `0.00` |
+| `capacidad_hidro` | REAL | Capacidad hidroeléctrica instalada | `376.69` |
+| `capacidad_nuclear` | REAL | Capacidad nuclear instalada | `0.00` |
+| `capacidad_otros` | REAL | Capacidad instalada de otras fuentes | `0.00` |
+| `capacidad_solar` | REAL | Capacidad solar fotovoltaica instalada | `4.28` |
+| `capacidad_termica_no_renovable` | REAL | Capacidad térmica instalada (no renovable) | `110.50` |
+| `capacidad_termica_renovable` | REAL | Capacidad térmica renovable instalada | `15.20` |
+
+4. Tabla de Hechos: `hechos_consumo`
+
+Consumo final de energía discriminado por sectores económicos (PJ).
+
+Columna | Tipo | Descripción | Ejemplo |
+|---|---|---|---|
+| `id_pais` | INTEGER | Clave foránea que referencia a `dim_pais(id_pais)` | `1` |
+| `anio` | INTEGER | Año del registro (2000–2021) | `2020` |
+| `consumo_agro_pesca_y_mineria` | REAL | Consumo energético del sector agropecuario, pesca y minería | `18.50` |
+| `consumo_comercial_servicios_publico` | REAL | Consumo del sector comercial, servicios y público | `45.20` |
+| `consumo_construccion_y_otros` | REAL | Consumo en construcción y otros sectores no especificados | `5.10` |
+| `consumo_industrial` | REAL | Consumo energético del sector industrial | `120.40` |
+| `consumo_residencial` | REAL | Consumo de energía en hogares / sector residencial | `95.80` |
+| `consumo_transporte` | REAL | Consumo de energía del sector transporte | `180.30` |
+| `consumo_final_total_energia_pj` | REAL | Consumo final total de energía (PJ) | `465.30` |
+
+5. Tabla de Hechos: `hechos_otros`
+
+Indicadores socioeconómicos, de acceso, intensidad y sostenibilidad energética (Banco Mundial / SE4ALL).
+
+| Columna | Tipo | Descripción | Ejemplo |
+|---|---|---|---|
+| `id_pais` | INTEGER | Clave foránea que referencia a `dim_pais(id_pais)` | `1` |
+| `anio` | INTEGER | Año del registro (2000–2021) | `2021` |
+| `acceso_electricidad_pt` | REAL | Porcentaje de la población con acceso a electricidad (%) | `99.20` |
+| `acceso_combustibles_tecnologias_limpias_pt` | REAL | Porcentaje con acceso a tecnologías limpias para cocinar (%) | `88.50` |
+| `proporcion_energias_renovables_modernas_pt` | REAL | Proporción de energía renovable moderna (%) | `35.40` |
+| `proporcion_energias_renovables_total_pt` | REAL | Proporción total de energía renovable en consumo final (%) | `50.10` |
+| `intensidad_energetica_mj_pib` | REAL | Intensidad energética medida en Megajulios por PIB (MJ/$ PIB) | `3.45` |
+
+6. Tabla de Hechos: `hechos_capacidad_renovable`
+
+Capacidad renovable instalada expresada per cápita (en Watts por persona).
+
+| Columna | Tipo | Descripción | Ejemplo |
+|---|---|---|---|
+| `id_pais` | INTEGER | Clave foránea que referencia a `dim_pais(id_pais)` | `1` |
+| `anio` | INTEGER | Año del registro (2000–2021) | `2021` |
+| `capacidad_renovable_total_w_persona` | REAL | Capacidad renovable total instalada por persona (W/persona) | `245.80` |
+| `capacidad_renovable_bioenergia_w_persona` | REAL | Capacidad de bioenergía instalada per cápita (W/persona) | `12.30` |
+| `capacidad_renovable_geotermica_w_persona` | REAL | Capacidad geotérmica instalada per cápita (W/persona) | `0.00` |
+| `capacidad_renovable_hidroelectrica_w_persona` | REAL | Capacidad hidroeléctrica instalada per cápita (W/persona) | `210.50` |
+| `capacidad_renovable_marina_w_persona` | REAL | Capacidad de energía marina instalada per cápita (W/persona) | `0.00` |
+| `capacidad_renovable_solar_w_persona` | REAL | Capacidad solar instalada per cápita (W/persona) | `18.40` |
+| `capacidad_renovable_eolica_w_persona` | REAL | Capacidad eólica instalada per cápita (W/persona) | `4.60` |
+
+7. Tabla Hechos: `hechos_consumo_renovable`
+
+Mide el consumo final de fuentes energéticas renovables clasificado por uso o sector (PJ).
+
+| Columna | Tipo | Descripción | Ejemplo |
+|---|---|---|---|
+| `id_pais` | INTEGER | Clave foránea que referencia a `dim_pais(id_pais)` | `1` |
+| `anio` | INTEGER | Año del registro (2000–2021) | `2020` |
+| `consumo_renovable_electricidad_pj` | REAL | Consumo de electricidad generada por fuentes renovables (PJ) | `85.40` |
+| `consumo_renovable_aumento_calor_pj` | REAL | Consumo de renovables destinadas a producción de calor (PJ) | `14.20` |
+| `consumo_renovable_transporte_pj` | REAL | Consumo de renovables en transporte / biocombustibles (PJ) | `6.80` |
 
 ## 10. Calidad de datos y validaciones
 
@@ -376,11 +450,80 @@ Se opto por un Modelo Estrella porque permite desnormalizar el contexto descript
 | Nulos en variables Hub de Energía| [1297 columna_valor] | [0] |
 | Nulos en variables WB SE4ALL| [13939 columnas COMMENT_OBS, DECIMALS, COMMENT_TS, DATA_SOURCE y UNIT_TYPE] | [0]|
 | Homologación temporal | rangos diferentes entre base de datos (1990-2022) (1970-2021)  | rejilla temporal común (2000-2021)  |
+| **Integridad referencial SQL** | Archivos estáticos independientes | **0 registros huérfanos** entre `dim_pais` y las 7 tablas de hechos |
 
 Como parte de la fase de validación exploratoria, se implementó `ydata-profiling` para generar reportes automatizados en HTML.
 
 ## 11. Resultados
-walter
+
+Se construyo un pipeline ETL que inifcia los indicadores socioeconómicos y energéticos para los 20 paises de mayor consumo de América Latina en el periodo 2000-2021.Como resultados finales se obtienen:
+- **Dataset consolidado:** Archivo CSV plano (`data/processed/energia.csv`) en formato ancho con 440 filas y 48 variables normalizadas, listo para alimentar modelos analíticos o de aprendizaje automático.
+- **Base de Datos Relacional Analítica:** Base de datos SQLite (`data/processed/energia.db`) estructurada bajo un modelo dimensional que distribuye las métricas en 7 tablas de hechos vinculadas a la dimensión de países (`dim_pais`).
+
+### Evidencia de ejecución
+
+### Consultas de ejemplo sobre la Base SQLite
+
+#### 1 . Top 5 países de América Latina con mayor generación hidroeléctrica en 2021
+
+```sql
+SELECT p.pais, ROUND(hg.generacion_hidro, 2) AS generacion_hidro
+    FROM hechos_generacion hg
+    JOIN dim_pais p USING (id_pais)
+    WHERE hg.anio = 2021
+    ORDER BY hg.generacion_hidro DESC
+    LIMIT 5
+```
+Resultado Obtenido
+
+| pais | generacion_hidro | 
+|---|---|
+|brasil | 1306.15 |
+| venezuela | 244.24 |
+| colombia|  217.79|
+| paraguay|  146.07|
+| mexico|  124.98|
+
+#### 2 . Promedio histórico (2000–2021) de la participación de renovables en el consumo energético final
+
+```sql
+ SELECT p.pais,
+           ROUND(AVG(ho.proporcion_energias_renovables_total_pt), 2) AS prom_renovables_pct
+    FROM hechos_otros ho
+    JOIN dim_pais p USING (id_pais)
+    GROUP BY p.pais
+    ORDER BY prom_renovables_pct DESC
+    LIMIT 5
+```
+Resultado Obtenido
+
+| pais | prom_renovables_pct | 
+|---|---|
+|haiti | 78.86 |
+| guatemala | 64.73 |
+| paraguay|  64.27|
+| nicaragua|  52.76|
+| honduras|  50.10|
+
+#### 3 . Capacidad de energia solar e hidro para Colombia despues del 2019
+
+```sql
+ SELECT pais, anio, capacidad_solar, capacidad_hidro
+    FROM hechos_capacidad hc
+    INNER JOIN dim_pais p USING (id_pais)
+    WHERE pais = 'colombia' AND anio >= 2019
+    ORDER BY anio
+```
+Resultado Obtenido
+
+|pais|	anio|	capacidad_solar|	capacidad_hidro|
+|---|---|---|---|
+|colombia|	2019|	0.566885|	375.802150|
+|colombia|	2020|	1.916736|	376.690961|
+|colombia|	2021|	4.288581|	376.690961|
+
+
+
 ### Modelo de Predicción
 
 El dataset consolidado (`energia.csv`) permitió alimentar y evaluar distintos modelos de Machine Learning para proyectar la demanda Energética de los 20 paises de mayor consumo en América latina.
@@ -438,6 +581,19 @@ De esta forma se puede concluir que el modelo ExtraTreesRegressor presenta un de
 El modelo queda guardado en `data/model` como `modelo_extratrees_energia.pkl`
 
 ## 12. Limitaciones y trabajo futuro
+
+### Limitaciones
+
+- **Dependencia de estructuras estáticas en fuentes externas:** Las consultas a la API del Banco Mundial y la extracción desde el Hub de Energía dependen de esquemas y formatos que pueden cambiar, lo que requeriría actualizar los scripts de extracción (`extract`).
+- **Brechas e imputación en series temporales:** Aunque la rejilla temporal se estandarizó para el periodo 2000–2021, existen variables socioeconómicas específicas con datos faltantes en los años iniciales para ciertos países, lo que exigió la aplicación de técnicas de imputación que deben interpretarse de manera adecuada para evitar fuga de datos e impresiones en la interpretación.
+- **Estrategia de carga por reemplazo completo :** La fase de carga destruye y recrea las tablas (`DROP TABLE IF EXISTS`), lo cual es adecuado para la escala actual (440 registros), pero ineficiente si se busca procesar actualizaciones frecuentes o volúmenes masivos de datos.
+
+### Mejoras trabajo futuro
+
+- **Implementación de carga incremental:** Evolucionar la fase de carga para admitir inserciones e interacciones tipo `UPSERT` o marcas de tiempo (`updated_at`), permitiendo actualizar datos de años recientes sin procesar nuevamente el histórico completo.
+- **Orquestación automatizada de flujos :** Realizar la Orquestación automatizada, de tal manera que programe las tareas de extracción y transformación de forma desatendida.
+- **Despliegue de  Dashboard :** Conectar la base de datos `energia.db` a una herramienta de BI (como Power BI, Metabase o Streamlit) para facilitar la visualización interactiva.
+
 
 ## 13. Referencias
 - Documentación de SQLite: <https://www.sqlite.org/docs.html>
