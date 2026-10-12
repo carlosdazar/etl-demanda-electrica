@@ -82,6 +82,7 @@ subgraph Fuentes y Extracción
 
     subgraph Load
         D1 --> L[load_capacidad_energetica.ipynb]
+        D2 --> L[load_capacidad_energetica.ipynb]
         L --> M[(data/processed/energia.csv)]
     end
 
@@ -329,9 +330,9 @@ El producto final del pipeline es una estructura de datos tabular plana en forma
 | **Capacidad Renovable p/cápita (WB)** | 8 | `capacidad_renovable_total_w_persona`, `capacidad_renovable_hidroelectrica_w_persona`, `capacidad_renovable_solar_w_persona`, `capacidad_renovable_eolica_w_persona`, etc. |
 | **Consumo y Proporción Renovable (WB)** | 5 | `consumo_renovable_electricidad_pj`, `consumo_final_total_energia_pj`, `proporcion_energias_renovables_total_pt`, etc. |
 | **Flujos Financieros Renovables (WB)** | 8 | `flujos_financieros_renovables_total_usd`, `flujos_financieros_solar_usd`, `flujos_financieros_eolica_usd`, etc. |
-| **Capacidad Instalada por Fuente (Hub)** | 8 | `capacidad_hidro`, `capacidad_solar`, `capacidad_eolica`, `capacidad_termica no renovable`, etc. |
-| **Consumo por Sector (Hub)** | 6 | `consumo_residencial`, `consumo_transporte`, `consumo_industrial`, `consumo_comercial, servicios, publico`, `consumo_agro, pesca y mineria`, `consumo_construccion y otros` |
-| **Generación por Fuente (Hub)** | 8 | `generacion_hidro`, `generacion_eolica`, `generacion_solar`, `generacion_termica no renovable`, `generacion_nuclear`, etc. |
+| **Capacidad Instalada por Fuente (Hub)** | 8 | `capacidad_hidro`, `capacidad_solar`, `capacidad_eolica`, `capacidad_termica_no_renovable`, etc. |
+| **Consumo por Sector (Hub)** | 6 | `consumo_residencial`, `consumo_transporte`, `consumo_industrial`, `consumo_comercial_servicios_publico`, `consumo_agro_pesca_mineria`, `consumo_construccion_otros` |
+| **Generación por Fuente (Hub)** | 8 | `generacion_hidro`, `generacion_eolica`, `generacion_solar`, `generacion_termica_no_renovable`, `generacion_nuclear`, etc. |
 
 ---
 
