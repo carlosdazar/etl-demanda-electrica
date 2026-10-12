@@ -120,8 +120,8 @@ El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), eje
 │   │  ├── extract_HUB_capacidad_consumo.csv
 │   │  ├── extract_HUB_generacion_electrica.csv
 │   │  ├── extract_energia_sostenible_WB_SE4ALL.csv
-│   └── load           <- Dataset "Maestro" final, listo para análisis o modelado.
-│   │  ├── energia.scv
+│   └── processed      <- Dataset "Maestro" final, listo para análisis o modelado.
+│   │  ├── energia.csv
 │   └── model          <- Modelo Predicción de la demanda eléctrica 20 países con mayor consumo de América Latina.
 ├   ├  ├── modelo_extratrees_energia.pkl
 ├
