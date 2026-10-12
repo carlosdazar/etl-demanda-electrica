@@ -99,7 +99,7 @@ El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), eje
 * transform_HUB_energia.csv.csv
 * transform_energia_sostenible_WB_SE4ALL.csv
   
-3. Load: Toma los conjuntos de datos transformados de data/transformed/, realiza la consolidación final (merge) en formato ancho (wide) para la rejilla temporal 2000–2021 y exporta el Dataset Maestro unificado en data/processed/ y lo carga en una base SQLite. Antes de insertar arregla los nombres de columna que traían comas y espacios, crea las tablas y al final revisa que lo que quedó en la base coincida con el CSV.
+3. Load: Toma los conjuntos de datos transformados de data/transformed/, realiza la consolidación final (merge) en formato ancho (wide) para la rejilla temporal 2000–2021 y exporta el Dataset Maestro unificado en data/processed/ y lo carga en una base SQLite.
 - **Scripts:** `processed/load_capacidad_energetica.csv`
 - **Destino:** `data/energia.db` (SQLite)
 
@@ -254,7 +254,7 @@ En `data/transformed`
 
 En `data/processed`
 * `energia.csv` ( Dataset final consolidado en formato ancho para 20 Países de América Latina entre los años 2000 a 2021)
-* `energia.df` ( Dataset final consolidado en la base de datos SQlite)
+* `energia.db` ( Dataset final consolidado en la base de datos SQlite)
   
 En `extract`
 * Reportes de perfilado y/o EDA en formato HTML (`ydata-profiling`)
