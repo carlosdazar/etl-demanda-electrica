@@ -526,6 +526,10 @@ Resultado Obtenido
 
 |pais|	anio|	capacidad_solar|	capacidad_hidro|
 |---|---|---|---|
+|colombia|	2015|	0.000000|	362.681282|
+|colombia|	2016|	0.000000|	366.019367|
+|colombia|	2017|	0.309053|	369.779405|
+|colombia|	2018|	0.309053|	373.278008|
 |colombia|	2019|	0.566885|	375.802150|
 |colombia|	2020|	1.916736|	376.690961|
 |colombia|	2021|	4.288581|	376.690961|
