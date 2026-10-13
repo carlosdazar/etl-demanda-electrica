@@ -90,21 +90,23 @@ subgraph Fuentes y Extracción
     M -.->|"almacenamiento"| DB[("energia.db")]
 ```
 El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), ejecuta de forma modular la siguiente secuencia de flujo ETL:
-1. Extract: Para la fuente Hub se ejecuta el notebook de extracción "extract_HUB_data.ipynb" obteniendo el archivo original  xlsx de la carpeta data/original y para la API del banco mundial se ejecuta el notebook "extract_WB_SE4ALL_data.ipynb". se generan los siguientes archivos que se depositan en la carpeta data/raw:
+1. Extract: Para la fuente Hub se ejecuta el notebook de extracción "extract_HUB_data.ipynb" obteniendo el archivo original  xlsx de la carpeta data/original y para la API del banco mundial se ejecuta el notebook "extract_WB_SE4ALL_data.ipynb". Se generan los siguientes archivos que se depositan en la carpeta data/raw:
 * extract_HUB_capacidad_instalada.csv
 * extract_HUB_capacidad_consumo.csv
 * extract_HUB_generacion_electrica.csv
 * extract_energia_sostenible_WB_SE4ALL.csv
 
-2. Transform: lee los datos que se obtuvieron de la fase de extracción de data/raw. aplica limpieza, estandarización de variables, homologación de unidades e imputación de datos nulos o faltantes. los resulados generados que se depositan en la carpeta data/transformed son:
+2. Transform: lee los datos que se obtuvieron de la fase de extracción de data/raw. Aplica limpieza, estandarización de variables, homologación de unidades e imputación de datos nulos o faltantes. Los resultados generados que se depositan en la carpeta data/transformed son:
 * transform_HUB_energia.csv.csv
 * transform_energia_sostenible_WB_SE4ALL.csv
   
 3. Load: Toma los conjuntos de datos transformados de data/transformed/, realiza la consolidación final (merge) en formato ancho (wide) para la rejilla temporal 2000–2021 y exporta el Dataset Maestro unificado en data/processed/ y lo carga en una base SQLite.
-- **Scripts:** `processed/load_capacidad_energetica.csv`
-- **Destino:** `data/energia.db` (SQLite)
+- **Scripts:** `load/load_capacidad_energetica.ipynb`
+- **Destino:** `data/energia.db` (SQLite) y `data/energia.csv`
 
 **Tecnologías:** Python 3.10+, pandas, NumPy, requests, openpyxl, matplotlib, ydata-profiling, subprocess, pathlib, Google Colab / Google Drive, Git/GitHub, SQLAlchemy, PostgreSQL
+
+Estas herramientas se reparten según la etapa del ETL en la que trabajan. Python es el lenguaje que une todo, y pathlib y subprocess ayudan a manejar las rutas de archivos y a ejecutar cada etapa por separado, deteniendo el proceso si una falla. En la extracción, requests trae datos de APIs o de internet y openpyxl lee y escribe archivos Excel. En la transformación, pandas y NumPy limpian, unen y calculan, mientras que ydata-profiling y matplotlib sirven para revisar los datos y dejar evidencia con reportes y gráficos. En la carga, SQLAlchemy conecta Python con la base de datos y PostgreSQL funciona como destino, con integridad de datos y varios usuarios a la vez. Por último, Google Colab y Drive dan un entorno compartido en la nube, y Git y GitHub guardan el historial de cambios y facilitan el trabajo en grupo y la entrega al docente.
 
 ## 4. Estructura del repositorio
 
@@ -152,7 +154,7 @@ El pipeline esta orquestado mediante un notebook principal (pipeline.ipynb), eje
 ├── model              <- Código  Modelo Predicción de la demanda eléctrica 20 países con mayor consumo de América Latina.
 │   │  ├── model_demanda_atendida_renovable.ipynb
 ├
-├── docs               <- tienes manuales, guías o capturas de pantalla
+├── docs               <- tiene manuales, guías o capturas de pantalla.
 │   │ 
 │   │  ├── modelo_datos.jpeg
 │   │  ├── 
@@ -178,7 +180,7 @@ Las principales librerías utilizadas en los notebooks son:
 - "Request" ( peticiones HTTP a la API del Banco Mundial)
 - "openpyxl" ( lectura y escritura de archivos Excel de Hub de energía)
 - "matplotlib" (generación de gráficos)
-- "ydata-profiling" (generación automática de reportes HTML para EDA  de datos)
+- "ydata-profiling" (generación automática de reportes HTML para EDA)
 - "Sqlite3" (motor de base de datos relacional y ligero que funciona de forma autónoma, sin necesidad de instalar o configurar un servidor independiente)
 ## 6. Instalación y configuración
 ### Instrucciones de ejecución
@@ -189,7 +191,7 @@ Las principales librerías utilizadas en los notebooks son:
 3. Abrir y ejecutar el notebook orquestador **"pipeline.ip`ynb"**
 4. El notebook montará automáticamente Google Drive mediante "drive.mount('/content/drive')" y ejecutará de forma secuencial los notebooks de las carpetas `extract/`, `transform/` y `load/`.
 #### Opción 2 Ejecución Local
-1. clonar el repositorio (https://github.com/carlosdazar/etl-demanda-electrica.git)
+1. Clonar el repositorio (https://github.com/carlosdazar/etl-demanda-electrica.git)
 2. Correr el local
 - Dependencias listadas en `requirements.txt`
 ```bash
@@ -212,10 +214,10 @@ Para mantener la flexibilidad de ejecución entre entono local y Google Colab, s
 | `BASE_DIR` | Ruta raíz del proyecto donde se leen y escriben las capas de datos (`data/`)| `/content/drive/MyDrive/Colab Notebooks/Master/1.ETL/entregable3` |
 | `API_WB_SE4ALL_URL` | Endpoint base público de la API del Banco Mundial| https://data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL |
 
-La etapa Load con SQLite **no requiere credenciales ni variables de entorno**: la base es un archivo local (`data/proecessed/energia.db`). Si se migra a un motor con servidor (PostgreSQL, MySQL), agregue aquí las variables de conexión usando un archivo `.env` (incluido en `.gitignore`).
+La etapa Load con SQLite **no requiere credenciales ni variables de entorno**: la base es un archivo local (`data/processed/energia.db`). Si se migra a un motor con servidor (PostgreSQL, MySQL), agregue aquí las variables de conexión usando un archivo `.env` (incluido en `.gitignore`).
 
 ### Obtención de los datos
-los datos crudos usados en el pipeline provienen de dos fuentes distintas y se gestionan de la siguiente manera:
+Los datos crudos usados en el pipeline provienen de dos fuentes distintas y se gestionan de la siguiente manera:
 
 1.**HUB de energía**
 
@@ -229,7 +231,7 @@ los datos crudos usados en el pipeline provienen de dos fuentes distintas y se g
 
 ### Pipeline completo
 
-el pipeline se encuentra orquestado mediante el notebook `pipeline.ipynb`.
+El pipeline se encuentra orquestado mediante el notebook `pipeline.ipynb`.
 
 **En Google Colab/ Jupyter** Abrir `pipeline.ipynb`. y seleccione la opción **"Ejecutar todas"**.
 ```bash
@@ -276,6 +278,9 @@ En `extract`
 * Reportes de perfilado y/o EDA en formato HTML (`ydata-profiling`)
 
 El tiempo estimado de ejecución es entre 2 y 6 Minutos en total ( depende de la latencia de respuesta de la API del banco Mundial)
+
+#### Nota:
+Para ver la Informacion detallada de los procesos realizados en cada etapa ETL, ejecutar cada Notebook en formna individual
 
 ## 8. Detalle de las etapas ETL
 
@@ -456,7 +461,7 @@ Como parte de la fase de validación exploratoria, se implementó `ydata-profili
 
 ## 11. Resultados
 
-Se construyo un pipeline ETL que inifcia los indicadores socioeconómicos y energéticos para los 20 paises de mayor consumo de América Latina en el periodo 2000-2021.Como resultados finales se obtienen:
+Se construyo un pipeline ETL que muestra los indicadores socioeconómicos y energéticos para los 20 paises de mayor consumo de América Latina en el periodo 2000-2021.Como resultados finales se obtienen:
 - **Dataset consolidado:** Archivo CSV plano (`data/processed/energia.csv`) en formato ancho con 440 filas y 48 variables normalizadas, listo para alimentar modelos analíticos o de aprendizaje automático.
 - **Base de Datos Relacional Analítica:** Base de datos SQLite (`data/processed/energia.db`) estructurada bajo un modelo dimensional que distribuye las métricas en 7 tablas de hechos vinculadas a la dimensión de países (`dim_pais`).
 
@@ -549,7 +554,7 @@ Se define la variable Demanda Atendida mediante Fuentes Renovables
 
 Con el fin de entrenar y comparar decenas de modelos de aprendizaje automático se utiliza la libreria de python Lazypredict
 
-* Ya que se tienen secuencias de datos u observaciones de una variable tomados en momentos específicos, ordenados de manera cronológica y separados por intervalos (Años) se puede aplicar Ingenieria de caracteristicas para series Temporales con el fin de enseñarle al modleo el historial del pasado y las tendencias de los datos.ç
+* Ya que se tienen secuencias de datos u observaciones de una variable tomados en momentos específicos, ordenados de manera cronológica y separados por intervalos (Años) se puede aplicar Ingenieria de caracteristicas para series Temporales con el fin de enseñarle al modleo el historial del pasado y las tendencias de los datos.
 
 ### Resultados
 
