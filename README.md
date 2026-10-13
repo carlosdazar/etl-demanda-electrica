@@ -40,7 +40,7 @@ Este proyecto surge con la necesidad de consolidar y preparar un flujo de datos 
 | Fuente | Tipo (CSV, API, BD, web) | Origen / URL | Tamaño aprox. | Frecuencia de actualización | Licencia |
 |---|---|---|---|---|---|
 | **Hub de Energía** (Generación, Capacidad y Consumo) | Archivo Excel | Hub de Energía : https://hubenergia.org/index.php/es/indicators/capacidad-generacion-y-consumo-de-electricidad | ~1,320 filas × 24 columnas (3 hojas) | Anual | Uso publico |
-| **World Bank SE4ALL API** (Indicadores de acceso, sostenibilidad e intensidad energética) | API REST (JSON) |World Bank Data API: https : //data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL| ~4,400 registros (8 indicadores × 20 países × 22 años) | Anual |CC-BY 4.0|
+| **World Bank SE4ALL API** (Indicadores de acceso, sostenibilidad e intensidad energética) | API REST (JSON) |World Bank Data API: https://data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL| ~4,400 registros (8 indicadores × 20 países × 22 años) | Anual |CC-BY 4.0|
 
 ### Cobertura Geográfica y Temporal
 * **Periodo de estudio:** 2000 – 2021 (rejilla temporal uniforme de 22 años).
@@ -210,7 +210,7 @@ Para mantener la flexibilidad de ejecución entre entono local y Google Colab, s
  Variable | Descripción | Ejemplo |
 |---|---|---|
 | `BASE_DIR` | Ruta raíz del proyecto donde se leen y escriben las capas de datos (`data/`)| `/content/drive/MyDrive/Colab Notebooks/Master/1.ETL/entregable3` |
-| `API_WB_SE4ALL_URL` | Endpoint base público de la API del Banco Mundial| https : //data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL |
+| `API_WB_SE4ALL_URL` | Endpoint base público de la API del Banco Mundial| https://data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL |
 
 La etapa Load con SQLite **no requiere credenciales ni variables de entorno**: la base es un archivo local (`data/proecessed/energia.db`). Si se migra a un motor con servidor (PostgreSQL, MySQL), agregue aquí las variables de conexión usando un archivo `.env` (incluido en `.gitignore`).
 
@@ -223,7 +223,7 @@ los datos crudos usados en el pipeline provienen de dos fuentes distintas y se g
 
 2. **World Bank (SE4ALL API REST)**
 
-**método de obtención**: Extracción desde  la API RES JSON https : //data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL
+**método de obtención**: Extracción desde  la API RES JSON https://data360api.worldbank.org/data360/data?DATABASE_ID=WB_SE4ALL
 
 ## 7. Ejecución
 
