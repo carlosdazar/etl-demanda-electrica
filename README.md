@@ -513,13 +513,13 @@ Resultado Obtenido
 | nicaragua|  52.76|
 | honduras|  50.10|
 
-#### 3 . Capacidad de energia solar e hidro para Colombia despues del 2019
+#### 3 . Capacidad de energia solar e hidro para Colombia despues del 2015
 
 ```sql
  SELECT pais, anio, capacidad_solar, capacidad_hidro
     FROM hechos_capacidad hc
     INNER JOIN dim_pais p USING (id_pais)
-    WHERE pais = 'colombia' AND anio >= 2019
+    WHERE pais like '%colombia%' AND anio >= 2015
     ORDER BY anio
 ```
 Resultado Obtenido
@@ -613,4 +613,4 @@ El modelo queda guardado en `data/model` como `modelo_extratrees_energia.pkl`
 - Documentación de Numpy: <https://numpy.org/>
 - Módulo `sqlite3` de Python: <https://docs.python.org/3/library/sqlite3.html>
 - [Fuente original del dataset de energía: nombre y enlace.]
-- Uso de IA generativa: se usó Claude (Anthropic), Chatgpt y Gemini como apoyo para la elaboración de los scripts yel borrador de estas secciones. Todo se ejecutó sobre los datos reales y los resultados se revisaron.
+- Uso de IA generativa: se usó Claude (Anthropic), Chatgpt y Gemini como apoyo para la elaboración de los scripts,la generacion de la imagen del modelo   de datos(punto 9) y el borrador de estas secciones. Todo se ejecutó sobre los datos reales y los resultados se revisaron.
