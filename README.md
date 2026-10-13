@@ -157,7 +157,8 @@ Estas herramientas se reparten según la etapa del ETL en la que trabajan. Pytho
 ├── docs               <- tiene manuales, guías o capturas de pantalla.
 │   │ 
 │   │  ├── modelo_datos.jpeg
-│   │  ├── 
+│   │  ├── ejecucion_pipeline.png
+│   │  ├── base_datos.png
 │ 
 ├── pipeline.py        <- Orquesta la ejecución completa (extract → transform → load).
 │
@@ -465,7 +466,9 @@ Se construyo un pipeline ETL que muestra los indicadores socioeconómicos y ener
 - **Dataset consolidado:** Archivo CSV plano (`data/processed/energia.csv`) en formato ancho con 440 filas y 48 variables normalizadas, listo para alimentar modelos analíticos o de aprendizaje automático.
 - **Base de Datos Relacional Analítica:** Base de datos SQLite (`data/processed/energia.db`) estructurada bajo un modelo dimensional que distribuye las métricas en 7 tablas de hechos vinculadas a la dimensión de países (`dim_pais`).
 
-### Evidencia de ejecución
+### Evidencia de ejecución pipeline
+
+![Ejecucion pipeline](docs/ejecucion_pipeline.png)
 
 ### Consultas de ejemplo sobre la Base SQLite
 
@@ -527,7 +530,9 @@ Resultado Obtenido
 |colombia|	2020|	1.916736|	376.690961|
 |colombia|	2021|	4.288581|	376.690961|
 
+### Evidencia de ejecución Base de Datos
 
+![Base de datos](docs/base_datos.png)
 
 ### Modelo de Predicción
 
